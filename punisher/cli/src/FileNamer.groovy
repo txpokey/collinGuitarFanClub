@@ -18,9 +18,9 @@ class FileNamer {
 
         def defaultOptions = ["-a"]
         def parseTheseOptions = args ?: defaultOptions
-        def options = cli.parse( parseTheseOptions )
+        def options = cli.parse(parseTheseOptions)
 
-        if (options.help || options.a ) {
+        if (options.help || options.a) {
             cli.usage()
         }
         if (options.a) {
