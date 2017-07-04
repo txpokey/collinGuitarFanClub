@@ -1,0 +1,1 @@
+grails.resources.pattern = '/**'
