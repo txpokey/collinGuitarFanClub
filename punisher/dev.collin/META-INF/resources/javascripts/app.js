@@ -1,21 +1,21 @@
 (function() {
-    var app = angular.module('gemStore', ['store-directives']);
+    var app = angular.module('guitarDept', ['guitarDept-directives']);
 
-    app.controller('StoreController', [ '$http' , function($http){
-        var store = this;
-        store.products = [];
-        $http.get('../json/store-products.json').success(function(data){
-            store.products = data;
+    app.controller('HeaderController', [ '$http' , function($http){
+        var header = this;
+        header.targets = [];
+        $http.get('../json/header-navigation.json').success(function(data){
+            header.targets = data;
         }) ;
     }]);
 
-    app.controller('ReviewController', function() {
-        this.review = {};
-
-        this.addReview = function(product) {
-            product.reviews.push(this.review);
-
-            this.review = {};
-        };
-    });
+    // app.controller('ReviewController', function() {
+    //     this.review = {};
+    //
+    //     this.addReview = function(product) {
+    //         product.reviews.push(this.review);
+    //
+    //         this.review = {};
+    //     };
+    // });
 })();
