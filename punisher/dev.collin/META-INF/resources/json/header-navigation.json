@@ -1,0 +1,42 @@
+[
+	{
+	"label" : "MUSIC DEPARTMENT",
+	"url" : "http://www.collin.edu/department/music/"
+	}
+	,{
+	"label" : "COURSE OFFERINGS",
+	"url" : "/dev/null"
+	}
+	,{
+	"label" :"COURSE CATALOG",
+	"url" : "/dev/null"
+	}
+	,{
+	"label" :"TEXTBOOKS",
+	"url" : "/dev/null"
+	}
+	,{
+	"label" :"GUITAR DEPT CALENDAR",
+	"url" : "/dev/null"
+	}
+	,{
+	"label" :"RECORDINGS",
+	"url" : "/dev/null"
+	}
+	,{
+	"label" :"LINKS",
+	"url" : "/dev/null"
+	}
+	,{
+	"label" :"FAQ",
+	"url" : "/dev/null"
+	}
+	,{
+	"label" :"GALLERY",
+	"url" : "/dev/null"
+	}
+	,{
+	"label" :"FACULTY",
+	"url" : "/dev/null"
+	}
+]
