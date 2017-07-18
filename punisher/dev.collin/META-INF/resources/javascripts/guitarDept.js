@@ -4,19 +4,19 @@
     app.directive("headerCarousel", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/header-carousel.html"
+            templateUrl: "../html/headers/header-carousel.html"
         };
     });
     app.directive("headerNavbar", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/header-navbar.html"
+            templateUrl: "../html/headers/header-navbar.html"
         };
     });
     app.directive("headerGuitar", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/header-guitar.html"
+            templateUrl: "../html/headers/header-guitar.html"
         };
     });
     //
