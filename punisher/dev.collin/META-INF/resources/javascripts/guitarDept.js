@@ -7,6 +7,13 @@
             templateUrl: "../html/header-carousel.html"
         };
     });
+    app.directive("headerNavbar", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/header-navbar.html"
+        };
+    });
+
     //
     // app.directive("productReviews", function() {
     //     return {
