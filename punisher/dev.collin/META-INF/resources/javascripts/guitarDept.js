@@ -13,7 +13,12 @@
             templateUrl: "../html/header-navbar.html"
         };
     });
-
+    app.directive("headerGuitar", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/header-guitar.html"
+        };
+    });
     //
     // app.directive("productReviews", function() {
     //     return {
