@@ -4,7 +4,7 @@
     app.controller('HeaderController', [ '$http' , function($http){
         var header = this;
         header.targets = [];
-        $http.get('../json/header-navigation.json').success(function(data){
+        $http.get('../json/header-controller.json').success(function(data){
             header.targets = data;
         }) ;
     }]);
