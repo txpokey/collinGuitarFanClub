@@ -4,8 +4,10 @@
     app.controller('HeaderController', [ '$http' , function($http){
         var header = this;
         header.targets = [];
-        $http.get('../json/header-controller.json').success(function(data){
-            header.targets = data;
+        $http.get('../json/header-controller.json').then(function(response){
+            header.targets = response.data;
+        },function (badResult){
+            console.log(badResult)
         }) ;
     }]);
 
