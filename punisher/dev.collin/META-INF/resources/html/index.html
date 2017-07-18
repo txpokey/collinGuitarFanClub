@@ -8,8 +8,19 @@
     <!--<asset:javascript src="angular/stock/angular.js"/>-->
     <script src="../assets/javascripts/angular/stock/angular.js" type="text/javascript"></script>
     <script type="text/javascript" src="../javascripts/guitarDept-directives.js"></script>
-    <script type="text/javascript" src="../javascripts/app.js"></script>
+    <script type="text/javascript" src="../javascripts/guitarDept-app.js"></script>
 </head>
 <body>
-    <header-guitar></header-guitar>
+    <!--<header-guitar></header-guitar>-->
+    <span ng-controller="HeaderController as header">
+<!--  Guitar Department Header  -->
+        <header>
+            <h1 class="text-center">Collin County Guitar Department</h1>
+            <h2 class="text-center">an Angular store</h2>
+        </header>
+        <!--header-carousel called directly -->
+        <header-carousel></header-carousel>
+        <header-navbar></header-navbar>
+    </span>
+</body>
 </html>
