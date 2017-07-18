@@ -1,12 +1,12 @@
 (function(){
     var app = angular.module('guitarDept-directives', []);
 
-    // app.directive("productDescription", function() {
-    //     return {
-    //         restrict: 'E',
-    //         templateUrl: "../html/product-description.html"
-    //     };
-    // });
+    app.directive("headerCarousel", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/header-carousel.html"
+        };
+    });
     //
     // app.directive("productReviews", function() {
     //     return {
