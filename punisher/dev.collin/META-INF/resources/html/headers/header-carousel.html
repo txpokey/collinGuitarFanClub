@@ -1,5 +1,7 @@
+<!-- DEBUG 21:29 -->
+
 <div id="carouselPickers" class="carousel slide" data-ride="carousel" >
-    <ol class="carousel-indicators" ng-repeat="slide in [0,1,2]" ng-class="{active: $first}">
+    <ol class="carousel-indicators" ng-repeat="slide in [0,1,2]">
         <li data-target="#carouselPickers" data-slide-to="{{slide}}" ></li>
     </ol>
     <div class="carousel-inner" >
@@ -7,6 +9,7 @@
             <img class="d-block" src="../images/carousel/{{slide}}.jpg" alt="slide {{slide}}" height="95" width="464">
         </div>
     </div>
+
     <a class="carousel-control-prev" href="#carouselPickers" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>

@@ -1,5 +1,5 @@
 (function() {
-    var app = angular.module('guitarDept', ['guitarDept-directives']);
+    var app = angular.module('guitarDept', ['guitarDept-directives', 'ngAnimate']);
 
     app.controller('HeaderController', [ '$http' , function($http){
         var header = this;
