@@ -11,8 +11,14 @@
         },function (badResult){
             console.log(badResult)
         }) ;
+        // console.log("running inside of controller");
+        // $('.carousel').carousel({
+        //     interval: 300
+        // });
+        // $('.carousel').carousel('cycle');
+        // console.log("controller completing");
     }]);
-    console.log("where am i?");
+    console.log("running outside of controller");
 
     // app.controller('ReviewController', function() {
     //     this.review = {};
