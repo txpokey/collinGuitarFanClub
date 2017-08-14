@@ -1,10 +1,21 @@
 (function() {
-    var app = angular.module('guitarDept', ['guitarDept-directives', 'ngAnimate']);
+    var app = angular.module('guitarDept', ['guitarDept-directives', 'ngAnimate', 'ngSanitize']);
+    app.config(function($sceDelegateProvider) {
+        $sceDelegateProvider.resourceUrlWhitelist([
+            // Allow same origin resource loads.
+            'self',
+            // Allow loading from our assets domain.  Notice the difference between * and **.
+            // 'http://srv*.assets.example.com/**'
+            'https://www.collin.edu/department/music/**'
+        ]);
+    });
 
-    app.controller('HeaderController', [ '$http' , function($http){
+        app.controller('HeaderController', [ '$http' , function($http){
         var header = this;
         header.carouselSlideDeck = [0,1,2];
         header.musicDepartmentURL = "sci.gemstone/index.html";
+        header.musicDepartmentURL = "bio/fernand/FVera_Bio.html";
+        header.musicDepartmentURL = "bio/olga/index.html";
         header.targets = [];
         $http.get('../json/header-controller.json').then(function(response){
             header.targets = response.data;
