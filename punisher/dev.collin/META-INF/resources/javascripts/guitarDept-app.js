@@ -13,10 +13,11 @@
         app.controller('HeaderController', [ '$http' , function($http){
         var header = this;
         header.carouselSlideDeck = [0,1,2];
-        header.musicDepartmentURL = "sci.gemstone/index.html";
-        header.musicDepartmentURL = "bio/fernand/FVera_Bio.html";
-        header.musicDepartmentURL = "bio/olga/index.html";
-        header.targets = [];
+        header.musicDepartmentURL = new Object();
+        header.musicDepartmentURL.fernand = "bio/fernand/FVera_Bio.html";
+        header.musicDepartmentURL.olga    = "bio/olga/index.html";
+
+            header.targets = [];
         $http.get('../json/header-controller.json').then(function(response){
             header.targets = response.data;
         },function (badResult){
