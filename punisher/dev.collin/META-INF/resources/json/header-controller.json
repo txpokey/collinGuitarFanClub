@@ -1,42 +1,42 @@
 [
-	{
-	"label" : "MUSIC DEPARTMENT",
-	"url" : "http://www.collin.edu/department/music/"
-	}
-	,{
-	"label" : "COURSE OFFERINGS",
-	"url" : "#0"
-	}
-	,{
-	"label" :"COURSE CATALOG",
-	"url" : "#0"
-	}
-	,{
-	"label" :"TEXTBOOKS",
-	"url" : "#0"
-	}
-	,{
-	"label" :"GUITAR DEPT CALENDAR",
-	"url" : "#0"
-	}
-	,{
-	"label" :"RECORDINGS",
-	"url" : "#0"
-	}
-	,{
-	"label" :"LINKS",
-	"url" : "#0"
-	}
-	,{
-	"label" :"FAQ",
-	"url" : "#0"
-	}
-	,{
-	"label" :"GALLERY",
-	"url" : "#0"
-	}
-	,{
-	"label" :"FACULTY",
-	"url" : "/html/faculty.html"
-	}
+  {
+    "label": "MUSIC DEPARTMENT",
+    "url": "http://www.collin.edu/department/music/"
+  },
+  {
+    "label": "COURSE OFFERINGS",
+    "url": "#0"
+  },
+  {
+    "label": "COURSE CATALOG",
+    "url": "#0"
+  },
+  {
+    "label": "TEXTBOOKS",
+    "url": "#0"
+  },
+  {
+    "label": "GUITAR DEPT CALENDAR",
+    "url": "#0"
+  },
+  {
+    "label": "RECORDINGS",
+    "url": "#0"
+  },
+  {
+    "label": "LINKS",
+    "url": "#0"
+  },
+  {
+    "label": "FAQ",
+    "url": "#0"
+  },
+  {
+    "label": "GALLERY",
+    "url": "#0"
+  },
+  {
+    "label": "FACULTY",
+    "url": "/html/faculty.html"
+  }
 ]
