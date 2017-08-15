@@ -1,6 +1,6 @@
 <!--  bio animator Container  -->
-<div ng-controller="HeaderController as header" class="container">
-    <select ng-model="guitarInstructor" ng-options="t.name for t in header.musicDepartmentURL.ALL">
+<div ng-controller="BioController as bios" class="container">
+    <select ng-model="guitarInstructor" ng-options="t.name for t in bios.guitarDepartmentFaculty.ALL">
     </select>
     <h1>You selected: {{guitarInstructor.url}}</h1>
     <!--<div ng-include="header.musicDepartmentURL.ALL[1].url"></div>-->
