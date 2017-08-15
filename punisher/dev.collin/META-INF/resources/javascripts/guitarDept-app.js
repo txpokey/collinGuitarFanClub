@@ -13,11 +13,21 @@
         app.controller('HeaderController', [ '$http' , function($http){
         var header = this;
         header.carouselSlideDeck = [0,1,2];
+//
         header.musicDepartmentURL = new Object();
-        header.musicDepartmentURL.fernand = "bio/fernand/FVera_Bio.html";
-        header.musicDepartmentURL.olga    = "bio/olga/index.html";
-
-            header.targets = [];
+        header.musicDepartmentURL.fernand = "/html/bio/fernand/FVera_Bio.html";
+        header.musicDepartmentURL.olga    = "/html/bio/olga/index.html";
+        var fv = {
+           name : 'fernand' , url : header.musicDepartmentURL.fernand
+        } ;
+        var ov = {
+           name : 'olga'   , url : header.musicDepartmentURL.olga
+        } ;
+        header.musicDepartmentURL.ALL = [ fv , ov ] ;
+        header.musicDepartmentURL.fv = fv ;
+        header.musicDepartmentURL.ov = ov ;
+//
+        header.targets = [];
         $http.get('../json/header-controller.json').then(function(response){
             header.targets = response.data;
         },function (badResult){

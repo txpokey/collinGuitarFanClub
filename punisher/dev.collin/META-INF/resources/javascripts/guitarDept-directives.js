@@ -4,19 +4,25 @@
     app.directive("headerCarousel", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/headers/header-carousel.html"
+            templateUrl: "../html/directives/headers/header-carousel.html"
         };
     });
     app.directive("headerNavbar", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/headers/header-navbar.html"
+            templateUrl: "../html/directives/headers/header-navbar.html"
         };
     });
     app.directive("headerGuitar", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/headers/header-guitar.html"
+            templateUrl: "../html/directives/headers/header-guitar.html"
+        };
+    });
+    app.directive("bioAnimator", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/directives/bio/bio-animator.html"
         };
     });
     //
