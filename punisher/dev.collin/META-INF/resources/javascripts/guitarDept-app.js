@@ -24,9 +24,11 @@
         var bioController = this;
         bioController.guitarDepartmentFaculty = [
             {
-                name : 'fernand' , url : "/html/bio/fernand/FVera_Bio.html"
+                name : 'Dr. Fernand Vera' ,
+                url : "/html/bio/fernand/FVera_Bio.html"
             } , {
-                name : 'olga'    , url : "/html/bio/olga/index.html"
+                name : 'Dr. Olga Amelkina-Vera'    ,
+                url : "/html/bio/olga/index.html"
             }
         ] ;
     }]);
