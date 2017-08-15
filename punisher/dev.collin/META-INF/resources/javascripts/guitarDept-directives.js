@@ -19,10 +19,10 @@
             templateUrl: "../html/directives/headers/header-guitar.html"
         };
     });
-    app.directive("bioAnimator", function() {
+    app.directive("teacherBiography", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/directives/bio/bio-animator.html"
+            templateUrl: "../html/directives/bio/teacher-biography.html"
         };
     });
     //

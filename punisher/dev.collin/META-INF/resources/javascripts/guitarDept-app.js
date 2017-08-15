@@ -20,7 +20,7 @@
             console.log(badResult)
         }) ;
     }]);
-    app.controller('BioController', [ '$http' , function($http){
+    app.controller('TeacherBiographyController', [ '$http' , function($http){
         var bioController = this;
         bioController.guitarDepartmentFaculty = [
             {
