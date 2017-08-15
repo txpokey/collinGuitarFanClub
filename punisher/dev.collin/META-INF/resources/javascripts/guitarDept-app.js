@@ -20,16 +20,14 @@
             console.log(badResult)
         }) ;
     }]);
-    // console.log("running outside of controller");
     app.controller('BioController', [ '$http' , function($http){
         var bioController = this;
-        bioController.guitarDepartmentFaculty = new Object();
-        var fv = {
-            name : 'fernand' , url : bioController.guitarDepartmentFaculty.fernand = "/html/bio/fernand/FVera_Bio.html"
-        } ;
-        var ov = {
-            name : 'olga'    , url : bioController.guitarDepartmentFaculty.olga    = "/html/bio/olga/index.html"
-    } ;
-        bioController.guitarDepartmentFaculty.ALL = [ fv , ov ] ;
+        bioController.guitarDepartmentFaculty = [
+            {
+                name : 'fernand' , url : "/html/bio/fernand/FVera_Bio.html"
+            } , {
+                name : 'olga'    , url : "/html/bio/olga/index.html"
+            }
+        ] ;
     }]);
 })();
