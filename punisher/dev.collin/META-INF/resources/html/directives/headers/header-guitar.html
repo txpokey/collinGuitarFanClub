@@ -1,8 +1,21 @@
-<span ng-controller="HeaderController as header">
-<!--  Guitar Department Header -->
-    <header>
-        <h1 class="text-center">Collin County Guitar Department</h1>
-    </header>
-    <header-carousel></header-carousel>
-    <header-navbar></header-navbar>
-</span>
+<header>
+    <div class="guitar-dept-flex-container" ng-controller="HeaderController as header">
+        <!--  Guitar Department Header -->
+        <div class="guitar-dept-masthead">
+            <img style="width: 140px;height: 191px;"
+                 src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1423180/guitar_program.png"
+                 alt="Collin College Guitar">
+            </img>
+            <div class="guitar-dept-submasthead">
+                <!--       style="text-align: center" -->
+                <h1>Collin College Guitar </br>Department</h1>
+                <!-- rotating images are 464px × 95px -->
+                <img style="width: 464px;height: 95px;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1423180/0.jpg"
+                     alt="students">
+                </img>
+            </div>
+            <!--<header-carousel></header-carousel>-->
+            <header-navbar style="display: inline;"></header-navbar>
+        </div>
+    </div>
+</header>
