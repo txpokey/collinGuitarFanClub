@@ -4,32 +4,41 @@ body {
 guitar-dept-header-logo {
 }
 guitar-dept-flex-container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
 .guitar-dept-masthead {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
 }
-.guitar-dept-submasthead{
-  display: block;
+.guitar-dept-submasthead {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 .guitar-dept-masthead h1 {
 }
-/*header-navbar {*/
-  /*display: inline;*/
-/*}*/
-.navigation-buttons {
-  /*display: flex;*/
-  /*flex-wrap: wrap;*/
-  /*justify-content: space-around;*/
-  display: block;
-}
 
+.navigation-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center ;
+}
+header-navbar {
+  display: flex;
+  justify-content: center;
+
+}
 .navigation-buttons ul {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   list-style: none;
   padding-left: 5px;
   padding-right: 5px;
@@ -37,7 +46,6 @@ guitar-dept-flex-container {
 }
 .navigation-buttons li {
 }
-
 .guitar-dept-nav-button {
   text-transform: uppercase;
 }
