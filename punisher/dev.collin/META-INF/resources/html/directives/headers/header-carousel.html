@@ -6,7 +6,7 @@
     </ol>
     <div class="carousel-inner" >
         <div class="carousel-item animate-repeat" ng-repeat="slide in header.carouselSlideDeck" ng-class="{active: $first}">
-            <img class="d-block" src="../images/carousel/{{slide}}.jpg" alt="slide {{slide}}" style="margin: auto" height="95" width="464">
+            <img class="d-block" ng-src="../images/carousel/{{slide}}.jpg" alt="slide {{slide}}" style="margin: auto" height="95" width="464">
         </div>
     </div>
 <!--// STUBBED: no need for handles to force rotation of the carousel-->

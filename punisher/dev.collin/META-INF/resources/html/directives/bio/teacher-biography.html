@@ -1,8 +1,13 @@
 <!--  bio animator Container  -->
 <div ng-controller="TeacherBiographyController as bioController" class="container" style="font-family: 'Philosopher', sans-serif">
-    <select ng-model="guitarInstructor" ng-options="gi.name for gi in bioController.guitarDepartmentFaculty">
-        <option value="">Guitar Department Faculty</option>
-    </select>
-    <img style="width: 320px; height: 421px" src="{{guitarInstructor.image}}">
-    <div ng-include="guitarInstructor.url"></div>
+    <section class="guitar-dept-media-objects">
+        <select ng-model="guitarInstructor" ng-options="gi.name for gi in bioController.guitarDepartmentFaculty">
+            <option value="">Guitar Department Faculty</option>
+        </select>
+        <div class="guitar-dept-media-object" ng-show="guitarInstructor">
+            <img class="guitar-dept-media-image" style="width: 320px; height: 421px; border: none; outline: none" ng-src="{{guitarInstructor.image}}">
+            <div class="guitar-dept-media-body" ng-include="guitarInstructor.url"></div>
+        </div>
+    </section>
+
 </div>
