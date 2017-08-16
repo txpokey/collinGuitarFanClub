@@ -1,27 +1,31 @@
 body {
-  font-family: 'Philosopher', sans-serif;
+  font-family: Philosopher, sans-sarif;
 }
 guitar-dept-header-logo {
 }
-guitar-dept-flex-container {
+guitar-dept-masterhead-flex-container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-content: flex-start;
+  align-items: flex-start;
 }
 
 .guitar-dept-masthead {
   display: flex;
-  flex-direction: row;
+  flex-direction: row ;
   flex-wrap: nowrap;
   justify-content: center;
+  align-self: stretch;
+  /*   order: 1; */
 }
 .guitar-dept-submasthead {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
+  align-content: flex-start;
 }
 .guitar-dept-masthead h1 {
 }
@@ -35,7 +39,6 @@ guitar-dept-flex-container {
 header-navbar {
   display: flex;
   justify-content: center;
-
 }
 .navigation-buttons ul {
   display: flex;
