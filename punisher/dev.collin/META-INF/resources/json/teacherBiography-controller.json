@@ -1,5 +1,10 @@
 [
   {
+    "name": "Nathaniel Earhart",
+    "url": "/html/bio/nathaniel/NE-bio.html",
+    "image" : "/html/bio/nathaniel/NE-image.jpg"
+  },
+  {
     "name": "Dr. Fernand Vera",
     "url": "/html/bio/fernand/FVera_Bio.html",
     "image" : "/html/bio/image/FV-image.png"

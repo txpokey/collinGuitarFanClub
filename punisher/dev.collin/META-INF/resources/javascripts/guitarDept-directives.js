@@ -25,6 +25,12 @@
             templateUrl: "../html/directives/bio/teacher-biography.html"
         };
     });
+    app.directive("guitarEvents", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/directives/calendar/guitar-events.html"
+        };
+    });
     //
     // app.directive("productReviews", function() {
     //     return {

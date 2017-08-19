@@ -3,7 +3,7 @@ body {
 }
 guitar-dept-header-logo {
 }
-guitar-dept-masterhead-flex-container {
+guitar-dept-masthead-flex-container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -72,5 +72,34 @@ header-navbar {
   margin-right: 1em;
 }
 .guitar-dept-media-body {
+  flex: 1;
+}
+/* ============ */
+.Grid-column-collection {
+  flex-direction: column;
+}
+.Grid-row-collection {
+}
+.Grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Grid-bordered {
+  border-bottom: 1px inset #dddddd;
+}
+
+.Grid-column-item {
+}
+.Grid-column-header {
+  justify-content: center;
+  background-color: wheat;
+}
+.Grid-row-item {
+  flex-basis: auto;
+}
+.Grid-cell {
   flex: 1;
 }
