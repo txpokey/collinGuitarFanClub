@@ -76,6 +76,12 @@ header-navbar {
   height: 421px;
   margin-right: 1em;
 }
+.guitar-dept-news-media-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 1em;
+}
+
 .guitar-dept-media-body {
   flex: 1;
 }
