@@ -66,6 +66,11 @@ header-navbar {
 .guitar-dept-media-object {
   display: flex;
 }
+.guitar-dept-media-image-underconstruction {
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 100%;
+}
 .guitar-dept-media-image {
   width: 320px;
   height: 421px;

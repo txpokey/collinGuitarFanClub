@@ -1,10 +1,10 @@
 [
   {
-    "label": "MUSIC DEPARTMENT",
-    "url": "http://www.collin.edu/department/music/"
+    "label": "News",
+    "url": "#0"
   },
   {
-    "label": "COURSE OFFERINGS",
+    "label": "Class Schedule",
     "url": "#0"
   },
   {
@@ -16,7 +16,7 @@
     "url": "#0"
   },
   {
-    "label": "GUITAR DEPT CALENDAR",
+    "label": "Events",
     "url": "/html/guitarEvents.html"
   },
   {
@@ -32,8 +32,8 @@
     "url": "#0"
   },
   {
-    "label": "GALLERY",
-    "url": "#0"
+    "label": "sponsors",
+    "url": "/html/underConstruction.html"
   },
   {
     "label": "faculty",
