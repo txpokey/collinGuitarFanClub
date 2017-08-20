@@ -1,40 +1,64 @@
 [
 	{
-		"label" : "internal",
+		"label" : "Internal Links",
 		"payload" : [
 			{
-				"label" : "foo",
-				"url" : "#0"
+				"label" : "Music Department",
+				"url" : "http://www.collin.edu/music/"
 			},
 			{
-				"label" : "bar",
-				"url" : "#0"
+				"label" : "Music Library",
+				"url" : "http://collin.libguides.com/music"
+			},
+			{
+				"label" : "Music Department Calendar",
+				"url" : "http://www.collin.edu/music/calendar.html"
+			},
+			{
+				"label" : "Technical Jury Form",
+				"url" : "/assets/pdf/technical_jury_form.pdf"
+			},
+			{
+				"label" : "Final Jury Form",
+				"url" : "/assets/pdf/final_jury_form.pdf"
 			}
 		]
 	},
 	{
-		"label" : "external",
+		"label" : "External Links",
 		"payload" : [
 			{
-				"label" : "foo",
-				"url" : "#0"
+				"label" : "UTD Guitar Series",
+				"url" : "http://www.utdallas.edu/ah/events/events-music.html#guitar"
 			},
 			{
-				"label" : "bar",
-				"url" : "#0"
+				"label" : "Texas Guitar Competition and Festival",
+				"url" : "http://www.utdallas.edu/ah/programs/arts/musi/guitarcomp.html"
+			},
+			{
+				"label" : "Allegro Guitar Society",
+				"url" : "http://guitarsociety.org/"
+			},
+			{
+				"label" : "Guitar Foundation of America",
+				"url" : "http://www.guitarfoundation.org/"
+			},
+			{
+				"label" : "Strings by Mail",
+				"url" : "http://www.stringsbymail.com/"
+			},
+			{
+				"label" : "Sheet Music Plus",
+				"url" : "http://www.sheetmusicplus.com/"
 			}
 		]
 	},
 	{
-		"label" : "special link",
+		"label" : "In Memoriam",
 		"payload" : [
 			{
-				"label" : "foo",
-				"url" : "#0"
-			},
-			{
-				"label" : "bar",
-				"url" : "#0"
+				"label" : "Collin College Mourns Passing of Music Professor",
+				"url" : "http://www.collin.edu/news/PressReleases/2011-2012/20120223sabineMadriguera.html"
 			}
 		]
 	}
