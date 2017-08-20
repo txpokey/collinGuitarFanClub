@@ -1,19 +1,15 @@
 [
   {
     "label": "News",
-    "url": "#0"
+    "url": "/html/index.html"
   },
   {
     "label": "Class Schedule",
-    "url": "#0"
-  },
-  {
-    "label": "COURSE CATALOG",
-    "url": "#0"
+    "url": "/html/underConstruction.html"
   },
   {
     "label": "TEXTBOOKS",
-    "url": "#0"
+    "url": "/html/underConstruction.html"
   },
   {
     "label": "Events",
@@ -21,7 +17,7 @@
   },
   {
     "label": "RECORDINGS",
-    "url": "#0"
+    "url": "/html/underConstruction.html"
   },
   {
     "label": "LINKS",
@@ -29,7 +25,7 @@
   },
   {
     "label": "FAQ",
-    "url": "#0"
+    "url": "/html/underConstruction.html"
   },
   {
     "label": "sponsors",
