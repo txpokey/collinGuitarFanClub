@@ -37,6 +37,12 @@
             templateUrl: "../html/directives/links/guitar-links.html"
         };
     });
+    app.directive("guitarNews", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/directives/calendar/guitar-news.html"
+        };
+    });
     //
     // app.directive("productReviews", function() {
     //     return {

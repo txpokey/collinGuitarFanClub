@@ -47,6 +47,15 @@
             console.log(badResult)
         });
     }]);
+    app.controller('GuitarNewsController', [ '$http' , function($http){
+        var newsController = this;
+        newsController.guitarProgramNews = [];
+        $http.get('../json/links-controller.json').then(function (response) {
+            newsController.guitarProgramNews = response.data;
+        }, function (badResult) {
+            console.log(badResult)
+        });
+    }]);
 })();
 
 // bioController.guitarDepartmentFaculty = [
