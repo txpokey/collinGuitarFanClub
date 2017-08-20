@@ -7,7 +7,10 @@
             </div>
             <div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">
                 <div class="Grid Grid-bordered Grid-row-item Grid-cell">
-                    <a href="{{guitarProgramLink.url}}">{{guitarProgramLink.label}}</a>
+                    {{guitarProgramLink.label}}
+                </div>
+                <div class="Grid Grid-bordered Grid-row-item Grid-cell">
+                    <a href="{{guitarProgramLink.url}}">{{guitarProgramLink.url}}</a>
                 </div>
             </div>
         </div>
