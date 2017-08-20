@@ -31,6 +31,12 @@
             templateUrl: "../html/directives/calendar/guitar-events.html"
         };
     });
+    app.directive("guitarLinks", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/directives/links/guitar-links.html"
+        };
+    });
     //
     // app.directive("productReviews", function() {
     //     return {

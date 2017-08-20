@@ -1,0 +1,41 @@
+[
+	{
+		"label" : "internal",
+		"payload" : [
+			{
+				"label" : "foo",
+				"url" : "#0"
+			},
+			{
+				"label" : "bar",
+				"url" : "#0"
+			}
+		]
+	},
+	{
+		"label" : "external",
+		"payload" : [
+			{
+				"label" : "foo",
+				"url" : "#0"
+			},
+			{
+				"label" : "bar",
+				"url" : "#0"
+			}
+		]
+	},
+	{
+		"label" : "special link",
+		"payload" : [
+			{
+				"label" : "foo",
+				"url" : "#0"
+			},
+			{
+				"label" : "bar",
+				"url" : "#0"
+			}
+		]
+	}
+]

@@ -1,0 +1,25 @@
+<!--  guitarProgramEvents Container  -->
+<div ng-controller="GuitarLinksController as linksController" class="container" style="font-family: 'Philosopher', sans-serif">
+    <section class="guitar-table-example">
+        <div class="Grid-column-collection" ng-repeat="model in linksController.guitarProgramLinks">
+            <div class="Grid Grid-bordered Grid-column-item Grid-cell Grid-column-header" >
+                {{model.label}}
+            </div>
+            <div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">
+                <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramLink.label}}</div>-->
+                <div class="Grid Grid-bordered Grid-row-item Grid-cell">
+                    <a href="{{guitarProgramLink.url}}">{{guitarProgramLink.label}}</a>
+                </div>
+            </div>
+        </div>
+</div>
+<!--<select ng-model="guitarInstructor" ng-options="gi.name for gi in bioController.guitarDepartmentFaculty">-->
+
+<!--<div ng-repeat="n in [].constructor(linksController.guitarProgramLinks.length) track by $index">-->
+    <!--{{ $index }}-->
+<!--</div>-->
+</section>
+</div>
+<!--<div class="Grid-column-collection" ng-repeat="n in [0,1,2]">-->
+<!--range(1,linksController.guitarProgramLinks.length)-->
+<!--ng-repeat="n in range(5,15)"-->
