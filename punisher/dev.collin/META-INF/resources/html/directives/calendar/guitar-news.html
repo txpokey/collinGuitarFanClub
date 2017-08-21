@@ -4,40 +4,11 @@
     <section class="guitar-dept-news-media-objects">
         <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews  | filter: { test: true }">
             <div class="guitar-dept-media-objects Grid-row-collection" >
-                <img class="guitar-dept-news-media-image Grid-row-item" style="border: none; outline: none" ng-src="{{guitarNewsModel.image}}">
-                <div class="guitar-dept-news-media-label Grid-row-item">{{guitarNewsModel.name}}</div>
+                <img class="guitar-dept-news-media-image" style="border: none; outline: none" ng-src="{{guitarNewsModel.image}}">
+                <div class="guitar-dept-news-media-label">{{guitarNewsModel.name}}</div>
             </div>
-            <!--<div class="Grid-column-collection" >-->
-                <!--<div class="guitar-dept-news-media-body Grid-column-item" ng-include="guitarNewsModel.url"></div>-->
-            <!--</div>-->
-            <div class="guitar-dept-news-media-body Grid-column-item" ng-include="guitarNewsModel.url"></div>
+            <div class="guitar-dept-news-media-body" ng-include="guitarNewsModel.url"></div>
         </div>
     </section>
 </div>
 </div>
-
-<!--&lt;!&ndash;=================&ndash;&gt;-->
-<!--<section class="guitar-dept-media-objects">-->
-    <!--<select ng-model="guitarInstructor" ng-options="gi.name for gi in bioController.guitarDepartmentFaculty">-->
-        <!--<option value="">Guitar Department Faculty</option>-->
-    <!--</select>-->
-    <!--<div class="guitar-dept-media-object" ng-show="guitarInstructor">-->
-        <!--<img class="guitar-dept-media-image" style="border: none; outline: none" ng-src="{{guitarInstructor.image}}">-->
-        <!--<div class="guitar-dept-media-body" ng-include="guitarInstructor.url"></div>-->
-    <!--</div>-->
-<!--</section>-->
-<!--&lt;!&ndash;=======================&ndash;&gt;-->
-<!--<section class="guitar-table-example">-->
-    <!--<div class="Grid-column-collection">-->
-        <!--<div class="Grid Grid-bordered Grid-column-item Grid-cell Grid-column-header">-->
-            <!--{{newsController.guitarProgramNews[0].name}}-->
-        <!--</div>-->
-        <!--<div ng-repeat="guitarNewsModel in newsController.guitarProgramNews"-->
-             <!--class="Grid Grid-bordered Grid-row-collection">-->
-            <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarNewsModel.date}}</div>-->
-            <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarNewsModel.time}}</div>-->
-            <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarNewsModel.where}}</div>-->
-            <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarNewsModel.event}}</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</section>-->
