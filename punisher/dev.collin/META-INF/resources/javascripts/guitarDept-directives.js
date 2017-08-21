@@ -40,7 +40,19 @@
     app.directive("guitarNews", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/directives/calendar/guitar-news.html"
+            templateUrl: "../html/directives/calendar/guitar-news.html",
+            controller: function() {
+                this.tab = -1;
+
+                this.isSet = function(checkTab) {
+                    return this.tab === checkTab;
+                };
+
+                this.setTab = function(activeTab) {
+                    this.tab = activeTab;
+                };
+            },
+            controllerAs: "tab"
         };
     });
     //

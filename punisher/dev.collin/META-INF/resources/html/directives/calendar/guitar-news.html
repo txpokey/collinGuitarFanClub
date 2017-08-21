@@ -2,12 +2,12 @@
 <div ng-controller="GuitarNewsController as newsController" class="container"
      style="font-family: 'Philosopher', sans-serif">
     <section class="guitar-dept-news-media-objects">
-        <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews  | filter: { test: true }">
-            <div class="guitar-dept-media-objects Grid-row-collection" >
-                <img class="guitar-dept-news-media-image" style="border: none; outline: none" ng-src="{{guitarNewsModel.image}}">
+        <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews  | filter: { url: '!#0' }">
+            <div class="guitar-dept-media-objects Grid-row-collection" ng-class="{ active:tab.isSet($index) }">
+                <img class="guitar-dept-news-media-image" style="border: none; outline: none" ng-click="tab.setTab($index)" ng-src="{{guitarNewsModel.image}}">
                 <div class="guitar-dept-news-media-label">{{guitarNewsModel.name}}</div>
             </div>
-            <div class="guitar-dept-news-media-body" ng-include="guitarNewsModel.url"></div>
+            <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body" ng-include="guitarNewsModel.url"></div>
         </div>
     </section>
 </div>
