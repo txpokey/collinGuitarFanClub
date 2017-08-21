@@ -22,7 +22,19 @@
     app.directive("teacherBiography", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/directives/bio/teacher-biography.html"
+            templateUrl: "../html/directives/bio/teacher-biography.html",
+            controller: function() {
+                this.tab = -1;
+
+                this.isSet = function(checkTab) {
+                    return this.tab === checkTab;
+                };
+
+                this.setTab = function(activeTab) {
+                    this.tab = this.isSet( activeTab ) ? -1 : activeTab ;
+                };
+            },
+            controllerAs: "tab"
         };
     });
     app.directive("guitarEvents", function() {
@@ -49,7 +61,7 @@
                 };
 
                 this.setTab = function(activeTab) {
-                    this.tab = activeTab;
+                    this.tab = this.isSet( activeTab ) ? -1 : activeTab ;
                 };
             },
             controllerAs: "tab"
