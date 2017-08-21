@@ -2,7 +2,7 @@
 <div ng-controller="GuitarLinksController as linksController" class="container" style="font-family: 'Philosopher', sans-serif">
     <section class="guitar-table-example">
         <div class="Grid-column-collection" ng-repeat="model in linksController.guitarProgramLinks">
-            <div class="Grid Grid-bordered Grid-column-item Grid-cell Grid-column-header" >
+            <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header" >
                 {{model.label}}
             </div>
             <div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">

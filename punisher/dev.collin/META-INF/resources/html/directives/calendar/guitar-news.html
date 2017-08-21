@@ -1,11 +1,16 @@
 <!--  guitarProgramEvents Container  -->
 <div ng-controller="GuitarNewsController as newsController" class="container"
      style="font-family: 'Philosopher', sans-serif">
-    <section class="guitar-dept-media-objects">
-        <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews  | filter: { url: '!#0' }"
-             class="guitar-dept-media-object">
-            <img class="guitar-dept-news-media-image" style="border: none; outline: none" ng-src="{{guitarNewsModel.image}}">
-            <div class="guitar-dept-media-body" ng-include="guitarNewsModel.url"></div>
+    <section class="guitar-dept-news-media-objects">
+        <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews  | filter: { test: true }">
+            <div class="guitar-dept-media-objects Grid-row-collection" >
+                <img class="guitar-dept-news-media-image Grid-row-item" style="border: none; outline: none" ng-src="{{guitarNewsModel.image}}">
+                <div class="guitar-dept-news-media-label Grid-row-item">{{guitarNewsModel.name}}</div>
+            </div>
+            <!--<div class="Grid-column-collection" >-->
+                <!--<div class="guitar-dept-news-media-body Grid-column-item" ng-include="guitarNewsModel.url"></div>-->
+            <!--</div>-->
+            <div class="guitar-dept-news-media-body Grid-column-item" ng-include="guitarNewsModel.url"></div>
         </div>
     </section>
 </div>

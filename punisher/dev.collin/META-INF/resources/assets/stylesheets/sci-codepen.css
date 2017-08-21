@@ -50,6 +50,12 @@ header-navbar {
 }
 .navigation-buttons li {
 }
+
+.guitar-dept-column-header {
+  justify-content: center;
+  background-color: wheat;
+}
+
 .guitar-dept-nav-button {
   text-transform: uppercase;
 }
@@ -86,11 +92,7 @@ header-navbar {
   flex: 1;
 }
 /* ============ */
-.Grid-column-collection {
-  flex-direction: column;
-}
-.Grid-row-collection {
-}
+
 .Grid {
   display: flex;
   flex-wrap: wrap;
@@ -102,15 +104,17 @@ header-navbar {
   border-bottom: 1px inset #dddddd;
 }
 
-.Grid-column-item {
-}
-.Grid-column-header {
-  justify-content: center;
-  background-color: wheat;
-}
-.Grid-row-item {
-  flex-basis: auto;
-}
 .Grid-cell {
   flex: 1;
+}
+.Grid-column-collection {
+  flex-direction: column;
+}
+
+.Grid-column-item {
+}
+.Grid-row-collection {
+  flex-direction: row;
+}
+.Grid-row-item {
 }
