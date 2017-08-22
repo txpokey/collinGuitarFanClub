@@ -1,24 +1,24 @@
-<div ng-controller="GuitarFooterController as footerController" class="container" style="font-family: 'Philosopher', sans-serif">
-    <section class="guitar-table-example">
-        <div class="Grid-column-collection" ng-repeat="model in footerController.guitarProgramFooter">
-            <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-footer" >
-                {{model.label}}
-            </div>
-            <div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">
-                <div class="Grid Grid-bordered Grid-row-item Grid-cell">
-                    {{guitarProgramLink.label}}
+<footer>
+    <div ng-controller="GuitarFooterController as footerController" class="container" style="font-family: 'Philosopher', sans-serif">
+        <section class="guitar-table-example">
+            <div class="Grid-column-collection" ng-repeat="model in footerController.guitarProgramFooter">
+                <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-footer" >
+                    {{model.label}}
                 </div>
-                <div class="Grid Grid-bordered Grid-row-item Grid-cell">
-                    <a href="{{guitarProgramLink.url}}">
-                        <i class="{{guitarProgramLink.icon}}"/>
-                        {{guitarProgramLink.label}}
-                        <img class="guitar-dept-footer-media-image" style="border: none; outline: none" ng-src="{{guitarProgramLink.logo}}">
-                    </a>
+                <div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">
+                    <div class="Grid Grid-bordered Grid-row-item Grid-cell">
+                        <a href="{{guitarProgramLink.url}}">
+                            <i class="{{guitarProgramLink.icon}}"/>
+                            {{guitarProgramLink.label}}
+                            <img ng-hide="'{{guitarProgramLink.logo}}' == '#0'" class="guitar-dept-footer-media-image" style="border: none; outline: none" ng-src="{{guitarProgramLink.logo}}">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</div>
+        </section>
+    </div>
+</footer>
+
         <!--"logo" : "/images/sponsors/LAGA-logos/LosAngelesGuitarAcademy.jpg",-->
 
 <!--============-->
