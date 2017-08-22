@@ -56,6 +56,10 @@ header-navbar {
   background-color: wheat;
 }
 
+.guitar-dept-footer {
+  justify-content: center;
+  background-color: lightslategrey;
+}
 .guitar-dept-nav-button {
   text-transform: uppercase;
 }

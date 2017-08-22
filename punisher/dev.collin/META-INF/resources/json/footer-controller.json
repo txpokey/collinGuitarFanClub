@@ -1,0 +1,60 @@
+[
+  {
+    "label": "Contacts",
+    "payload": [
+      {
+        "label": "Facebook",
+        "logo" : "fa fa-facebook",
+        "icon" : "#0",
+        "url": "https://www.facebook.com/groups/419901974694874/"
+      },
+      {
+        "label": "You Tube",
+        "logo" : "fa fa-youtube",
+        "icon" : "#0",
+        "url": "https://www.youtube.com/channel/UCBb4mtRZixug9VaNYIePxOQ"
+      },
+      {
+        "label": "Instagram",
+        "logo" : "fa fa-instagram",
+        "icon" : "#0",
+        "url": "https://www.instagram.com/collincollegemusic/"
+      }
+    ]
+  },
+  {
+    "label": "Sponsors",
+    "payload": [
+      {
+        "label": "Los Angeles Guitar Academy",
+        "logo" : "laga-online-logo.jpg",
+        "icon" : "#0",
+        "url": "https://onlineguitaracademy.net/"
+      },
+      {
+        "label": "Savarez",
+        "logo" : "/images/sponsors/Savarez/Savarez-logo.svg",
+        "icon" : "#0",
+        "url": "http://www.savarez.com/"
+      },
+      {
+        "label": "Guitar Foundation of America",
+        "logo" : "/images/sponsors/GFA/GFA-logo.png",
+        "icon" : "#0",
+        "url": "http://www.guitarfoundation.org/"
+      },
+      {
+        "label": "Strings by Mail",
+        "logo" : "/images/sponsors/StringsbyMail/StringsbyMail-logo.jpg",
+        "icon" : "#0",
+        "url": "http://www.stringsbymail.com/"
+      },
+      {
+        "label": "Sheet Music Plus",
+        "logo" : "/images/sponsors/SheetMusicPlus/SheetMusicPlus-logo.png",
+        "icon" : "#0",
+        "url": "http://www.sheetmusicplus.com/"
+      }
+    ]
+  }
+]

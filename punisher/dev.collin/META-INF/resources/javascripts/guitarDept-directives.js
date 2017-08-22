@@ -67,6 +67,12 @@
             controllerAs: "tab"
         };
     });
+    app.directive("guitarFooter", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/directives/headers/guitar-footer.html"
+        };
+    });
     //
     // app.directive("productReviews", function() {
     //     return {

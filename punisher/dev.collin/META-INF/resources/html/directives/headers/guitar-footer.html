@@ -1,0 +1,56 @@
+<div ng-controller="GuitarFooterController as footerController" class="container" style="font-family: 'Philosopher', sans-serif">
+    <section class="guitar-table-example">
+        <div class="Grid-column-collection" ng-repeat="model in footerController.guitarProgramFooter">
+            <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-footer" >
+                {{model.label}}
+            </div>
+            <div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">
+                <div class="Grid Grid-bordered Grid-row-item Grid-cell">
+                    {{guitarProgramLink.label}}
+                </div>
+                <div class="Grid Grid-bordered Grid-row-item Grid-cell">
+                    <a href="{{guitarProgramLink.url}}"><i ng-class="guitarProgramLink.icon"/> {{guitarProgramLink.url}}</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!--============-->
+<!--<nav class="navigation-buttons">-->
+    <!--<ul>-->
+        <!--<li ng-repeat="target in footerController.guitarProgramFooter" class="guitar-dept-nav-button">-->
+            <!--<a href="{{target.url}}"><i ng-class="target.icon"/> {{target.label}}</a>-->
+        <!--</li>-->
+    <!--</ul>-->
+<!--</nav>-->
+<!--======-->
+
+<!--<nav class="navigation-buttons">-->
+    <!--<ul>-->
+        <!--<li ng-repeat="target in header.targets" class="guitar-dept-nav-button"><a href="{{target.url}}">{{target.label}}</a>-->
+        <!--</li>-->
+    <!--</ul>-->
+<!--</nav>-->
+
+<!--===========-->
+
+<!--  guitarProgramEvents Container  -->
+<!--<div ng-controller="GuitarLinksController as linksController" class="container" style="font-family: 'Philosopher', sans-serif">-->
+    <!--<section class="guitar-table-example">-->
+        <!--<div class="Grid-column-collection" ng-repeat="model in linksController.guitarProgramLinks">-->
+            <!--<div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header" >-->
+                <!--{{model.label}}-->
+            <!--</div>-->
+            <!--<div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">-->
+                <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">-->
+                    <!--{{guitarProgramLink.label}}-->
+                <!--</div>-->
+                <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">-->
+                    <!--<a href="{{guitarProgramLink.url}}">{{guitarProgramLink.url}}</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+<!--</div>-->
+<!--</section>-->
+<!--</div>-->
