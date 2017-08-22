@@ -8,6 +8,33 @@ body {
   flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   padding: 20px;
 }
+.footer {
+  max-height: 120px;
+}
+.display-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.display-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*========================*/
+
+.force-uppercase-text {
+  text-transform: uppercase;
+}
+.emasculate-ul {
+  list-style: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+}
+.padded-right {
+  padding-right: 1rem;
+}
+/*==========================*/
 guitar-dept-header-logo {
 }
 guitar-dept-masthead-flex-container {
@@ -74,6 +101,7 @@ header-navbar {
 
 .guitar-dept-media-objects {
   display: flex;
+  justify-content: center;
   align-items: flex-start;
 }
 .guitar-dept-media-object {

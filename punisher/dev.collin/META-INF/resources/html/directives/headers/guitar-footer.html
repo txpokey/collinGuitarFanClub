@@ -1,14 +1,14 @@
 <section class="footer-buttons">
     <footer >
-        <div ng-controller="GuitarFooterController as footerController" class="container"
-             style="font-family: 'Philosopher', sans-serif" style="display: flex; flex-direction: column; align-items: flex-end">
+        <div ng-controller="GuitarFooterController as footerController" class="container display-flex-row"
+             style="font-family: 'Philosopher', sans-serif;">
             <div ng-repeat="footerModel in footerController.guitarProgramFooter">
-                <div class="Grid Grid-bordered Grid-cell ">
+                <div class="Grid Grid-bordered Grid-cell">
                     {{footerModel.label}}
                 </div>
-                <nav class="navigation-buttons">
-                    <ul>
-                        <li ng-repeat="guitarProgramLink in footerModel.payload" class="guitar-dept-nav-button">
+                <nav >
+                    <ul class="display-flex-wrap emasculate-ul">
+                        <li ng-repeat="guitarProgramLink in footerModel.payload" class="force-uppercase-text padded-right">
                             <a href="{{guitarProgramLink.url}}">
                                 <i ng-hide="'{{guitarProgramLink.icon}}' == '#0'" ng-class="guitarProgramLink.icon">
                                 {{guitarProgramLink.label}}
@@ -24,3 +24,5 @@
         </div>
     </footer>
 </section>
+
+<!--display: flex; flex-direction: column; align-items: flex-end-->
