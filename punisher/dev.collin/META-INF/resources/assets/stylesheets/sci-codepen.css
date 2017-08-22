@@ -98,7 +98,7 @@ header-navbar {
 }
 
 .guitar-dept-footer {
-  justify-content: center;
+  /*justify-content: center;*/
   background-color: lightslategrey;
 }
 
@@ -114,7 +114,9 @@ header-navbar {
 .Grid-bordered {
   border-bottom: 1px inset #dddddd;
 }
-
+.Grid-block {
+  display: inline-flex;
+}
 .Grid-cell {
   flex: 1;
 }
