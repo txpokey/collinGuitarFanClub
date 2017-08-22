@@ -9,12 +9,17 @@
                     {{guitarProgramLink.label}}
                 </div>
                 <div class="Grid Grid-bordered Grid-row-item Grid-cell">
-                    <a href="{{guitarProgramLink.url}}"><i ng-class="guitarProgramLink.icon"/> {{guitarProgramLink.url}}</a>
+                    <a href="{{guitarProgramLink.url}}">
+                        <i class="{{guitarProgramLink.icon}}"/>
+                        {{guitarProgramLink.label}}
+                        <img class="guitar-dept-footer-media-image" style="border: none; outline: none" ng-src="{{guitarProgramLink.logo}}">
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 </div>
+        <!--"logo" : "/images/sponsors/LAGA-logos/LosAngelesGuitarAcademy.jpg",-->
 
 <!--============-->
 <!--<nav class="navigation-buttons">-->
@@ -35,11 +40,10 @@
 
 <!--===========-->
 
-<!--  guitarProgramEvents Container  -->
-<!--<div ng-controller="GuitarLinksController as linksController" class="container" style="font-family: 'Philosopher', sans-serif">-->
+<!--<div ng-controller="GuitarFooterController as footerController" class="container" style="font-family: 'Philosopher', sans-serif">-->
     <!--<section class="guitar-table-example">-->
-        <!--<div class="Grid-column-collection" ng-repeat="model in linksController.guitarProgramLinks">-->
-            <!--<div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header" >-->
+        <!--<div class="Grid-column-collection" ng-repeat="model in footerController.guitarProgramFooter">-->
+            <!--<div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-footer" >-->
                 <!--{{model.label}}-->
             <!--</div>-->
             <!--<div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">-->
@@ -47,10 +51,9 @@
                     <!--{{guitarProgramLink.label}}-->
                 <!--</div>-->
                 <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">-->
-                    <!--<a href="{{guitarProgramLink.url}}">{{guitarProgramLink.url}}</a>-->
+                    <!--<a href="{{guitarProgramLink.url}}"><i class="{{guitarProgramLink.icon}}"/>{{guitarProgramLink.url}}</a>-->
                 <!--</div>-->
             <!--</div>-->
         <!--</div>-->
-<!--</div>-->
-<!--</section>-->
+    <!--</section>-->
 <!--</div>-->

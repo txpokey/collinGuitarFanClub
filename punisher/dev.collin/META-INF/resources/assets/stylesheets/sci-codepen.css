@@ -56,10 +56,6 @@ header-navbar {
   background-color: wheat;
 }
 
-.guitar-dept-footer {
-  justify-content: center;
-  background-color: lightslategrey;
-}
 .guitar-dept-nav-button {
   text-transform: uppercase;
 }
@@ -86,6 +82,11 @@ header-navbar {
   height: 421px;
   margin-right: 1em;
 }
+.guitar-dept-footer-media-image {
+  width: 175px;
+  height: 80px;
+  margin-right: 1em;
+}
 .guitar-dept-news-media-image {
   width: 80px;
   height: 80px;
@@ -95,6 +96,12 @@ header-navbar {
 .guitar-dept-media-body {
   flex: 1;
 }
+
+.guitar-dept-footer {
+  justify-content: center;
+  background-color: lightslategrey;
+}
+
 /* ============ */
 
 .Grid {
