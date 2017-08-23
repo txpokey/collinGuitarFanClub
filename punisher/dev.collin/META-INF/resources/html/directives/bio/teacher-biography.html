@@ -1,8 +1,8 @@
 <!--  bio animator Container  -->
-<div ng-controller="TeacherBiographyController as bioController" class="container" style="font-family: 'Philosopher', sans-serif">
-    <section class="guitar-dept-news-media-objects">
+<div ng-controller="TeacherBiographyController as bioController" class="display-flex-wrap standard-margin" style="font-family: 'Philosopher', sans-serif">
+    <section class="guitar-dept-faculty-section">
         <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty  | filter: { url: '!#0' }">
-            <div class="guitar-dept-media-objects Grid-row-collection" ng-class="{ active:tab.isSet($index) }">
+            <div class="Grid-row-collection" ng-class="{ active:tab.isSet($index) }">
                 <img class="guitar-dept-news-media-image" style="border: none; outline: none" ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">
                 <div class="guitar-dept-news-media-label">{{guitarInstructor.name}}</div>
             </div>
