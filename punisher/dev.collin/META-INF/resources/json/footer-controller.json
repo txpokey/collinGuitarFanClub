@@ -48,12 +48,6 @@
         "icon" : "#0",
         "logo" : "/images/sponsors/StringsbyMail/StringsbyMail-logo.jpg",
         "url": "http://www.stringsbymail.com/"
-      },
-      {
-        "label": "Sheet Music Plus",
-        "icon" : "#0",
-        "logo" : "/images/sponsors/SheetMusicPlus/SheetMusicPlus-logo.png",
-        "url": "http://www.sheetmusicplus.com/"
       }
     ]
   }
