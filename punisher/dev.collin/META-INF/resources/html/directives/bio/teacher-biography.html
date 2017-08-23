@@ -2,7 +2,7 @@
 <div ng-controller="TeacherBiographyController as bioController" class="display-flex-wrap content-section-constraints">
     <section class="guitar-dept-faculty-section">
         <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty  | filter: { url: '!#0' }">
-            <div class="Grid-row-collection" ng-class="{ active:tab.isSet($index) }">
+            <div class="Grid-row-collection" ng-show="tab.showTab($index)" ng-class="{ active:tab.isSet($index) }">
                 <img class="guitar-dept-news-media-image" style="border: none; outline: none" ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">
                 <div class="guitar-dept-news-media-label">{{guitarInstructor.name}}</div>
             </div>

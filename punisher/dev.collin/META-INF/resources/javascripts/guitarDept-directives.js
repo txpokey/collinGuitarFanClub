@@ -24,14 +24,24 @@
             restrict: 'E',
             templateUrl: "../html/directives/bio/teacher-biography.html",
             controller: function() {
-                this.tab = -1;
+                var NO_TAB_ACTIVE = -1 ;
+                this.tab = NO_TAB_ACTIVE ;
+                this.activeTab = this.tab ;
 
+                this.privateSetTab = function(newTabID) {
+                    return this.activeTab = this.tab = newTabID ;
+                };
+                this.tabReset = function() {
+                    return this.privateSetTab( NO_TAB_ACTIVE );
+                };
+                this.showTab = function(checkTab) {
+                    return ( this.isSet(checkTab) || this.tab === NO_TAB_ACTIVE ) ;
+                };
                 this.isSet = function(checkTab) {
                     return this.tab === checkTab;
                 };
-
-                this.setTab = function(activeTab) {
-                    this.tab = this.isSet( activeTab ) ? -1 : activeTab ;
+                this.setTab = function(candidateTab) {
+                    this.privateSetTab( this.isSet( candidateTab ) ? this.tabReset() : candidateTab );
                 };
             },
             controllerAs: "tab"
@@ -54,14 +64,24 @@
             restrict: 'E',
             templateUrl: "../html/directives/calendar/guitar-news.html",
             controller: function() {
-                this.tab = -1;
+                var NO_TAB_ACTIVE = -1 ;
+                this.tab = NO_TAB_ACTIVE ;
+                this.activeTab = this.tab ;
 
+                this.privateSetTab = function(newTabID) {
+                    return this.activeTab = this.tab = newTabID ;
+                };
+                this.tabReset = function() {
+                    return this.privateSetTab( NO_TAB_ACTIVE );
+                };
+                this.showTab = function(checkTab) {
+                    return ( this.isSet(checkTab) || this.tab === NO_TAB_ACTIVE ) ;
+                };
                 this.isSet = function(checkTab) {
                     return this.tab === checkTab;
                 };
-
-                this.setTab = function(activeTab) {
-                    this.tab = this.isSet( activeTab ) ? -1 : activeTab ;
+                this.setTab = function(candidateTab) {
+                    this.privateSetTab( this.isSet( candidateTab ) ? this.tabReset() : candidateTab );
                 };
             },
             controllerAs: "tab"
