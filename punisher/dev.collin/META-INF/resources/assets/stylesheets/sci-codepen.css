@@ -67,79 +67,73 @@ body {
   /*padding-right: 15px;*/
 /*}*/
 /*==========================*/
-guitar-dept-header-logo {
-}
-guitar-dept-masthead-flex-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  /*justify-content: flex-start;*/
-  /*align-content: flex-start;*/
-  /*align-items: flex-start;*/
 
-}
+/*.guitar-dept-masthead-flex-container {*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*flex-wrap: nowrap;*/
+  /*!*justify-content: flex-start;*!*/
+  /*!*align-content: flex-start;*!*/
+  /*!*align-items: flex-start;*!*/
+
+/*}*/
 
 .guitar-dept-masthead {
   display: flex;
   flex-direction: row ;
   flex-wrap: nowrap;
-  /*justify-content: center;*/
-  /*align-self: stretch;*/
-  /*   order: 1; */
 }
 .guitar-dept-submasthead {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  /*justify-content: center;*/
-  /*align-content: flex-start;*/
 }
 .guitar-dept-masthead h1 {
 }
 
-.navigation-buttons {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center ;
-}
+/*.navigation-buttons {*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center ;*/
+/*}*/
 /*.header-navbar-WRONG {*/
   /*display: flex;*/
   /*justify-content: center;*/
 /*}*/
-.navigation-buttons ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: white;
-}
-.navigation-buttons li {
-}
+/*.navigation-buttons ul {*/
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*list-style: none;*/
+  /*padding-left: 5px;*/
+  /*padding-right: 5px;*/
+  /*background-color: white;*/
+/*}*/
+/*.navigation-buttons li {*/
+/*}*/
 
 .guitar-dept-column-header {
   justify-content: center;
   background-color: wheat;
 }
 
-.guitar-dept-nav-button {
-  text-transform: uppercase;
-}
-.guitar-dept-nav-button a {
-  text-decoration: none;
-  color: grey;
-  padding: 0px 10px 0px 10px;
-}
+/*.guitar-dept-nav-button {*/
+  /*text-transform: uppercase;*/
+/*}*/
+/*.guitar-dept-nav-button a {*/
+  /*text-decoration: none;*/
+  /*color: grey;*/
+  /*padding: 0px 10px 0px 10px;*/
+/*}*/
 
-.guitar-dept-media-objects {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-.guitar-dept-media-object {
-  display: flex;
-}
+/*.guitar-dept-media-objects {*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: flex-start;*/
+/*}*/
+/*.guitar-dept-media-object {*/
+  /*display: flex;*/
+/*}*/
 .guitar-dept-media-image-underconstruction {
   flex-direction: column;
   justify-content: center;
@@ -163,12 +157,11 @@ guitar-dept-masthead-flex-container {
   margin-right: 1em;
 }
 
-.guitar-dept-media-body {
-  /*flex: 1;*/
-}
+/*.guitar-dept-media-body {*/
+  /*!*flex: 1;*!*/
+/*}*/
 
 .guitar-dept-footer {
-  /*justify-content: center;*/
   background-color: lightslategrey;
 }
 
@@ -184,9 +177,9 @@ guitar-dept-masthead-flex-container {
 .Grid-bordered {
   border-bottom: 1px inset #dddddd;
 }
-.Grid-block {
-  display: inline-flex;
-}
+/*.Grid-block {*/
+  /*display: inline-flex;*/
+/*}*/
 .Grid-cell {
   flex: 1;
 }
