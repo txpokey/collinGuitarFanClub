@@ -4,15 +4,15 @@ body {
   flex-direction: column;
   height: 100vh;
 }
-.container-mock {
-  position: relative;
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-  /*padding-right: 15px;*/
-  /*padding-left: 15px;*/
-  /*width: 720px;*/
-  /*max-width: 100%;*/
-}
+/*.container-mock {*/
+  /*position: relative;*/
+  /*!*margin-left: auto;*!*/
+  /*!*margin-right: auto;*!*/
+  /*!*padding-right: 15px;*!*/
+  /*!*padding-left: 15px;*!*/
+  /*!*width: 720px;*!*/
+  /*!*max-width: 100%;*!*/
+/*}*/
 .guitar-dept-content-sizing-constraint {
   flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   /*padding: 20px;*/
@@ -153,7 +153,7 @@ guitar-dept-masthead-flex-container {
 }
 
 .guitar-dept-media-body {
-  flex: 1;
+  /*flex: 1;*/
 }
 
 .guitar-dept-footer {
