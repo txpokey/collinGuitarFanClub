@@ -1,5 +1,5 @@
 <!--  guitarProgramEvents Container  -->
-<div ng-controller="GuitarNewsController as newsController" class="display-flex-wrap standard-margin">
+<div ng-controller="GuitarNewsController as newsController" class="display-flex-wrap content-section-constraints">
     <section class="guitar-dept-news-section">
         <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews  | filter: { url: '!#0' }">
             <div class="Grid-row-collection" ng-class="{ active:tab.isSet($index) }">
@@ -9,5 +9,4 @@
             <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body" ng-include="guitarNewsModel.url"></div>
         </div>
     </section>
-</div>
 </div>

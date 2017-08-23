@@ -1,5 +1,5 @@
 <!--  bio animator Container  -->
-<div ng-controller="TeacherBiographyController as bioController" class="display-flex-wrap standard-margin" style="font-family: 'Philosopher', sans-serif">
+<div ng-controller="TeacherBiographyController as bioController" class="display-flex-wrap content-section-constraints">
     <section class="guitar-dept-faculty-section">
         <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty  | filter: { url: '!#0' }">
             <div class="Grid-row-collection" ng-class="{ active:tab.isSet($index) }">

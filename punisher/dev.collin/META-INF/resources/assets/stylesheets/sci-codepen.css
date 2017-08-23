@@ -4,18 +4,28 @@ body {
   flex-direction: column;
   height: 100vh;
 }
-.container-mock {
-  /*position: relative;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-  /*padding-right: 15px;*/
-  /*padding-left: 15px;*/
+/*.container-mock {*/
+  /*!*position: relative;*!*/
+  /*!*margin-left: auto;*!*/
+  /*!*margin-right: auto;*!*/
+  /*!*padding-right: 15px;*!*/
+  /*!*padding-left: 15px;*!*/
+  /*width: 90vw;*/
+  /*!*max-width: 100%;*!*/
+/*}*/
+.content-section-constraints {
+  /*width: 90vw;*/
+}
+.content-section-width, .content-section-constraints {
   width: 90vw;
-  /*max-width: 100%;*/
 }
 .guitar-dept-content-sizing-constraint {
   flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   /*padding: 20px;*/
+}
+.standard-margin, .content-section-constraints {
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 .footer {
   max-height: 120px;
@@ -47,12 +57,11 @@ body {
 .padded-right {
   padding-right: 1rem;
 }
-.standard-margin {
+
+/*.original-standard-margin {*/
   /*margin-left: 130px;*/
   /*margin-right: 130px;*/
-  margin-left: 5vw;
-  margin-right: 5px;
-}
+/*}*/
 /*.standard-padding {*/
   /*padding-left: 15px;*/
   /*padding-right: 15px;*/
