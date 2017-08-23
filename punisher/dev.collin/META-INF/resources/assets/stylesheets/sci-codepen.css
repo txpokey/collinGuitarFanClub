@@ -3,16 +3,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  color: black;
+  background-color: white;
 }
-/*.container-mock {*/
-  /*!*position: relative;*!*/
-  /*!*margin-left: auto;*!*/
-  /*!*margin-right: auto;*!*/
-  /*!*padding-right: 15px;*!*/
-  /*!*padding-left: 15px;*!*/
-  /*width: 90vw;*/
-  /*!*max-width: 100%;*!*/
-/*}*/
+
 .content-section-constraints {
   /*width: 90vw;*/
 }
@@ -21,7 +15,6 @@ body {
 }
 .guitar-dept-content-sizing-constraint {
   flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  /*padding: 20px;*/
 }
 .standard-margin, .content-section-constraints {
   margin-left: 5vw;
@@ -42,21 +35,41 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
-/*========================*/
-
-.force-uppercase-text {
-  text-transform: uppercase;
+/*force-uppercase-text padded-right*/
+.guitar-dept-text-button {
 }
-.emasculate-ul {
-  list-style: none;
-  padding-left: 5px;
-  padding-right: 5px;
+.guitar-dept-nav-text-button {
+}
+.guitar-dept-footer-text-button {
+}
+.guitar-dept-footer-button-text-color {
+}
+.guitar-dept-nav-button-text-color {
+}
+.guitar-dept-button-text-color-grey, .guitar-dept-nav-button-text-color , .guitar-dept-nav-text-button {
+  color: grey;
   background-color: white;
 }
-.padded-right {
+.guitar-dept-button-text-color-blue, .guitar-dept-footer-button-text-color , .guitar-dept-footer-text-button {
+  color: darkblue;
+  background-color: white;
+}
+.force-uppercase-text, .guitar-dept-text-button , .guitar-dept-nav-text-button, .guitar-dept-footer-text-button {
+  text-transform: uppercase;
+}
+.emasculated-ul {
+  list-style: none;
+  padding: 0rem 0rem 0rem 0rem ;
+  /*color: darkgreen;*/
+  /*background-color: white;*/
+}
+.padded-left {
+  padding-left: 1rem;
+}
+.padded-right ,.guitar-dept-text-button , .guitar-dept-nav-text-button, .guitar-dept-footer-text-button {
   padding-right: 1rem;
 }
+/*========================*/
 
 /*.original-standard-margin {*/
   /*margin-left: 130px;*/
@@ -111,11 +124,23 @@ body {
 /*}*/
 /*.navigation-buttons li {*/
 /*}*/
-
-.guitar-dept-column-header {
+.guitar-dept-column-header{
+}
+.guitar-dept-column-color {
+}
+.guitar-dept-column-centerjustified , .guitar-dept-column-header {
   justify-content: center;
+}
+/*.guitar-dept-column-header{*/
+  /*justify-content: center;*/
+/*}*/
+.guitar-dept-column-color-wheat, .guitar-dept-column-color, .guitar-dept-column-header {
   background-color: wheat;
 }
+/*.guitar-dept-column-header{*/
+  /*justify-content: center;*/
+  /*background-color: wheat;*/
+/*}*/
 
 /*.guitar-dept-nav-button {*/
   /*text-transform: uppercase;*/
@@ -142,19 +167,19 @@ body {
 .guitar-dept-media-image {
   width: 320px;
   height: 421px;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 .guitar-dept-footer-media-image {
   /*width: 175px;*/
   /*height: 80px;*/
   width: 80px;
   height: auto;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 .guitar-dept-news-media-image {
   width: 80px;
   height: 80px;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 /*.guitar-dept-media-body {*/
