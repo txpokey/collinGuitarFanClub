@@ -1,7 +1,13 @@
 [
   {
-    "label": "Contacts",
+    "label": "Guitar Studies Social Media Contacts",
     "payload": [
+      {
+        "label": "Department Head",
+        "icon" : "fa fa-graduation-cap",
+        "logo" : "#0",
+        "url": "mailto:fvera@collin.edu"
+      },
       {
         "label": "Facebook",
         "icon" : "fa fa-facebook",
@@ -19,6 +25,12 @@
         "icon" : "fa fa-instagram",
         "logo" : "#0",
         "url": "https://www.instagram.com/collincollegemusic/"
+      },
+      {
+        "label": "webmaster",
+        "icon" : "fa fa-envelope-o",
+        "logo" : "#0",
+        "url": "mailto:tritonpi-collinguitarwebmaster0@yahoo.com"
       }
     ]
   },
