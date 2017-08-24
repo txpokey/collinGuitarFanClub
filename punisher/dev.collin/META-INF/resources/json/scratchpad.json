@@ -1,0 +1,13 @@
+//==== header ====
+{
+  "label": "FAQ",
+  "url": "/html/underConstruction.html"
+},
+
+//===== footer =====
+{
+"label": "Guitar Foundation of America",
+"icon" : "#0",
+"logo" : "/images/sponsors/GFA/GFA-logo.png",
+"url": "http://www.guitarfoundation.org/"
+},
