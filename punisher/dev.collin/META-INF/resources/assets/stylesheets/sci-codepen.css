@@ -1,56 +1,4 @@
-html {
-    height: 100%;
-}
-body {
-    font-family: Philosopher, sans-sarif;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    /*color: black;*/
-    /*background-color: white;*/
-}
-
-.content-section-constraints {
-}
-
-.content-section-width,
-.content-section-constraints {
-    /*width: 80vw;*/
-}
-
-.guitar-dept-body-sizing-constraint {
-    width: 90vw;
-    height: 100vh;
-    margin: 0 5vw 0 5vw;
-}
-.guitar-dept-content-sizing-constraint {
-    flex: 3 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-    height: 68.253970vh;
-    padding: 20px;
-    background-color: #a94442;
-
-}
-
-.standard-margin,
-.content-section-constraints {
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-}
-
-.guitar-dept-footer {
-    /*max-height: 120px;*/
-    max-height: 11.483253vh;
-    /*display: flex;*/
-    height: 0vh;
-    align-items: flex-end;
-    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-    padding: 20px;
-}
-
-.guitar-dept-footer-bg-color,
-.guitar-dept-footer {
-    /*background-color: lightslategrey;*/
-}
+/*================ General Verbs ===========*/
 .display-flex-column {
     display: flex;
     flex-direction: column;
@@ -72,21 +20,137 @@ body {
 }
 
 .display-flex-space-between {
+    display: flex;
     justify-content: space-between;
 }
 
-.guitar-dept-text-button {
+.emasculated-ul,
+.emasculated,
+.Grid
+{
+    list-style: none;
+    padding: 0rem 0rem 0rem 0rem;
+}
+/* ===== Grids ======= */
+
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.guitar-dept-nav-text-button {
+.Grid-bordered {
+    border-bottom: 1px inset #dddddd;
 }
 
+.Grid-bordered-top {
+    border-top: 1px inset #dddddd;
+}
+
+.Grid-cell {
+    flex: 1;
+}
+
+.Grid-column-collection {
+    flex-direction: column;
+}
+.Grid-row-collection {
+    flex-direction: row;
+}
+.Grid-column-item ,
+.Grid-row-item {
+}
+
+/*====== Padding =====*/
+.padded-above {
+    padding-top: .5rem;
+}
+.padded-below { /* DEBUG: not used? */
+    padding-bottom: 1rem;
+}
+
+.padded-left {
+    padding-left: 1rem;
+}
+.padded-right{
+    padding-right: 1rem;
+}
+
+/*========= Under Construction ===== */
+
+.guitar-dept-media-image-underconstruction {
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+/* =============== page level ==============*/
+
+html {
+    height: 100%;
+}
+body {
+    font-family: Philosopher, sans-sarif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: black;
+    background-color: white;
+}
+
+.content-section-width,
+.content-section-constraints {
+    /*width: 80vw;*/
+}
+/* =============== major sections ==============*/
+
+.guitar-dept-main-section-sizing-constraint,
+.guitar-dept-body-sizing-constraint {
+    width: 90vw;
+    height: 100vh;
+    margin: 0 5vw 0 5vw;
+}
+.guitar-dept-header-section-sizing-constraint,
+.guitar-dept-footer-section-sizing-constraint {
+}
+
+/*THESE HACKS ARE NOT SOLVING FOOTER */
+
+.guitar-dept-content-sizing-constraint {
+    flex: 3 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    height: 68.253970vh;
+    padding: 20px;
+    background-color: indianred;
+    color: black;
+}
+
+/*.standard-margin,*/
+/*.content-section-constraints {*/
+    /*!*margin-left: auto;*!*/
+    /*!*margin-right: auto;*!*/
+/*}*/
+
+.guitar-dept-footer {
+    /*max-height: 120px;*/
+    max-height: 11.483253vh;
+    /*display: flex;*/
+    height: 0vh;
+    align-items: flex-end;
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+}
+
+.guitar-dept-footer-bg-color,
+.guitar-dept-footer {
+    background-color: plum;
+}
+
+/*==================== Text Buttons =============*/
+
+.guitar-dept-text-button,
+.guitar-dept-nav-text-button,
 .guitar-dept-footer-text-button {
 }
-
-.guitar-dept-footer-button-text-color {
-}
-
+.guitar-dept-footer-button-text-color ,
 .guitar-dept-nav-button-text-color {
 }
 
@@ -108,37 +172,23 @@ body {
 .guitar-dept-footer-text-button {
     font-size: 50%;
 }
-
-.force-uppercase-text,
+.guitar-dept-nav-button-text-font-metrics,
+.guitar-dept-nav-text-button {
+    font-size: 100%;  /* DEBUG: NOT USED? */
+}
+.guitar-dept-force-uppercase-text,
 .guitar-dept-text-button,
 .guitar-dept-nav-text-button,
 .guitar-dept-footer-text-button {
     text-transform: uppercase;
 }
 
-.emasculated-ul, .emasculated {
-    list-style: none;
-    padding: 0rem 0rem 0rem 0rem;
-}
-
-.padded-left {
-    padding-left: 1rem;
-}
-
-.padded-right,
 .guitar-dept-text-button,
 .guitar-dept-nav-text-button,
 .guitar-dept-footer-text-button {
     padding-right: 1rem;
 }
 
-.padded-below { /* not used */
-    padding-bottom: 1rem;
-}
-
-.padded-above {
-    padding-top: .5rem;
-}
 
 /*========================*/
 
@@ -180,12 +230,6 @@ body {
 .guitar-dept-column-color,
 .guitar-dept-column-header {
     background-color: wheat;
-}
-
-.guitar-dept-media-image-underconstruction {
-    flex-direction: column;
-    justify-content: center;
-    flex-basis: 100%;
 }
 
 .guitar-dept-footer-media-image,
@@ -252,38 +296,3 @@ body {
     /*background-color: lightslategrey;*/
 /*}*/
 
-/* ============ */
-
-.Grid {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.Grid-bordered {
-    border-bottom: 1px inset #dddddd;
-}
-
-.Grid-bordered-top {
-    border-top: 1px inset #dddddd;
-}
-
-.Grid-cell {
-    flex: 1;
-}
-
-.Grid-column-collection {
-    flex-direction: column;
-}
-
-.Grid-column-item {
-}
-
-.Grid-row-collection {
-    flex-direction: row;
-}
-
-.Grid-row-item {
-}

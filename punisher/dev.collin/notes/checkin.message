@@ -1,6 +1,9 @@
-new BRANCH == dev.collin/BROKEN/no-sticky-footer/180825-0
+new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
 
 F: sticky footer == BROKEN
+.................................
+forced checkpoint as I am renaming stuff and looking for what is not working and what is not used
+at this point no further regressions...
 
 ----------------------------------
 when I use bg colors, the middle content section colors leave short verticle bars at the top left and bottom left
