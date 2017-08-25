@@ -11,3 +11,11 @@
 "logo" : "/images/sponsors/GFA/GFA-logo.png",
 "url": "http://www.guitarfoundation.org/"
 },
+//======================= STUBBED SPONSORS JSON ================
+,
+{
+"label": "Sheet Music Plus",
+"icon" : "#0",
+"logo" : "/images/sponsors/SheetMusicPlus/SheetMusicPlus-logo.png",
+"url": "http://www.sheetmusicplus.com/"
+}
