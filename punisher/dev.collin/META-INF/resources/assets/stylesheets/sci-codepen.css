@@ -34,6 +34,10 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+.display-flex-nowrap {
+  display: flex;
+  flex-wrap: wrap;
+}
 .guitar-dept-text-button {
 }
 .guitar-dept-nav-text-button {
@@ -58,7 +62,7 @@ body {
 .force-uppercase-text, .guitar-dept-text-button , .guitar-dept-nav-text-button, .guitar-dept-footer-text-button {
   text-transform: uppercase;
 }
-.emasculated-ul {
+.emasculated-ul, .emasculated {
   list-style: none;
   padding: 0rem 0rem 0rem 0rem ;
 }
@@ -73,7 +77,7 @@ body {
   padding-bottom: 1rem;
 }
 .padded-above {
-  padding-top: 1rem;
+  padding-top: .5rem;
 }
 /*========================*/
 
@@ -126,11 +130,30 @@ body {
   /*height: 80px;*/
   /*width: 320px;*/
   /*height: auto;*/
-  width: 33vh;
+  width: 25vw;
   height: auto;
 }
 .guitar-dept-news-media-image-sizing-hack {
   max-height: 55vh; /* because guitar studies logo is so long */
+}
+.guitar-dept-masthead-sizing-hack {
+  /*height: 23vh;*/
+  width: auto;
+}
+
+.guitar-dept-carousel-image-sizing-hack {
+  width: 77.625918367vw;
+  height: 12.548468596vh; /* because guitar students images are HUGELY HIGH */
+}
+.guitar-dept-masthead-logo-sizing-hack {
+  /*width: 140px;height: 191px; !* originally styled *!*/
+  width: 12.37755102vw;
+  /*height: 20.0vh;*/
+}
+.guitar-dept-submasthead-sizing-hack , .guitar-dept-masthead-logo-sizing-hack, .guitar-dept-masthead-sizing-hack {
+  /*width: 10vw;*/
+  /*height: 23.6vh;*/
+  height: 20.0vh;
 }
 .guitar-dept-footer {
   background-color: lightslategrey;

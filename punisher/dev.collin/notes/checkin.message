@@ -1,2 +1,4 @@
 T: action item: DONE :   
    ☐ elastic and not fixed sizing for images generally, esp. media objects on news or faculty page
+	 ☐ scale carousel images to right margin
+	 ☐ masonry layout for non-active media objects
