@@ -1,17 +1,49 @@
 <!--  guitarProgramEvents Container  -->
-<div ng-controller="GuitarNewsController as newsController" class="display-flex-wrap content-section-constraints">
-    <section class="guitar-dept-news-section">
-        <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews  | filter: { url: '!#0' }">
-            <div class="Grid-row-collection" ng-show="tab.showTab($index)" ng-class="{ active:tab.isSet($index) }">
-                <img class="guitar-dept-news-media-image" style="border: none; outline: none" ng-click="tab.setTab($index)" ng-src="{{guitarNewsModel.image}}">
-                <div class="guitar-dept-news-media-label">{{guitarNewsModel.name}}</div>
-            </div>
-            <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body" ng-include="guitarNewsModel.url"></div>
+<section class="guitar-dept-news-section">
+    <div ng-controller="GuitarNewsController as newsController" class="content-section-constraints">
+        <div class="guitar-dept-news-media-content-title guitar-dept-news-media-label   ">
+            {{newsController.guitarProgramNews.title}}
         </div>
-    </section>
-</div>
+        <div id="setup-news-content-blocks" class="display-flex-wrap">
+            <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews.payload  | filter: { url: '!#0' }">
+                <div id="setup-news-content-single-block" class="display-flex-wrap Grid-bordered-top">
+                    <div class="Grid-row-collection" ng-show="tab.showTab($index)"
+                         ng-class="{ active:tab.isSet($index) }">
+                        <img class="guitar-dept-news-media-image"
+                             ng-click="tab.setTab($index)" ng-src="{{guitarNewsModel.image}}">
+                        <div class="guitar-dept-news-media-label padded-right">{{guitarNewsModel.name}}</div>
+                    </div>
+                    <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body"
+                         ng-include="guitarNewsModel.url">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!--style="border: none; outline: none"-->
 <!--border-top: 2px solid #ccc;-->
 <!--border-top-width: 2px;-->
 <!--border-top-style: solid;-->
 <!--border-top-color: rgb(204, 204, 204);-->
+
+<!--==========================-->
+<!--<section class="guitar-dept-news-section">-->
+<!--<div ng-controller="GuitarNewsController as newsController" class="content-section-constraints">-->
+<!--<div class="guitar-dept-news-media-content-title guitar-dept-news-media-label   ">-->
+<!--{{newsController.guitarProgramNews.title}}-->
+<!--</div>-->
+<!--<div id="setup-news-content-block" class="display-flex-wrap">-->
+<!--<div ng-repeat="guitarNewsModel in newsController.guitarProgramNews.payload  | filter: { url: '!#0' }">-->
+<!--<div class="Grid-row-collection" ng-show="tab.showTab($index)" ng-class="{ active:tab.isSet($index) }">-->
+<!--<img class="guitar-dept-news-media-image"-->
+<!--ng-click="tab.setTab($index)" ng-src="{{guitarNewsModel.image}}">-->
+<!--<div class="guitar-dept-news-media-label padded-right">{{guitarNewsModel.name}}</div>-->
+<!--</div>-->
+<!--<div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body"-->
+<!--ng-include="guitarNewsModel.url"></div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</section>-->

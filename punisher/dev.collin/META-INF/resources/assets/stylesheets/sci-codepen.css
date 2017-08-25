@@ -8,7 +8,6 @@ body {
 }
 
 .content-section-constraints {
-  /*width: 90vw;*/
 }
 .content-section-width, .content-section-constraints {
   width: 90vw;
@@ -35,7 +34,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-/*force-uppercase-text padded-right*/
 .guitar-dept-text-button {
 }
 .guitar-dept-nav-text-button {
@@ -54,14 +52,15 @@ body {
   color: darkblue;
   background-color: white;
 }
+.guitar-dept-footer-button-text-font-metrics , .guitar-dept-footer-text-button {
+  font-size: 50%;
+}
 .force-uppercase-text, .guitar-dept-text-button , .guitar-dept-nav-text-button, .guitar-dept-footer-text-button {
   text-transform: uppercase;
 }
 .emasculated-ul {
   list-style: none;
   padding: 0rem 0rem 0rem 0rem ;
-  /*color: darkgreen;*/
-  /*background-color: white;*/
 }
 .padded-left {
   padding-left: 1rem;
@@ -70,26 +69,6 @@ body {
   padding-right: 1rem;
 }
 /*========================*/
-
-/*.original-standard-margin {*/
-  /*margin-left: 130px;*/
-  /*margin-right: 130px;*/
-/*}*/
-/*.standard-padding {*/
-  /*padding-left: 15px;*/
-  /*padding-right: 15px;*/
-/*}*/
-/*==========================*/
-
-/*.guitar-dept-masthead-flex-container {*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*flex-wrap: nowrap;*/
-  /*!*justify-content: flex-start;*!*/
-  /*!*align-content: flex-start;*!*/
-  /*!*align-items: flex-start;*!*/
-
-/*}*/
 
 .guitar-dept-masthead {
   display: flex;
@@ -104,88 +83,45 @@ body {
 .guitar-dept-masthead h1 {
 }
 
-/*.navigation-buttons {*/
-  /*display: flex;*/
-  /*flex-direction: row;*/
-  /*flex-wrap: wrap;*/
-  /*justify-content: center ;*/
-/*}*/
-/*.header-navbar-WRONG {*/
-  /*display: flex;*/
-  /*justify-content: center;*/
-/*}*/
-/*.navigation-buttons ul {*/
-  /*display: flex;*/
-  /*flex-wrap: wrap;*/
-  /*list-style: none;*/
-  /*padding-left: 5px;*/
-  /*padding-right: 5px;*/
-  /*background-color: white;*/
-/*}*/
-/*.navigation-buttons li {*/
-/*}*/
 .guitar-dept-column-header{
 }
 .guitar-dept-column-color {
 }
+.guitar-dept-news-media-label{
+}
+.guitar-dept-news-media-content-title{
+  /*border-bottom: 50vw;*/
+  /*outline: none;*/
+}
 .guitar-dept-column-centerjustified , .guitar-dept-column-header {
   justify-content: center;
 }
-/*.guitar-dept-column-header{*/
-  /*justify-content: center;*/
-/*}*/
 .guitar-dept-column-color-wheat, .guitar-dept-column-color, .guitar-dept-column-header {
   background-color: wheat;
 }
-/*.guitar-dept-column-header{*/
-  /*justify-content: center;*/
-  /*background-color: wheat;*/
-/*}*/
-
-/*.guitar-dept-nav-button {*/
-  /*text-transform: uppercase;*/
-/*}*/
-/*.guitar-dept-nav-button a {*/
-  /*text-decoration: none;*/
-  /*color: grey;*/
-  /*padding: 0px 10px 0px 10px;*/
-/*}*/
-
-/*.guitar-dept-media-objects {*/
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*align-items: flex-start;*/
-/*}*/
-/*.guitar-dept-media-object {*/
-  /*display: flex;*/
-/*}*/
 .guitar-dept-media-image-underconstruction {
   flex-direction: column;
   justify-content: center;
   flex-basis: 100%;
 }
-.guitar-dept-media-image {
+.guitar-dept-footer-media-image, .guitar-dept-news-media-image, .guitar-dept-media-image {
+  border: none; outline: none;
+  margin-right: 1rem;
+}
+.guitar-dept-media-image-sizing-metrics, .guitar-dept-media-image {
   width: 320px;
   height: 421px;
-  margin-right: 1rem;
 }
-.guitar-dept-footer-media-image {
-  /*width: 175px;*/
-  /*height: 80px;*/
+.guitar-dept-footer-media-image-sizing-metrics, .guitar-dept-footer-media-image {
   width: 80px;
   height: auto;
-  margin-right: 1rem;
+  /*margin-right: 1rem;*/
 }
-.guitar-dept-news-media-image {
+.guitar-dept-news-media-image-sizing-metrics, .guitar-dept-news-media-image {
   width: 80px;
   height: 80px;
-  margin-right: 1rem;
+  /*margin-right: 1rem;*/
 }
-
-/*.guitar-dept-media-body {*/
-  /*!*flex: 1;*!*/
-/*}*/
-
 .guitar-dept-footer {
   background-color: lightslategrey;
 }
@@ -202,9 +138,9 @@ body {
 .Grid-bordered {
   border-bottom: 1px inset #dddddd;
 }
-/*.Grid-block {*/
-  /*display: inline-flex;*/
-/*}*/
+.Grid-bordered-top {
+  border-top: 1px inset #dddddd;
+}
 .Grid-cell {
   flex: 1;
 }

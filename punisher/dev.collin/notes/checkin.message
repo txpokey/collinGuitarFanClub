@@ -1,3 +1,8 @@
 T: action item: DONE :   
-  ☐ add faculty contact icon linked to FV email in footer
-	☐ add webmaster "sprocket" contact icon linked to RJM email
+	 ☐ ok to change links page to single column per table: i.e., one pure link per row
+	 also .deprecated a couple Code School example artifacts. will remove later
+	  ☐ font size reduction in footer. (elastic)
+	 general cleanup of stubbed code, esp. in CSS file`
+	  ☐ entitle the main content so you know what page we are viewing: DONE == news, TBD == faculty
+
+
