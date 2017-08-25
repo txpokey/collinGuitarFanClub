@@ -97,8 +97,6 @@ body {
 .guitar-dept-news-media-label{
 }
 .guitar-dept-news-media-content-title{
-  /*border-bottom: 50vw;*/
-  /*outline: none;*/
 }
 .guitar-dept-column-centerjustified , .guitar-dept-column-header {
   justify-content: center;
@@ -122,12 +120,17 @@ body {
 .guitar-dept-footer-media-image-sizing-metrics, .guitar-dept-footer-media-image {
   width: 80px;
   height: auto;
-  /*margin-right: 1rem;*/
 }
 .guitar-dept-news-media-image-sizing-metrics, .guitar-dept-news-media-image {
-  width: 80px;
-  height: 80px;
-  /*margin-right: 1rem;*/
+  /*width: 80px;*/
+  /*height: 80px;*/
+  /*width: 320px;*/
+  /*height: auto;*/
+  width: 33vh;
+  height: auto;
+}
+.guitar-dept-news-media-image-sizing-hack {
+  max-height: 55vh; /* because guitar studies logo is so long */
 }
 .guitar-dept-footer {
   background-color: lightslategrey;

@@ -1,3 +1,2 @@
 T: action item: DONE :   
-	  ☐ entitle the main content so you know what page we are viewing: DONE == news, DONE == faculty
-		added padding above the image so there is leading below the horizonal border used on the content title label
+   ☐ elastic and not fixed sizing for images generally, esp. media objects on news or faculty page
