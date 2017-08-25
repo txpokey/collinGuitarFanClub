@@ -1,12 +1,63 @@
 <!--  bio animator Container  -->
-<div ng-controller="TeacherBiographyController as bioController" class="display-flex-wrap content-section-constraints">
-    <section class="guitar-dept-faculty-section">
-        <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty  | filter: { url: '!#0' }">
-            <div class="Grid-row-collection" ng-show="tab.showTab($index)" ng-class="{ active:tab.isSet($index) }">
-                <img class="guitar-dept-news-media-image" style="border: none; outline: none" ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">
-                <div class="guitar-dept-news-media-label">{{guitarInstructor.name}}</div>
-            </div>
-            <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body" ng-include="guitarInstructor.url"></div>
+<section class="guitar-dept-faculty-section">
+    <div ng-controller="TeacherBiographyController as bioController"
+         class="content-section-constraints">
+        <div class="guitar-dept-news-media-content-title guitar-dept-news-media-label">
+            {{bioController.guitarDepartmentFaculty.title}}
         </div>
-    </section>
-</div>
+        <div id="setup-faculty-content-blocks" class="display-flex-wrap">
+            <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty.payload | filter: { url: '!#0' }">
+                <div id="setup-faculty-content-single-block" class="display-flex-wrap Grid-bordered-top">
+                    <div class="Grid-row-collection" ng-show="tab.showTab($index)"
+                         ng-class="{ active:tab.isSet($index) }">
+                        <img class="guitar-dept-news-media-image padded-above"
+                             ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">
+                        <div class="guitar-dept-news-media-label padded-right">{{guitarInstructor.name}}</div>
+                    </div>
+                    <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body" ng-include="guitarInstructor.url">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<div id="setup-news-content-single-block" class="display-flex-wrap Grid-bordered-top">-->
+<!--======================-->
+<!--<div ng-controller="TeacherBiographyController as bioController" class="display-flex-wrap content-section-constraints">-->
+    <!--<section class="guitar-dept-faculty-section">-->
+        <!--<div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty  | filter: { url: '!#0' }">-->
+            <!--<div class="Grid-row-collection" ng-show="tab.showTab($index)" ng-class="{ active:tab.isSet($index) }">-->
+                <!--<img class="guitar-dept-news-media-image" style="border: none; outline: none"-->
+                     <!--ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">-->
+                <!--<div class="guitar-dept-news-media-label">{{guitarInstructor.name}}</div>-->
+            <!--</div>-->
+            <!--<div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body"-->
+                 <!--ng-include="guitarInstructor.url"></div>-->
+        <!--</div>-->
+    <!--</section>-->
+<!--</div>-->
+<!--&lt;!&ndash;==================================&ndash;&gt;-->
+
+<!--<section class="guitar-dept-news-section">-->
+    <!--<div ng-controller="GuitarNewsController as newsController" class="content-section-constraints">-->
+        <!--<div class="guitar-dept-news-media-content-title guitar-dept-news-media-label   ">-->
+            <!--{{newsController.guitarProgramNews.title}}-->
+        <!--</div>-->
+        <!--<div id="setup-news-content-blocks" class="display-flex-wrap">-->
+            <!--<div ng-repeat="guitarNewsModel in newsController.guitarProgramNews.payload  | filter: { url: '!#0' }">-->
+                <!--<div id="setup-news-content-single-block" class="display-flex-wrap Grid-bordered-top">-->
+                    <!--<div class="Grid-row-collection" ng-show="tab.showTab($index)"-->
+                         <!--ng-class="{ active:tab.isSet($index) }">-->
+                        <!--<img class="guitar-dept-news-media-image"-->
+                             <!--ng-click="tab.setTab($index)" ng-src="{{guitarNewsModel.image}}">-->
+                        <!--<div class="guitar-dept-news-media-label padded-right">{{guitarNewsModel.name}}</div>-->
+                    <!--</div>-->
+                    <!--<div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body"-->
+                         <!--ng-include="guitarNewsModel.url">-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->

@@ -68,6 +68,13 @@ body {
 .padded-right ,.guitar-dept-text-button , .guitar-dept-nav-text-button, .guitar-dept-footer-text-button {
   padding-right: 1rem;
 }
+
+.padded-below { /* not used */
+  padding-bottom: 1rem;
+}
+.padded-above {
+  padding-top: 1rem;
+}
 /*========================*/
 
 .guitar-dept-masthead {

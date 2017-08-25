@@ -1,8 +1,3 @@
 T: action item: DONE :   
-	 ☐ ok to change links page to single column per table: i.e., one pure link per row
-	 also .deprecated a couple Code School example artifacts. will remove later
-	  ☐ font size reduction in footer. (elastic)
-	 general cleanup of stubbed code, esp. in CSS file`
-	  ☐ entitle the main content so you know what page we are viewing: DONE == news, TBD == faculty
-
-
+	  ☐ entitle the main content so you know what page we are viewing: DONE == news, DONE == faculty
+		added padding above the image so there is leading below the horizonal border used on the content title label
