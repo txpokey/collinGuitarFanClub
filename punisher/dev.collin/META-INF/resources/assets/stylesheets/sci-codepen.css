@@ -291,8 +291,6 @@ body {
     /*height: 23.6vh;*/
     height: 20.0vh;
 }
-
-/*.guitar-dept-footer {*/
-    /*background-color: lightslategrey;*/
-/*}*/
-
+.guitar-dept-submasthead-title-overflow-hack {
+    font-size: 5vh; overflow: hidden
+}
