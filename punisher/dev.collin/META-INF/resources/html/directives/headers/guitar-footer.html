@@ -1,28 +1,32 @@
-<section class="footer">
+<section id="guitar-dept-footer-section" style="background-color: plum">
     <footer>
-        <div ng-controller="GuitarFooterController as footerController" class="display-flex-row display-flex-wrap content-section-constraints"
-             style="font-family: 'Philosopher', sans-serif;">
-            <div ng-repeat="footerModel in footerController.guitarProgramFooter">
-                <div class="Grid Grid-bordered Grid-cell">
-                    {{footerModel.label}}
+        <div class="guitar-dept-footer">
+            <div ng-controller="GuitarFooterController as footerController"
+                 class="display-flex-row display-flex-wrap content-section-constraints"
+                 style="font-family: 'Philosopher', sans-serif;">
+                <div ng-repeat="footerModel in footerController.guitarProgramFooter">
+                    <div class="Grid Grid-bordered Grid-cell">
+                        {{footerModel.label}}
+                    </div>
+                    <nav>
+                        <ul class="display-flex-wrap emasculated-ul ">
+                            <li ng-repeat="guitarProgramLink in footerModel.payload" class="guitar-dept-text-button ">
+                                <a href="{{guitarProgramLink.url}}">
+                                    <div class="guitar-dept-footer-text-button">
+                                        <i ng-hide="'{{guitarProgramLink.icon}}' == '#0'"
+                                           ng-class="guitarProgramLink.icon">
+                                            {{guitarProgramLink.label}}
+                                        </i>
+                                    </div>
+                                    <img ng-hide="'{{guitarProgramLink.logo}}' == '#0'"
+                                         alt="{{guitarProgramLink.label}}"
+                                         class="guitar-dept-footer-media-image" style="border: none; outline: none"
+                                         ng-src="{{guitarProgramLink.logo}}">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav >
-                    <ul class="display-flex-wrap emasculated-ul ">
-                        <li ng-repeat="guitarProgramLink in footerModel.payload" class="guitar-dept-text-button ">
-                            <a href="{{guitarProgramLink.url}}">
-                                <div class="guitar-dept-footer-text-button">
-                                    <i ng-hide="'{{guitarProgramLink.icon}}' == '#0'" ng-class="guitarProgramLink.icon">
-                                    {{guitarProgramLink.label}}
-                                    </i>
-                                </div>
-                                <img ng-hide="'{{guitarProgramLink.logo}}' == '#0'"
-                                     alt="{{guitarProgramLink.label}}"
-                                     class="guitar-dept-footer-media-image" style="border: none; outline: none"
-                                     ng-src="{{guitarProgramLink.logo}}">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
         </div>
     </footer>

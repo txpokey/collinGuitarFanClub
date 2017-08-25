@@ -14,7 +14,7 @@
                              ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">
                         <div class="guitar-dept-news-media-label padded-right">{{guitarInstructor.name}}</div>
                     </div>
-                    <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-body" ng-include="guitarInstructor.url">
+                    <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-included-html" ng-include="guitarInstructor.url">
                     </div>
                 </div>
             </div>
