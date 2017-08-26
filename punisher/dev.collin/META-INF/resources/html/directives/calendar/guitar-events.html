@@ -1,19 +1,18 @@
 <!--  guitarProgramEvents Container  -->
-<div ng-controller="GuitarEventsController as eventsController" class="" >
-    <section id="guitar-dept-events-section">
-        <div class="Grid-column-collection" >
-            <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header" >
-                {{eventsController.guitarProgramEvents[0].name}}
+<section id="guitar-dept-events-section">
+    <div ng-controller="GuitarEventsController as eventsController" class="" >
+            <div class="Grid-column-collection" >
+                <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header" >
+                    {{eventsController.guitarProgramEvents[0].name}}
+                </div>
+                <div ng-repeat="guitarProgramEvent in eventsController.guitarProgramEvents" class="Grid Grid-bordered Grid-row-collection">
+                    <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramEvent.date}}</div>
+                    <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramEvent.time}}</div>
+                    <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramEvent.where}}</div>
+                    <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramEvent.event}}</div>
+                </div>
             </div>
-            <div ng-repeat="guitarProgramEvent in eventsController.guitarProgramEvents" class="Grid Grid-bordered Grid-row-collection">
-                <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramEvent.date}}</div>
-                <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramEvent.time}}</div>
-                <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramEvent.where}}</div>
-                <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramEvent.event}}</div>
-            </div>
-        </div>
-</div>
+    </div>
 </section>
-</div>
 
 <!--display-flex-wrap standard-margin-->

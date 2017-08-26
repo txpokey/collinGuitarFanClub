@@ -1,7 +1,7 @@
 <!--  bio animator Container  -->
-<section class="guitar-dept-faculty-section">
+<section id="guitar-dept-faculty-section">
     <div ng-controller="TeacherBiographyController as bioController"
-         class="content-section-constraints">
+         class="">
         <div class="guitar-dept-news-media-content-title guitar-dept-news-media-label">
             {{bioController.guitarDepartmentFaculty.title}}
         </div>
@@ -10,11 +10,12 @@
                 <div id="setup-faculty-content-single-block" class="display-flex-wrap Grid-bordered-top">
                     <div class="Grid-row-collection" ng-show="tab.showTab($index)"
                          ng-class="{ active:tab.isSet($index) }">
-                        <img class="guitar-dept-news-media-image padded-above"
+                        <img class="guitar-dept-news-media-image guitar-dept-news-media-image-sizing-hack padded-above"
                              ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">
                         <div class="guitar-dept-news-media-label padded-right">{{guitarInstructor.name}}</div>
                     </div>
-                    <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-included-html" ng-include="guitarInstructor.url">
+                    <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-included-html"
+                         ng-include="guitarInstructor.url">
                     </div>
                 </div>
             </div>

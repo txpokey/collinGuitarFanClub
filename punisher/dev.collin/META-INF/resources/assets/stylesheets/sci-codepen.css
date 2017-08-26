@@ -99,11 +99,6 @@ body {
     background-color: white;
 }
 
-.content-section-width,
-.content-section-constraints {
-    /* DEPRECATED */
-    /*width: 80vw;*/
-}
 /* =============== major sections ==============*/
 
 .guitar-dept-header-section-sizing-constraint,
@@ -118,10 +113,7 @@ body {
 .guitar-dept-header-section-sizing-constraint,
 .guitar-dept-footer-section-sizing-constraint {
 }
-.guitar-dept-header-section-sizing-constraint {
-    /*DEBUG: STUBBED*/
-    /*height: 20%;*/
-}
+
 .guitar-dept-main-section-sizing-constraint {
     display: flex;
     min-height: 70vh;
@@ -144,8 +136,8 @@ body {
     /*background-color: yellowgreen;*/
     color: red;
 }
-
-    /*THESE HACKS ARE NOT SOLVING FOOTER: INWORK : repair or replace */
+/*==================================================================*/
+/*THESE HACKS ARE NOT SOLVING FOOTER: INWORK : repair or replace */
 .guitar-dept-content-sizing-constraint--CLOBBER {
     flex: 3 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     height: 68.253970vh;
@@ -154,13 +146,18 @@ body {
     color: black;
 }
 
+.content-section-width,
+.content-section-constraints--CLOBBER {
+    /* DEPRECATED */
+    /*width: 80vw;*/
+}
 /*.standard-margin,*/
-/*.content-section-constraints {*/
+/*.content-section-constraints--CLOBBER {*/
     /*!*margin-left: auto;*!*/
     /*!*margin-right: auto;*!*/
 /*}*/
 
-.guitar-dept-footer {
+.guitar-dept-footer--CLOBBER {
     /*max-height: 120px;*/
     max-height: 11.483253vh;
     /*display: flex;*/
@@ -171,11 +168,11 @@ body {
 }
 
 .guitar-dept-footer-bg-color,
-.guitar-dept-footer {
+.guitar-dept-footer--CLOBBER {
     /*DEPRECATED VALUES*/
     /*background-color: plum;*/
 }
-
+/*==================================================*/
 /*==================== Text Buttons =============*/
 
 .guitar-dept-text-button,
@@ -294,10 +291,13 @@ body {
     height: auto;
 }
 
-.guitar-dept-news-media-image-sizing-hack {
+.guitar-dept-news-media-image-sizing-hack--CLOBBER-DONT-USE {
     max-height: 55vh; /* because guitar studies logo is so long */
 }
-
+.guitar-dept-news-media-image-sizing-hack { /* DEBUG */
+    max-width: 245px; /* because guitar studies logo is so long */
+    max-height: 350px; /* because guitar studies logo is so long */
+}
 .guitar-dept-masthead-sizing-hack {
     /*height: 23vh;*/
     width: auto;

@@ -2,5 +2,5 @@ new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
 
 T: debug colors still on
 .................................
- favicon worked on Firefox. not picking it up on chrome...
+ fixed sticky footer on all pages.
 
