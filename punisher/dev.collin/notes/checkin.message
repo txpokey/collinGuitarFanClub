@@ -2,5 +2,5 @@ new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
 
 T: debug colors still on
 .................................
- attempt at flavicon. dont think its being recognized. but I did add the rel="shortcut icon" link into the index.html
+ favicon worked on Firefox. not picking it up on chrome...
 
