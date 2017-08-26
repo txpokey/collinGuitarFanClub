@@ -1,8 +1,8 @@
 <section id="guitar-dept-footer-section">
     <footer>
-        <div class="guitar-dept-footer">
+        <div class="debug-footer-section">
             <div ng-controller="GuitarFooterController as footerController"
-                 class="display-flex-row display-flex-wrap content-section-constraints">
+                 class="display-flex-row display-flex-wrap">
                 <div ng-repeat="footerModel in footerController.guitarProgramFooter">
                     <div class="Grid Grid-bordered Grid-cell">
                         {{footerModel.label}}
@@ -19,7 +19,7 @@
                                     </div>
                                     <img ng-hide="'{{guitarProgramLink.logo}}' == '#0'"
                                          alt="{{guitarProgramLink.label}}"
-                                         class="guitar-dept-footer-media-image" style="border: none; outline: none"
+                                         class="guitar-dept-footer-media-image"
                                          ng-src="{{guitarProgramLink.logo}}">
                                 </a>
                             </li>

@@ -93,6 +93,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin: 0 5vw 0 5vw;
     color: black;
     background-color: white;
 }
@@ -103,18 +104,43 @@ body {
 }
 /* =============== major sections ==============*/
 
+.guitar-dept-header-section-sizing-constraint,
+.guitar-dept-footer-section-sizing-constraint,
 .guitar-dept-main-section-sizing-constraint,
 .guitar-dept-body-sizing-constraint {
     width: 90vw;
+}
+.guitar-dept-body-sizing-constraint {
     height: 100vh;
-    margin: 0 5vw 0 5vw;
 }
 .guitar-dept-header-section-sizing-constraint,
 .guitar-dept-footer-section-sizing-constraint {
 }
+.guitar-dept-header-section-sizing-constraint {
+    /*DEBUG: STUBBED*/
+    /*height: 20%;*/
+}
+.guitar-dept-main-section-sizing-constraint {
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+}
+.debug-footer-section,
+.guitar-dept-footer-section-sizing-constraint {
+    background-color: plum;
+    /*color: black;*/
+}
+.guitar-dept-footer-section-sizing-constraint {
+    /*DEBUG: STUBBED*/
+    /*height: 10%;*/
+}
+.debug-main-section,
+.guitar-dept-main-section-sizing-constraint {
+    /*background-color: yellowgreen;*/
+    color: red;
+}
 
-/*THESE HACKS ARE NOT SOLVING FOOTER */
-
+    /*THESE HACKS ARE NOT SOLVING FOOTER: INWORK : repair or replace */
 .guitar-dept-content-sizing-constraint {
     flex: 3 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     height: 68.253970vh;
@@ -141,7 +167,8 @@ body {
 
 .guitar-dept-footer-bg-color,
 .guitar-dept-footer {
-    background-color: plum;
+    /*DEPRECATED VALUES*/
+    /*background-color: plum;*/
 }
 
 /*==================== Text Buttons =============*/
@@ -158,14 +185,14 @@ body {
 .guitar-dept-nav-button-text-color,
 .guitar-dept-nav-text-button {
     color: grey;
-    background-color: white;
+    /*background-color: white;*/ /* DEBUG */
 }
 
 .guitar-dept-button-text-color-blue,
 .guitar-dept-footer-button-text-color,
 .guitar-dept-footer-text-button {
     color: darkblue;
-    background-color: white;
+    /*background-color: white;*/ /* DEBUG */
 }
 
 .guitar-dept-footer-button-text-font-metrics,

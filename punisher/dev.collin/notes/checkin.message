@@ -1,5 +1,6 @@
 new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
 
-F: sticky footer == BROKEN
+T: sticky footer == FIXED on events and faculty
 .................................
-removed style attributes from the header code and created a class. e.g. to handle the overflow on the page title-banner
+followed [a couple] examples showing outside container is flex with a height, then tell the content to 'flex: 1'
+next steps: need to tweek the size of the main section...
