@@ -106,6 +106,7 @@ body {
 .guitar-dept-main-section-sizing-constraint,
 .guitar-dept-body-sizing-constraint {
     width: 90vw;
+    /*max-width: 1024px;*/ /* DOES NOT AFFECT CAROUSEL IMAGE */
 }
 .guitar-dept-body-sizing-constraint {
     height: 100vh;
@@ -121,8 +122,7 @@ body {
 }
 .debug-footer-section,
 .guitar-dept-footer-section-sizing-constraint {
-    background-color: plum;
-    /*color: black;*/
+    /*background-color: plum;*/
 }
 .guitar-dept-footer-section-sizing-constraint {
     /*DEBUG*/
@@ -133,8 +133,7 @@ body {
 }
 .debug-main-section,     /*DEBUG*/
 .guitar-dept-main-section-sizing-constraint {
-    /*background-color: yellowgreen;*/
-    color: red;
+    /*color: red;*/
 }
 /*==================================================================*/
 /*THESE HACKS ARE NOT SOLVING FOOTER: INWORK : repair or replace */
@@ -306,7 +305,7 @@ body {
 .guitar-dept-carousel-image-sizing-hack {
     width: 77.625918367vw;
     height: 12.548468596vh; /* because guitar students images are HUGELY HIGH */
-    /*max-width: 1000px; !*  just in case I am asked to limit this *!*/
+    max-width: 1000px; /*  just in case I am asked to limit this */
 }
 
 .guitar-dept-masthead-logo-sizing-hack {
