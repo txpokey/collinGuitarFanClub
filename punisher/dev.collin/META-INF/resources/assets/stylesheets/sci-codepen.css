@@ -101,6 +101,7 @@ body {
 
 .content-section-width,
 .content-section-constraints {
+    /* DEPRECATED */
     /*width: 80vw;*/
 }
 /* =============== major sections ==============*/
@@ -132,22 +133,20 @@ body {
     /*color: black;*/
 }
 .guitar-dept-footer-section-sizing-constraint {
-    /*DEBUG: STUBBED*/
+    /*DEBUG*/
     display: flex;
-    /*min-height: 7vh;*/
-    /*height: 5vh;*/
     flex-direction: column;
     flex-basis: 5%;
     margin: 0 0 0 0;
 }
-.debug-main-section,
+.debug-main-section,     /*DEBUG*/
 .guitar-dept-main-section-sizing-constraint {
     /*background-color: yellowgreen;*/
     color: red;
 }
 
     /*THESE HACKS ARE NOT SOLVING FOOTER: INWORK : repair or replace */
-.guitar-dept-content-sizing-constraint {
+.guitar-dept-content-sizing-constraint--CLOBBER {
     flex: 3 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     height: 68.253970vh;
     padding: 20px;
