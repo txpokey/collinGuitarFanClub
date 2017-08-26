@@ -29,6 +29,7 @@
 .Grid
 {
     list-style: none;
+    margin: 0 0 0 0;
     padding: 0rem 0rem 0rem 0rem;
 }
 /* ===== Grids ======= */
@@ -132,7 +133,12 @@ body {
 }
 .guitar-dept-footer-section-sizing-constraint {
     /*DEBUG: STUBBED*/
-    /*height: 10%;*/
+    display: flex;
+    /*min-height: 7vh;*/
+    /*height: 5vh;*/
+    flex-direction: column;
+    flex-basis: 5%;
+    margin: 0 0 0 0;
 }
 .debug-main-section,
 .guitar-dept-main-section-sizing-constraint {
