@@ -54,6 +54,12 @@
         "icon" : "#0",
         "logo" : "/images/sponsors/StringsbyMail/StringsbyMail-logo.jpg",
         "url": "http://www.stringsbymail.com/"
+      },
+      {
+        "label": "Category Software",
+        "icon" : "#0",
+        "logo" : "/images/sponsors/categorySoftware/categorySoftware.wTitle-logo.jpg",
+        "url": "#0"
       }
     ]
   }
