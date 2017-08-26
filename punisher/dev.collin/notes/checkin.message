@@ -1,10 +1,5 @@
 new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
 
-T: sticky footer == FIXED on news, events faculty
+T: debug colors still on
 .................................
-debug colors still on but... now fixed the news page with the same solution as events + faculty.
-next: fix the links page
-.................................
-fixed a problem where the ul in the footer was padding the sponsor icons and forcing a higher footer size
-followed [a couple] examples showing outside container is flex with a height, then tell the content to 'flex: 1'
-next steps: need to tweek the size of the main section...
+renamed the logo used in the masthead. preparing for integrating the change out to the logo Dr. Vera sent today
