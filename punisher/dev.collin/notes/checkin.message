@@ -1,46 +1,7 @@
-BRANCH == dev.collin/checkpoint/baseline-5/demo-1/170826-0
+BRANCH == dev.collin/work/180826-1
 
-T: DEMO-1 release
+T: DEMO-1-1 release
 .................................
 accomplishments:
 
- Fernand Action Items: 
-   ✔ review news items content for corrections, e.g. "Dr" Mitch @done (17-08-26 16:57)
-   ✔ get different guitar studies icon -- wheat on white background -- (into dropbox for Bob?) @done (17-08-25 20:39)
-   ✔ get registration PDF for competition to Bob @done (17-08-25 20:39)
-   ✔ get jury and final jury eval PDFs to Bob. (in the meantime, I will use what I have, which has Nathaniel's name) @done (17-08-25
-20:39)
-   ✔ ask Mitch if he has a preferred picture (other than what I picked). Ok to link to his Linked In? @done (17-08-25 20:39)
-
-
- Bob Punch List (not ranked):
- ✔ change "Department" to "Studies" on masthead @done (17-08-24 18:25)
- ✔ change brown background Collin Guitar icon to the white backgrouned icon. (Needed from FV!) @done (17-08-25 20:37)
- ✔ elastic left and right margins to fill space around @done (17-08-25 20:37)
- ✔ center justified central column for pages @done (17-08-25 20:37)
- ✔ ok to change links page to single column per table: i.e., one pure link per row @done (17-08-24 19:08)
- ✔ add faculty contact icon linked to FV email in footer @done (17-08-24 18:56)
- ✔ add webmaster "email" contact icon linked to RJM email @done (17-08-24 18:56)
- ✔ use FV bio, with title & responsibilities for bios @done (17-08-26 16:58)
- ✔ remove "FAQ" navigation button from header (for now) @done (17-08-24 18:33)
- ✔ remove GFA icon from footer @done (17-08-24 18:37)
- ✔ order of faculty by last name @done (17-08-24 18:41)
- ✔ entitle the main content so you know what page we are viewing: news & faculty @done (17-08-24 22:58)
- ☐ watermark using Guitar Studies icon
- ✔ bob's company logo in sponsors @done (17-08-26 16:58)
- ✔ change Mitch bio per content FV sent this morning (8/25) via dropbox @done (17-08-26 16:58)
- ✔ font size reduction in footer. (elastic) @done (17-08-24 19:19)
-  highly desired:
-   ✔ scale carousel images to right margin @done (17-08-25 03:08)
-   ✔ masonry layout for non-active media objects @done (17-08-25 03:08)
-   ✔ elastic and not fixed sizing for images generally, esp. media objects on news or faculty page @done (17-08-24 23:28)
-   ✔ elastic sizing on sticky footer so better use main content panel @done (17-08-25 20:37)
-   ✔ favicon added : clearly worked on Firefox @done (17-08-26 16:58)
-   ✔ see how converting GFA logo to SVG works on its scaling up fuzzy: FAILED @done (17-08-25 20:48)
-  pages outstanding:
-    ☐ class schedule : use "grid" ala "events" or "links" pages
-    ☐ textbooks : use media object style ala "news". just Vera method vol 1 & 2. sagreras guitar method.
-  RECORDINGS: 
-    ☐ start with mocked You Tube (query) data
-    ☐ prove You Tube query can pass through Collin firewalls
-    ☐ convert to live You Tube query
+add new faculty Vanessa boilerplate to faculty page, but with real photo from her facebook. contact == facebook
