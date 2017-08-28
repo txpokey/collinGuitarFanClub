@@ -2,12 +2,12 @@
 <section id="guitar-dept-faculty-section">
     <div ng-controller="TeacherBiographyController as bioController"
          class="">
-        <div class="guitar-dept-news-media-content-title guitar-dept-news-media-label">
+        <div class="guitar-dept-news-media-content-title guitar-dept-news-media-label Grid-bordered-bottom">
             {{bioController.guitarDepartmentFaculty.title}}
         </div>
-        <div id="setup-faculty-content-blocks" class="display-flex-wrap">
+        <div id="setup-faculty-content-blocks" class="display-flex-wrap guitar-dept-main-faculty-section-flex-justification-hack">
             <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty.payload | filter: { url: '!#0' }">
-                <div id="setup-faculty-content-single-block" class="display-flex-wrap Grid-bordered-top">
+                <div id="setup-faculty-content-single-block" class="display-flex-wrap">
                     <div class="Grid-row-collection" ng-show="tab.showTab($index)"
                          ng-class="{ active:tab.isSet($index) }">
                         <img class="guitar-dept-news-media-image guitar-dept-news-media-image-sizing-hack padded-above"

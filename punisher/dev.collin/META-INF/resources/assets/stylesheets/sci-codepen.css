@@ -129,6 +129,7 @@ body {
     min-height: 70vh;
     flex-direction: column;
 }
+.guitar-dept-main-faculty-section-flex-justification-hack,
 .guitar-dept-main-news-section-flex-justification-hack {
     justify-content: space-between;
 }
