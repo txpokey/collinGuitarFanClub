@@ -39,6 +39,7 @@
     flex-wrap: wrap;
 }
 
+.Grid-bordered-bottom,
 .Grid-bordered {
     border-bottom: 1px inset #dddddd;
 }
@@ -128,6 +129,10 @@ body {
     min-height: 70vh;
     flex-direction: column;
 }
+.guitar-dept-main-news-section-flex-justification-hack {
+    justify-content: space-between;
+}
+
 .guitar-dept-footer-section-sizing-constraint {
     /*DEBUG*/
     display: flex;
@@ -190,7 +195,6 @@ body {
     justify-content: space-between;
     padding-left: 7.5vw;
 }
-
 /*========================*/
 
 .guitar-dept-masthead {
