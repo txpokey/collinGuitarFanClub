@@ -93,11 +93,10 @@ body {
     font-family: Philosopher, sans-sarif;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* DEBUG */
+    justify-content: center; /* DEMO 1-2 */
     height: 100vh;
-    /*margin: 0 6.25vw 0 6.25vw; !* DEMO 1-1 *!*/
-    /*margin: 0 auto; !* DEBUG *!*/
-    margin:  0 25vw 0 25vw; /* DEBUG */
+    /*margin: 0 25vw 0 25vw; !* DEMO 1-2 *!*/
+    margin:  0 20vw 0 20vw; /* DEBUG */
 
     color: black;
     background-color: white;
@@ -111,7 +110,11 @@ body {
 .guitar-dept-body-sizing-constraint {
     /*width: 87.5vw; !* DEMO 1-1 *!*/
     width: 60vw; /* DEBUG */
-    /*max-width: 1024px;*/ /* DOES NOT AFFECT CAROUSEL IMAGE */
+}
+.guitar-dept-header-navbar-sizing-constraint-hack,
+.guitar-dept-header-navbar-sizing-constraint{
+    /*width: 100%; !* DEMO 1-2 *!*/
+    width: 52.5vw; /* DEBUG */
 }
 .guitar-dept-body-sizing-constraint {
     height: 100vh;
@@ -125,10 +128,6 @@ body {
     min-height: 70vh;
     flex-direction: column;
 }
-.debug-footer-section,
-.guitar-dept-footer-section-sizing-constraint {
-    /*background-color: plum;*/
-}
 .guitar-dept-footer-section-sizing-constraint {
     /*DEBUG*/
     display: flex;
@@ -136,47 +135,13 @@ body {
     flex-basis: 5%;
     margin: 0 0 0 0;
 }
-.debug-main-section,     /*DEBUG*/
-.guitar-dept-main-section-sizing-constraint {
-    /*color: red;*/
+.guitar-dept-footer-section-sizing-constraint--DEMO-1-2 {
+    /*DEMO 1-2*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: 5%;
+    margin: 0 0 0 0;
 }
-/*==================================================================*/
-/*THESE HACKS ARE NOT SOLVING FOOTER: INWORK : repair or replace */
-.guitar-dept-content-sizing-constraint--CLOBBER {
-    flex: 3 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-    height: 68.253970vh;
-    padding: 20px;
-    background-color: indianred;
-    color: black;
-}
-
-.content-section-width,
-.content-section-constraints--CLOBBER {
-    /* DEPRECATED */
-    /*width: 80vw;*/
-}
-/*.standard-margin,*/
-/*.content-section-constraints--CLOBBER {*/
-    /*!*margin-left: auto;*!*/
-    /*!*margin-right: auto;*!*/
-/*}*/
-
-.guitar-dept-footer--CLOBBER {
-    /*max-height: 120px;*/
-    max-height: 11.483253vh;
-    /*display: flex;*/
-    height: 0vh;
-    align-items: flex-end;
-    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-    padding: 20px;
-}
-
-.guitar-dept-footer-bg-color,
-.guitar-dept-footer--CLOBBER {
-    /*DEPRECATED VALUES*/
-    /*background-color: plum;*/
-}
-/*==================================================*/
 /*==================== Text Buttons =============*/
 
 .guitar-dept-text-button,
@@ -205,8 +170,7 @@ body {
 }
 .guitar-dept-nav-button-text-font-metrics,
 .guitar-dept-nav-text-button {
-    font-size: 1.666vh;  /* DEMO 1-1 : DEBUG */
-    /*style="font-size: 1.666vh" !* DEMO 1-1 *!*/
+    font-size: 1.666vh;  /* DEMO 1-2 : DEBUG */
 }
 .guitar-dept-force-uppercase-text,
 .guitar-dept-text-button,
@@ -224,7 +188,7 @@ body {
 .guitar-dept-text-button-flex-justification-hack {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    padding-left: 7.5vw;
 }
 
 /*========================*/
@@ -274,7 +238,7 @@ body {
 .guitar-dept-media-image {
     border: none;
     outline: none;
-    padding-right: 1rem; /* was margin-right? UGH! */
+    padding-right: 1rem;
 }
 
 .guitar-dept-media-image-sizing-metrics,
@@ -294,37 +258,31 @@ body {
     width: 25vw;
     height: auto;
 }
-
-.guitar-dept-news-media-image-sizing-hack--CLOBBER-DONT-USE {
-    max-height: 55vh; /* because guitar studies logo is so long */
-}
-.guitar-dept-news-media-image-sizing-hack { /* DEBUG */
+.guitar-dept-news-media-image-sizing-hack { /* DEMO 1-2 */
     max-width: 245px; /* because guitar competition logo is so long */
     max-height: 350px; /* because guitar competition logo is so long */
 }
-.guitar-dept-masthead-sizing-hack {
-    /*width: auto; !* DEMO 1-1 *!*/
+.guitar-dept-masthead-sizing-hack { /* DEMO 1-2 *!*/
 }
 
 .guitar-dept-submasthead-sizing-hack,
 .guitar-dept-masthead-logo-sizing-hack,
 .guitar-dept-masthead-sizing-hack {
-    height: 20.0vh; /* DEMO 1-1 */
+    height: 20.0vh; /* DEMO 1-2 */
 }
 
 .guitar-dept-carousel-image-sizing-hack {
-    /*width: 77.625918367vw;  !* DEMO-1-1 *!*/
-    /*height: 12.548468596vh; !* DEMO 1-1 : because guitar students images are HUGELY HIGH *!*/
-    width: 100%; /* DEBUG */
-    height: 12.5vh; /* DEBUG */
+    width: 100%; /* DEMO 1-2 */
+    height: 12.5vh; /* DEMO 1-2 | JPG */
+    /*width: 52.5vw; !* DEBUG *!*/
+    /*height: 12.5%; !* DEBUG*!*/
 }
 
 .guitar-dept-masthead-logo-sizing-hack {
-    /*width: 140px;height: 191px; !* originally styled *!*/
-    /*width: 12.37755102vw; !* DEMO 1-1 *!*/
-    /*max-width: 140px;  !* DEMO 1-1 : just in case I am asked to limit this *!*/
-    width: 7.5vw; /* DEBUG */
+    width: 7.5vw; /* DEMO 1-2 */
 }
 .guitar-dept-submasthead-title-overflow-hack {
-    font-size: 5vh; overflow: hidden /* DEMO 1-1 */
+    /*font-size: 5vh; overflow: hidden !* DEMO 1-2 *!*/
+    /*padding-bottom: .5rem;*/
+    font-size: 3.9vh; overflow: hidden /* DEBUG */
 }

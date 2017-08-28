@@ -1,7 +1,10 @@
-BRANCH == dev.collin/work/180826-1
+BRANCH == dev.collin/work/180827-2
 
-T: DEMO 1-2
+T: post DEMO 1-2
 .................................
 accomplishments:
 
-release DEMO 1-2
+converted jpg on carousel round trip through EPS to fit in guitar submasthead. 
+adjusted navbar width to fit correctly with new jpgs
+began to spalll off a sci-faculty page, as I want to get rid of the table there. but no real work yet. 
+EPS images with a 'N' in its version mean the aspect ratio was not preserved
