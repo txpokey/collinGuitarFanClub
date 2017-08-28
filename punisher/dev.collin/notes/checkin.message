@@ -1,8 +1,7 @@
 BRANCH == dev.collin/work/180826-1
 
-T: DEMO-1-1 release
+T: 
 .................................
 accomplishments:
 
-changed margins, and updated the news page. 
-added the dates to the news page's phot captions
+add sci-guitarFaculty.html and sci-flex-margins.css | preparing to refactor my flex compositions but first to release DEMO 1-2
