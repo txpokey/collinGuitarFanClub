@@ -13,6 +13,7 @@
                         <img class="guitar-dept-news-media-image guitar-dept-news-media-image-sizing-hack padded-above"
                              ng-click="tab.setTab($index)" ng-src="{{guitarNewsModel.image}}">
                         <div class="guitar-dept-news-media-label padded-right">{{guitarNewsModel.name}}</div>
+                        <div class="guitar-dept-news-media-label padded-right">{{guitarNewsModel.date}}</div>
                     </div>
                     <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-included-html"
                          ng-include="guitarNewsModel.url">
