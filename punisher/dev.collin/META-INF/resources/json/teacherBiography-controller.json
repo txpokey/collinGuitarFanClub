@@ -2,14 +2,14 @@
   "title": "Guitar Studies Faculty",
   "payload": [
     {
-      "name": "Nathaniel Earhart",
-      "url": "/html/bio/nathaniel/NE-bio.html",
-      "image": "/html/bio/nathaniel/NE-image.jpg"
-    },
-    {
       "name": "Vanessa Corder",
       "url": "/html/bio/vanessa/VC-bio.html",
       "image": "/html/bio/vanessa/VC-image.jpg"
+    },
+    {
+      "name": "Nathaniel Earhart",
+      "url": "/html/bio/nathaniel/NE-bio.html",
+      "image": "/html/bio/nathaniel/NE-image.jpg"
     },
     {
       "name": "Dr. Olga Amelkina-Vera",

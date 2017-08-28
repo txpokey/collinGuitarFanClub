@@ -93,8 +93,12 @@ body {
     font-family: Philosopher, sans-sarif;
     display: flex;
     flex-direction: column;
+    justify-content: center; /* DEBUG */
     height: 100vh;
-    margin: 0 5vw 0 5vw;
+    /*margin: 0 6.25vw 0 6.25vw; !* DEMO 1-1 *!*/
+    /*margin: 0 auto; !* DEBUG *!*/
+    margin:  0 25vw 0 25vw; /* DEBUG */
+
     color: black;
     background-color: white;
 }
@@ -105,7 +109,8 @@ body {
 .guitar-dept-footer-section-sizing-constraint,
 .guitar-dept-main-section-sizing-constraint,
 .guitar-dept-body-sizing-constraint {
-    width: 90vw;
+    /*width: 87.5vw; !* DEMO 1-1 *!*/
+    width: 60vw; /* DEBUG */
     /*max-width: 1024px;*/ /* DOES NOT AFFECT CAROUSEL IMAGE */
 }
 .guitar-dept-body-sizing-constraint {
@@ -186,14 +191,12 @@ body {
 .guitar-dept-nav-button-text-color,
 .guitar-dept-nav-text-button {
     color: grey;
-    /*background-color: white;*/ /* DEBUG */
 }
 
 .guitar-dept-button-text-color-blue,
 .guitar-dept-footer-button-text-color,
 .guitar-dept-footer-text-button {
     color: darkblue;
-    /*background-color: white;*/ /* DEBUG */
 }
 
 .guitar-dept-footer-button-text-font-metrics,
@@ -202,7 +205,8 @@ body {
 }
 .guitar-dept-nav-button-text-font-metrics,
 .guitar-dept-nav-text-button {
-    font-size: 100%;  /* DEBUG: NOT USED? */
+    font-size: 1.666vh;  /* DEMO 1-1 : DEBUG */
+    /*style="font-size: 1.666vh" !* DEMO 1-1 *!*/
 }
 .guitar-dept-force-uppercase-text,
 .guitar-dept-text-button,
@@ -211,12 +215,17 @@ body {
     text-transform: uppercase;
 }
 
+.guitar-dept-text-button-padding,
 .guitar-dept-text-button,
 .guitar-dept-nav-text-button,
 .guitar-dept-footer-text-button {
     padding-right: 1rem;
 }
-
+.guitar-dept-text-button-flex-justification-hack {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 /*========================*/
 
@@ -282,10 +291,6 @@ body {
 
 .guitar-dept-news-media-image-sizing-metrics,
 .guitar-dept-news-media-image {
-    /*width: 80px;*/
-    /*height: 80px;*/
-    /*width: 320px;*/
-    /*height: auto;*/
     width: 25vw;
     height: auto;
 }
@@ -294,34 +299,32 @@ body {
     max-height: 55vh; /* because guitar studies logo is so long */
 }
 .guitar-dept-news-media-image-sizing-hack { /* DEBUG */
-    max-width: 245px; /* because guitar studies logo is so long */
-    max-height: 350px; /* because guitar studies logo is so long */
+    max-width: 245px; /* because guitar competition logo is so long */
+    max-height: 350px; /* because guitar competition logo is so long */
 }
 .guitar-dept-masthead-sizing-hack {
-    /*height: 23vh;*/
-    width: auto;
-}
-
-.guitar-dept-carousel-image-sizing-hack {
-    width: 77.625918367vw;
-    height: 12.548468596vh; /* because guitar students images are HUGELY HIGH */
-    max-width: 1000px; /*  just in case I am asked to limit this */
-}
-
-.guitar-dept-masthead-logo-sizing-hack {
-    /*width: 140px;height: 191px; !* originally styled *!*/
-    width: 12.37755102vw;
-    /*height: 20.0vh;*/
-    /*max-width: 140px;  !* just in case I am asked to limit this *!*/
+    /*width: auto; !* DEMO 1-1 *!*/
 }
 
 .guitar-dept-submasthead-sizing-hack,
 .guitar-dept-masthead-logo-sizing-hack,
 .guitar-dept-masthead-sizing-hack {
-    /*width: 10vw;*/
-    /*height: 23.6vh;*/
-    height: 20.0vh;
+    height: 20.0vh; /* DEMO 1-1 */
+}
+
+.guitar-dept-carousel-image-sizing-hack {
+    /*width: 77.625918367vw;  !* DEMO-1-1 *!*/
+    /*height: 12.548468596vh; !* DEMO 1-1 : because guitar students images are HUGELY HIGH *!*/
+    width: 100%; /* DEBUG */
+    height: 12.5vh; /* DEBUG */
+}
+
+.guitar-dept-masthead-logo-sizing-hack {
+    /*width: 140px;height: 191px; !* originally styled *!*/
+    /*width: 12.37755102vw; !* DEMO 1-1 *!*/
+    /*max-width: 140px;  !* DEMO 1-1 : just in case I am asked to limit this *!*/
+    width: 7.5vw; /* DEBUG */
 }
 .guitar-dept-submasthead-title-overflow-hack {
-    font-size: 5vh; overflow: hidden
+    font-size: 5vh; overflow: hidden /* DEMO 1-1 */
 }
