@@ -53,6 +53,12 @@
             templateUrl: "../html/directives/calendar/guitar-events.html"
         };
     });
+    app.directive("guitarCoursesBySchoolTerm", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/directives/calendar/guitarCourses-bySchoolTerm.html"
+        };
+    });
     app.directive("guitarLinks", function() {
         return {
             restrict: 'E',

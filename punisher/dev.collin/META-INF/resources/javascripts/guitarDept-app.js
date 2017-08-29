@@ -38,6 +38,16 @@
             console.log(badResult)
         });
     }]);
+    app.controller('GuitarCoursesBySchoolTermController', [ '$http' , function($http){
+        var catalogController = this;
+        catalogController.guitarProgramCatalog = [];
+        $http.get('../json/courseWare/2017/fall/current/guitarCoursesBySchoolTerm.json').then(function (response) {
+            catalogController.guitarProgramCatalog = response.data;
+        }, function (badResult) {
+            console.log(badResult)
+        });
+    }]);
+
     app.controller('GuitarLinksController', [ '$http' , function($http){
         var linksController = this;
         linksController.guitarProgramLinks = [];

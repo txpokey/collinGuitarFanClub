@@ -1,0 +1,268 @@
+[
+  {
+    "schoolTerm": "Fall 2017 Credit",
+    "courseType": "Music (MUSI)",
+    "coursePayload": [
+      {
+        "courseNumber": "1116",
+        "courseName": "Sight Singing & Ear Training I"
+      },
+      {
+        "courseNumber": "1181",
+        "courseName": "Piano Class I"
+      },
+      {
+        "courseNumber": "1183",
+        "courseName": "Voice Class"
+      },
+      {
+        "courseNumber": "1192",
+        "courseName": "Guitar Class"
+      },
+      {
+        "courseNumber": "1303",
+        "courseName": "Fundamentals of Music"
+      },
+      {
+        "courseNumber": "1306",
+        "courseName": "Music Appreciation"
+      },
+      {
+        "courseNumber": "1307",
+        "courseName": "Music Literature"
+      },
+      {
+        "courseNumber": "1310",
+        "courseName": "American Music"
+      },
+      {
+        "courseNumber": "1311",
+        "courseName": "Music Theory I"
+      },
+      {
+        "courseNumber": "2116",
+        "courseName": "Sight Sing & Ear Training III"
+      },
+      {
+        "courseNumber": "2181",
+        "courseName": "Piano Class III"
+      },
+      {
+        "courseNumber": "2311",
+        "courseName": "Music Theory III"
+      }
+    ]
+  },
+  {
+    "schoolTerm": "Fall 2017 Credit",
+    "courseType": "Music Ensemble (MUEN)",
+    "coursePayload": [
+      {
+        "courseNumber": "1121",
+        "courseName": "Jazz Lab Band"
+      },
+      {
+        "courseNumber": "1122",
+        "courseName": "Symphonic Wind Ensemble"
+      },
+      {
+        "courseNumber": "1131",
+        "courseName": "New Music Ensemble"
+      },
+      {
+        "courseNumber": "1132",
+        "courseName": "Keyboard Ensemble"
+      },
+      {
+        "courseNumber": "1135",
+        "courseName": "Expressions Combo"
+      },
+      {
+        "courseNumber": "1136",
+        "courseName": "Harp Ensemble"
+      },
+      {
+        "courseNumber": "1137",
+        "courseName": "Guitar Ensemble"
+      },
+      {
+        "courseNumber": "1139",
+        "courseName": "String Ensemble"
+      },
+      {
+        "courseNumber": "1140",
+        "courseName": "Jazz Combo"
+      },
+      {
+        "courseNumber": "1142",
+        "courseName": "Expressions Vocal Jazz Ensbl"
+      },
+      {
+        "courseNumber": "1151",
+        "courseName": "A Capella Pop Group"
+      },
+      {
+        "courseNumber": "1152",
+        "courseName": "Opera Theatre Ens"
+      },
+      {
+        "courseNumber": "1153",
+        "courseName": "Chamber Choir"
+      }
+    ]
+  },
+  {
+    "schoolTerm": "Fall 2017 Credit",
+    "courseType": "Music, Applied (MUAP)",
+    "coursePayload": [
+      {
+        "courseNumber": "1101",
+        "courseName": "Applied Music Violin"
+      },
+      {
+        "courseNumber": "1105",
+        "courseName": "Applied Music Viola"
+      },
+      {
+        "courseNumber": "1115",
+        "courseName": "Applied Music Electric Bass"
+      },
+      {
+        "courseNumber": "1117",
+        "courseName": "Applied Music Flute"
+      },
+      {
+        "courseNumber": "1129",
+        "courseName": "Applied Music Clarinet"
+      },
+      {
+        "courseNumber": "1145",
+        "courseName": "Applied Music Trombone"
+      },
+      {
+        "courseNumber": "1149",
+        "courseName": "Applied Music Baritone"
+      },
+      {
+        "courseNumber": "1153",
+        "courseName": "Applied Music Tuba"
+      },
+      {
+        "courseNumber": "1158",
+        "courseName": "Applied Music Drum Set"
+      },
+      {
+        "courseNumber": "1161",
+        "courseName": "Applied Music Guitar"
+      },
+      {
+        "courseNumber": "1162",
+        "courseName": "Applied Music Jazz Guitar"
+      },
+      {
+        "courseNumber": "1169",
+        "courseName": "Applied Music Piano"
+      },
+      {
+        "courseNumber": "1177",
+        "courseName": "Applied Music Harp"
+      },
+      {
+        "courseNumber": "1181",
+        "courseName": "Applied Music Voice"
+      },
+      {
+        "courseNumber": "1187",
+        "courseName": "Applied Music Composition"
+      },
+      {
+        "courseNumber": "1188",
+        "courseName": "App Music Electroacoustic Comp"
+      },
+      {
+        "courseNumber": "2201",
+        "courseName": "Concentration App Music-Violin"
+      },
+      {
+        "courseNumber": "2205",
+        "courseName": "Concentration App Music-Viola"
+      },
+      {
+        "courseNumber": "2209",
+        "courseName": "Concentration App Music-Cello"
+      },
+      {
+        "courseNumber": "2213",
+        "courseName": "Concentrat App Mus-Double Bass"
+      },
+      {
+        "courseNumber": "2215",
+        "courseName": "Concentr App Mus-Electric Bass"
+      },
+      {
+        "courseNumber": "2217",
+        "courseName": "Concentration App Music-Flute"
+      },
+      {
+        "courseNumber": "2229",
+        "courseName": "Concentrat App Music-Clarinet"
+      },
+      {
+        "courseNumber": "2233",
+        "courseName": "Concentration App Mus-Saxophon"
+      },
+      {
+        "courseNumber": "2237",
+        "courseName": "Concentrat App Music-Trumpet"
+      },
+      {
+        "courseNumber": "2241",
+        "courseName": "Concentrat App Mus-French Horn"
+      },
+      {
+        "courseNumber": "2245",
+        "courseName": "Concentrat App Music-Trombone"
+      },
+      {
+        "courseNumber": "2249",
+        "courseName": "Concentrat App Music-Baritone"
+      },
+      {
+        "courseNumber": "2257",
+        "courseName": "Concentrat App Mus-Percussion"
+      },
+      {
+        "courseNumber": "2258",
+        "courseName": "Concentrat App Music-Drum Set"
+      },
+      {
+        "courseNumber": "2261",
+        "courseName": "Concentration App Music-Guitar"
+      },
+      {
+        "courseNumber": "2262",
+        "courseName": "Concentrat App Mus-Jazz Guitar"
+      },
+      {
+        "courseNumber": "2269",
+        "courseName": "Concentration App Music-Piano"
+      },
+      {
+        "courseNumber": "2277",
+        "courseName": "Concentration App Music-Harp"
+      },
+      {
+        "courseNumber": "2281",
+        "courseName": "Concentration App Music-Voice"
+      },
+      {
+        "courseNumber": "2287",
+        "courseName": "Concentrat App Mus-Composition"
+      },
+      {
+        "courseNumber": "2288",
+        "courseName": "Conc App Mus-Electroacoust Com"
+      }
+    ]
+  }
+]
