@@ -1,11 +1,9 @@
-BRANCH == dev.collin/work/180828-0
+BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
 
 T: post DEMO 1-3 release
 .................................
 accomplishments:
 
-added new set of carousel images, labeled *--1-4.$(eps|jpg)+ *--1-4N.$(eps|jpg)+
-clearly the behavior in bootstrap's carousel is different when compare chrome & firefox.
-BUT just rendering the images directly with the browsers, they look the same, apples to apples on whether I preservered the aspect
-ratio or not. I standardized on 1000 x 200, and all the 1-4N suffixed images are just that because I turned off the aspect ration
-preservation bit. 
+begin work to fix carousel so that it works within a flexbox on both linux macos. I have mockups on Code Pen showing the desired
+behavior. I do not know yet if flexbox screws up bootstrap, or I was screwing up bootstrap by something amiss I was doing. 
+So I switched to a REPAIRS-UNDERWAY branch to begin the work. I may have to write my own carousel in the process.
