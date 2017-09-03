@@ -89,12 +89,12 @@
                 this.setTab = function(candidateTab) {
                     this.privateSetTab( this.isSet( candidateTab ) ? this.tabReset() : candidateTab );
                 };
-                this.isOpen = function () {
-                    return this.activeTab === NO_TAB_ACTIVE ;
-                };
-                this.isClosed = function () {
-                    return ! isOpen();
-                };
+                // this.isOpen = function () {
+                //     return this.activeTab === NO_TAB_ACTIVE ;
+                // };
+                // this.isClosed = function () {
+                //     return ! isOpen();
+                // };
             },
             controllerAs: "tab"
         };
