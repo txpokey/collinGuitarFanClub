@@ -6,4 +6,4 @@ F: broken footer : no margins or justification
 .................................
 accomplishments:
 
-index landing page has been converted to use flexbox + tab toggles for news content
+cleanup: index landing page has been converted to use flexbox + tab toggles for news content
