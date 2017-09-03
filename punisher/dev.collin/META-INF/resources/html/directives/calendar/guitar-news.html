@@ -5,8 +5,8 @@
         {{newsController.guitarProgramNews.title}}
     </div>
     <div id="setup-news-content-blocks" class="guitar-dept-media-objects">
-        <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews.payload  | filter: { url: '!#0' }">
-            <div id="setup-news-content-single-block" class="guitar-dept-media-object" >
+        <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews.payload  | filter: { url: '!#0' }" style="display: flex; flex-direction: row">
+            <div id="setup-news-content-single-block" style="display: flex; flex-direction: column">
                 <div ng-show="tab.showTab($index)"
                      ng-class="{ active:tab.isSet($index) }">
                     <img class="guitar-dept-media-news-image padded-above"
@@ -14,9 +14,9 @@
                     <div class="guitar-dept-news-media-label padded-right">{{guitarNewsModel.name}}</div>
                     <div class="guitar-dept-news-media-label padded-right">{{guitarNewsModel.date}}</div>
                 </div>
-                <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-included-html"
-                     ng-include="guitarNewsModel.url">
-                </div>
+            </div>
+            <div ng-show="tab.isSet($index)" style="display: flex; flex-direction: row"
+                 ng-include="guitarNewsModel.url">
             </div>
         </div>
     </div>

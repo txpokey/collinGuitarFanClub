@@ -1,7 +1,8 @@
 BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
 
 T: main-news section : closed state is space between
-F: main-news section : needs includes 
+T: main-news section : needs includes 
+T: main-news section : needs rest of the news items converted as with Mitch news
 F: broken footer : no margins or justification
 .................................
 accomplishments:
