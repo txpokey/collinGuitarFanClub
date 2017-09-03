@@ -1,9 +1,12 @@
 BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
 
+accomplishments:
+
+cleanup: index landing page : replaced style attributes with flex-row and flex-column classes
+
+.................................
+
 T: main-news section : closed state is space between
 T: main-news section : rest of the news items converted as with Mitch news
 F: broken footer : no margins or justification
 .................................
-accomplishments:
-
-cleanup: index landing page has been converted to use flexbox + tab toggles for news content

@@ -1,12 +1,14 @@
 body {
     font-family: Philosopher, sans-sarif;
 }
-/*============== development verbs ===========*/
+
+/* ************************ development verbs ******************* */
 
 /*====== Padding =====*/
 .padded-above {
     padding-top: .5rem;
 }
+
 .padded-below { /* DEBUG: not used? */
     padding-bottom: 1rem;
 }
@@ -14,16 +16,32 @@ body {
 .padded-left {
     padding-left: 1rem;
 }
-.padded-right{
+
+.padded-right {
     padding-right: 1rem;
 }
 
 /*============= GUITAR DEPT GENERAL =========*/
 
+.guitar-dept-display-flex,
+.guitar-dept-display-flex-row,
+.guitar-dept-display-flex-column,
 .guitar-dept-display-flex-wrap {
     display: flex;
+}
+
+.guitar-dept-display-flex-wrap {
     flex-wrap: wrap;
 }
+
+.guitar-dept-display-flex-row {
+    flex-direction: row;
+}
+
+.guitar-dept-display-flex-column {
+    flex-direction: column;
+}
+
 /*============= MASTHEAD ===============*/
 .guitar-dept-masthead {
     display: flex;
@@ -31,19 +49,23 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
 }
-.guitar-dept-masthead img{
+
+.guitar-dept-masthead img {
     /*  style="width: 140px;height: 210px;" */
     height: 20vh;
 }
+
 .guitar-dept-submasthead {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
 .guitar-dept-masthead-org-banner {
     font-size: 4vh;
 }
-.guitar-dept-submasthead img{
+
+.guitar-dept-submasthead img {
     /*   <!-- rotating images are 464px × 95px --> */
     height: 12.5vh;
 }
@@ -54,6 +76,7 @@ body {
     flex-wrap: wrap;
     /*justify-content: flex-start;*/
 }
+
 header, header-navbar {
     display: flex;
     flex-direction: column;
@@ -65,19 +88,23 @@ header, header-navbar {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .navigation-buttons li {
     list-style: none;
 
 }
+
 .guitar-dept-nav-button {
     font-size: 1vw;
     text-transform: uppercase;
 }
+
 .guitar-dept-nav-button a {
     text-decoration: none;
     color: grey;
     padding: 0 0 0 0;
 }
+
 /* ====== media objects ====== */
 
 .guitar-dept-media-objects {
@@ -87,24 +114,30 @@ header, header-navbar {
     justify-content: space-between;
 
 }
+
 .guitar-dept-media-object {
     display: flex;
     flex-direction: column;
 }
+
 .guitar-dept-news-media-label {
 }
-.guitar-dept-news-media-included-html{
+
+.guitar-dept-news-media-included-html {
     display: flex;
     flex-direction: row;
 }
+
 .guitar-dept-media-object-included {
     display: flex;
     flex-direction: row;
 }
+
 .guitar-dept-media-bio-highlights,
-.guitar-dept-media-news-highlights{
+.guitar-dept-media-news-highlights {
     flex-basis: 15%;
 }
+
 .guitar-dept-media-image,
 .guitar-dept-media-bio-image,
 .guitar-dept-media-news-image,
@@ -114,34 +147,38 @@ header, header-navbar {
 }
 
 .guitar-dept-media-bio-include-basis,
-.guitar-dept-media-news-include-basis{
+.guitar-dept-media-news-include-basis {
     flex-basis: 40%;
 }
+
 .guitar-dept-main-faculty-section-flex-justification,
 .guitar-dept-main-news-section-flex-justification,
-guitar-dept-main-media-section-flex-justification
-{
+guitar-dept-main-media-section-flex-justification {
     justify-content: space-between;
 }
+
 /* ============ */
 .Grid-column-collection {
     flex-direction: column;
 }
+
 .Grid-row-collection {
     flex-direction: row; /* DEFAULT */
 }
+
 .emasculated-ul,
 .emasculated,
-.Grid
-{
+.Grid {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .Grid {
     display: flex;
     flex-wrap: wrap;
 }
+
 .Grid-bordered-bottom,
 .Grid-bordered {
     border-bottom: 1px inset #dddddd;
@@ -149,18 +186,23 @@ guitar-dept-main-media-section-flex-justification
 
 .Grid-column-item {
 }
+
 .flexbox-forGrid {
     display: flex;
 }
+
 .margin-forGrid, .margin-forMain {
     margin: 0 15vw 0 15vw;
 }
+
 .Grid-column-header {
     justify-content: center;
     background-color: wheat;
 }
+
 .Grid-row-item {
 }
+
 .Grid-cell {
     flex: 1;
 }
