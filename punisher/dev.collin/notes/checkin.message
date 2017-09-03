@@ -1,12 +1,9 @@
 BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
 
-F: broken main-news section
+T: main-news section : closed state is space between
+F: main-news section : needs includes 
+F: broken footer : no margins or justification
 .................................
 accomplishments:
 
-codepen flexbox + carousel changes. 
-have nav bar tucked under carousel but to the right of the department logo. 
-turned on space between and emasculated any padding or margins within the navbar
-but news main section all running into one column.
-
-nb. created copy: ../../assets/stylesheets/sci-codepen--DEMO-1-3.css
+per above
