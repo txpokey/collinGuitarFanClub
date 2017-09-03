@@ -15,7 +15,8 @@
         header.carouselSlideDeck = [0,1,2];
         header.targets = [];
         $http.get('../json/header-controller.json').then(function(response){
-            header.targets = response.data;
+            header.targets = response.data.targets;
+            header.title = response.data.title;
         },function (badResult){
             console.log(badResult)
         }) ;

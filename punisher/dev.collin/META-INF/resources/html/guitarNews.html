@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="guitarDept">
 <head>
+    <title ng-controller="HeaderController as header">{{header.title}}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -14,12 +15,19 @@
     <script type="text/javascript" src="../javascripts/guitarDept-app.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <link rel="stylesheet" href="../assets/stylesheets/sci-codepen.css" >
+    <link rel="shortcut icon" href="/images/header/guitarStudies.light-logo.svg" sizes="any" type="image/svg+xml">
 </head>
 <body>
-    <div class="guitar-dept-body-sizing-constraint">
+<div id="guitar-dept-body-flex-container">
+    <header>
         <header-guitar></header-guitar>
-        <guitar-news class="guitar-dept-main-section-sizing-constraint"></guitar-news>
-        <guitar-footer class="guitar-dept-footer-section-sizing-constraint"></guitar-footer>
-    </div>
+    </header>
+    <main class="margin-forMain">
+        <guitar-news></guitar-news>
+    </main>
+    <footer>
+        <guitar-footer></guitar-footer>
+    </footer>
+</div>
 </body>
 </html>

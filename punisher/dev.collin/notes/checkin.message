@@ -2,7 +2,10 @@ BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
 
 accomplishments:
 
-cleanup: index landing page : replaced style attributes with flex-row and flex-column classes
+index landing page : 
+0. have redirect set up from index to news. works great.
+1. added header.title to json and populated header + added title to index + news page. 
+
 
 .................................
 

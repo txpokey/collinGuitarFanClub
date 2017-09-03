@@ -1,30 +1,33 @@
-[
-  {
-    "label": "News",
-    "url": "/html/guitarNews.html"
-  },
-  {
-    "label": "Class Schedule",
-    "url": "/html/guitarCoursesBySchoolTerm.html"
-  },
-  {
-    "label": "TEXTBOOKS",
-    "url": "/html/underConstruction.html"
-  },
-  {
-    "label": "Events",
-    "url": "/html/guitarEvents.html"
-  },
-  {
-    "label": "RECORDINGS",
-    "url": "/html/underConstruction.html"
-  },
-  {
-    "label": "LINKS",
-    "url": "/html/guitarLinks.html"
-  },
-  {
-    "label": "faculty",
-    "url": "/html/guitarFaculty.html"
-  }
-]
+{
+  "title": "Collin College Guitar Studies",
+  "targets": [
+    {
+      "label": "News",
+      "url": "/html/guitarNews.html"
+    },
+    {
+      "label": "Class Schedule",
+      "url": "/html/guitarCoursesBySchoolTerm.html"
+    },
+    {
+      "label": "TEXTBOOKS",
+      "url": "/html/underConstruction.html"
+    },
+    {
+      "label": "Events",
+      "url": "/html/guitarEvents.html"
+    },
+    {
+      "label": "RECORDINGS",
+      "url": "/html/underConstruction.html"
+    },
+    {
+      "label": "LINKS",
+      "url": "/html/guitarLinks.html"
+    },
+    {
+      "label": "faculty",
+      "url": "/html/guitarFaculty.html"
+    }
+  ]
+}
