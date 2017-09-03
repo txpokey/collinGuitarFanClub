@@ -1,24 +1,49 @@
 <!--  bio animator Container  -->
-<section id="guitar-dept-faculty-section">
-    <div ng-controller="TeacherBiographyController as bioController"
-         class="">
-        <div class="guitar-dept-news-media-content-title guitar-dept-news-media-label Grid-bordered-bottom">
-            {{bioController.guitarDepartmentFaculty.title}}
-        </div>
-        <div id="setup-faculty-content-blocks" class="display-flex-wrap guitar-dept-main-faculty-section-flex-justification-hack">
-            <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty.payload | filter: { url: '!#0' }">
-                <div id="setup-faculty-content-single-block" class="display-flex-wrap">
-                    <div class="Grid-row-collection" ng-show="tab.showTab($index)"
-                         ng-class="{ active:tab.isSet($index) }">
-                        <img class="guitar-dept-news-media-image guitar-dept-news-media-image-sizing-hack padded-above"
-                             ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">
-                        <div class="guitar-dept-news-media-label padded-right">{{guitarInstructor.name}}</div>
-                    </div>
-                    <div ng-show="tab.isSet($index)" class="guitar-dept-news-media-included-html"
-                         ng-include="guitarInstructor.url">
-                    </div>
+<section id="guitar-dept-faculty-section" ng-controller="TeacherBiographyController as bioController">
+
+    <div class="guitar-dept-news-media-content-title guitar-dept-faculty-media-label Grid-bordered-bottom">
+        {{bioController.guitarDepartmentFaculty.title}}
+    </div>
+    <div id="setup-faculty-content-blocks" class="guitar-dept-media-objects">
+        <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty.payload  | filter: { url: '!#0' }" class="guitar-dept-display-flex-row">
+            <div id="setup-faculty-content-single-block" class="guitar-dept-display-flex-column">
+                <div ng-show="tab.showTab($index)"
+                     ng-class="{ active:tab.isSet($index) }">
+                    <img class="guitar-dept-media-faculty-image padded-above"
+                         ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">
+                    <div class="guitar-dept-faculty-media-label padded-right">{{guitarInstructor.name}}</div>
+                    <!--<div class="guitar-dept-news-media-label padded-right">{{guitarNewsModel.date}}</div>-->
                 </div>
+            </div>
+            <div ng-show="tab.isSet($index)" class="guitar-dept-display-flex-row"
+                 ng-include="guitarInstructor.url">
             </div>
         </div>
     </div>
 </section>
+
+
+<!--=========================== CLOBBER ================================-->
+<!--<section id="guitar-dept-faculty-section">-->
+    <!--<div ng-controller="TeacherBiographyController as bioController"-->
+         <!--class="">-->
+        <!--<div class="guitar-dept-news-media-content-title guitar-dept-news-media-label Grid-bordered-bottom">-->
+            <!--{{bioController.guitarDepartmentFaculty.title}}-->
+        <!--</div>-->
+        <!--<div id="setup-faculty-content-blocks" class="display-flex-wrap guitar-dept-main-faculty-section-flex-justification-hack">-->
+            <!--<div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty.payload | filter: { url: '!#0' }">-->
+                <!--<div id="setup-faculty-content-single-block" class="display-flex-wrap">-->
+                    <!--<div class="Grid-row-collection" ng-show="tab.showTab($index)"-->
+                         <!--ng-class="{ active:tab.isSet($index) }">-->
+                        <!--<img class="guitar-dept-news-media-image guitar-dept-news-media-image-sizing-hack padded-above"-->
+                             <!--ng-click="tab.setTab($index)" ng-src="{{guitarInstructor.image}}">-->
+                        <!--<div class="guitar-dept-news-media-label padded-right">{{guitarInstructor.name}}</div>-->
+                    <!--</div>-->
+                    <!--<div ng-show="tab.isSet($index)" class="guitar-dept-news-media-included-html"-->
+                         <!--ng-include="guitarInstructor.url">-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->

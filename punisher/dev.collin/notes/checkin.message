@@ -2,14 +2,11 @@ BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
 
 accomplishments:
 
-index landing page : 
-0. have redirect set up from index to news. works great.
-1. added header.title to json and populated header + added title to index + news page. 
-
+migrated faculty page to flexbox conversion to match what was done with the news page.
 
 .................................
 
-T: main-news section : closed state is space between
-T: main-news section : rest of the news items converted as with Mitch news
+T: main-faculty section : closed state is space between
+T: main-faculty section : rest of the bio items converted as with Vannessa
 F: broken footer : no margins or justification
 .................................
