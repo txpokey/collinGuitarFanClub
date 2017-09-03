@@ -1,14 +1,10 @@
 <!--navbar button collection for guitar department header-->
-<div class="display-flex-wrap ">
-    <!--<nav>-->
-        <ul class="display-flex-row display-flex-wrap emasculated-ul guitar-dept-header-navbar-sizing-constraint guitar-dept-text-button-flex-justification-hack">
-            <li ng-repeat="target in header.targets">
+    <nav >
+        <ul class="navigation-buttons emasculated">
+            <li class="guitar-dept-nav-button" ng-repeat="target in header.targets">
                 <a href="{{target.url}}">
-                    <div class="guitar-dept-nav-text-button ">
-                        {{target.label}}
-                    </div>
+                    {{target.label}}
                 </a>
             </li>
         </ul>
-    <!--</nav>-->
-</div>
+    </nav>

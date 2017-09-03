@@ -17,10 +17,25 @@
     <link rel="shortcut icon" href="/images/header/guitarStudies.light-logo.svg" sizes="any" type="image/svg+xml">
 </head>
 <body>
-    <div class="guitar-dept-body-sizing-constraint">
-        <header-guitar></header-guitar>
-        <guitar-news class="guitar-dept-main-section-sizing-constraint"></guitar-news>
-        <guitar-footer class="guitar-dept-footer-section-sizing-constraint"></guitar-footer>
+    <div class="guitar-dept-body-flex-container--CLOBBER">
+        <header>
+            <header-guitar></header-guitar>
+        </header>
+        <main class="margin-forMain">
+            <guitar-news></guitar-news>
+        </main>
+        <footer>
+            <guitar-footer></guitar-footer>
+        </footer>
     </div>
 </body>
 </html>
+
+<!--=================== CLOBBER ===========================-->
+<!--<body>-->
+<!--<div class="guitar-dept-body-sizing-constraint">-->
+    <!--<header-guitar></header-guitar>-->
+    <!--<guitar-news class="guitar-dept-main-section-sizing-constraint"></guitar-news>-->
+    <!--<guitar-footer class="guitar-dept-footer-section-sizing-constraint"></guitar-footer>-->
+<!--</div>-->
+<!--</body>-->

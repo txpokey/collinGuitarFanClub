@@ -1,27 +1,40 @@
 <!--  Guitar Department Header -->
-<section class="masthead">
-    <header ng-controller="HeaderController as header" class="display-flex-column">
-        <div class="display-flex-row">
-            <div class="">
-                <img class="guitar-dept-masthead-logo-sizing-hack"
-                     src="/images/header/guitarStudies.light-logo.svg"
-                     alt="Collin College Guitar Studies">
-                </img>
-            </div>
-            <div class="display-flex-column guitar-dept-submasthead-sizing-hack" >
-                <div class="guitar-dept-submasthead-title-overflow-hack">Collin College Guitar Studies</div>
-                <header-carousel></header-carousel>
-            </div>
+<section id="masthead-controller-context" ng-controller="HeaderController as header">
+
+    <div id="masthead" class="guitar-dept-masthead">
+        <img src="/images/header/guitarStudies.light-logo.svg"
+             alt="Collin College Guitar Studies">
+        </img>
+        <div class="guitar-dept-submasthead">
+            <div class="guitar-dept-masthead-org-banner">Collin College Guitar Studies</div>
+            <header-carousel></header-carousel>
+            <header-navbar></header-navbar>
         </div>
-        <header-navbar></header-navbar>
-    </header>
+    </div>
 </section>
+
 <!--src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1423180/guitar_program.png"-->
 
 <!--========================-->
 <!--<img style="width: 140px;height: 191px;"-->
 
-<!--===============================================-->
-<!--src="/images/header/guitarStudies.dark-logo.png"-->
+<!--========================= CLOBBER ======================-->
 
+<!--&lt;!&ndash;  Guitar Department Header &ndash;&gt;-->
+<!--<section id="masthead">-->
+<!--<header ng-controller="HeaderController as header" class="display-flex-column">-->
+<!--<div class="display-flex-row">-->
+<!--<div class="">-->
+<!--<img class="guitar-dept-masthead-logo-sizing-hack"-->
 <!--src="/images/header/guitarStudies.light-logo.svg"-->
+<!--alt="Collin College Guitar Studies">-->
+<!--</img>-->
+<!--</div>-->
+<!--<div class="display-flex-column guitar-dept-submasthead-sizing-hack" >-->
+<!--<div class="guitar-dept-submasthead-title-overflow-hack">Collin College Guitar Studies</div>-->
+<!--<header-carousel></header-carousel>-->
+<!--</div>-->
+<!--</div>-->
+<!--<header-navbar></header-navbar>-->
+<!--</header>-->
+<!--</section>-->

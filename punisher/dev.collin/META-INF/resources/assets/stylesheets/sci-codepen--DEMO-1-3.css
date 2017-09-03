@@ -1,0 +1,293 @@
+/*================ General Verbs ===========*/
+.display-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.display-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-flex-nowrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emasculated-ul,
+.emasculated,
+.Grid
+{
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0rem 0rem 0rem 0rem;
+}
+/* ===== Grids ======= */
+
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Grid-bordered-bottom,
+.Grid-bordered {
+    border-bottom: 1px inset #dddddd;
+}
+
+.Grid-bordered-top {
+    border-top: 1px inset #dddddd;
+}
+
+.Grid-cell {
+    flex: 1;
+}
+
+.Grid-column-collection {
+    flex-direction: column;
+}
+.Grid-row-collection {
+    flex-direction: row;
+}
+.Grid-column-item ,
+.Grid-row-item {
+}
+
+/*====== Padding =====*/
+.padded-above {
+    padding-top: .5rem;
+}
+.padded-below { /* DEBUG: not used? */
+    padding-bottom: 1rem;
+}
+
+.padded-left {
+    padding-left: 1rem;
+}
+.padded-right{
+    padding-right: 1rem;
+}
+
+/*========= Under Construction ===== */
+
+.guitar-dept-media-image-underconstruction {
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+/* =============== page level ==============*/
+
+html {
+    height: 100%;
+}
+body {
+    font-family: Philosopher, sans-sarif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* DEMO 1-2 */
+    height: 100vh;
+    /*margin: 0 25vw 0 25vw; !* DEMO 1-2 *!*/
+    margin:  0 20vw 0 20vw; /* DEBUG */
+
+    color: black;
+    background-color: white;
+}
+
+/* =============== major sections ==============*/
+
+.guitar-dept-header-section-sizing-constraint,
+.guitar-dept-footer-section-sizing-constraint,
+.guitar-dept-main-section-sizing-constraint,
+.guitar-dept-body-sizing-constraint {
+    /*width: 87.5vw; !* DEMO 1-1 *!*/
+    width: 60vw; /* DEBUG */
+}
+.guitar-dept-header-navbar-sizing-constraint-hack,
+.guitar-dept-header-navbar-sizing-constraint{
+    /*width: 100%; !* DEMO 1-2 *!*/
+    width: 52.5vw; /* DEBUG */
+}
+.guitar-dept-body-sizing-constraint {
+    height: 100vh;
+}
+.guitar-dept-header-section-sizing-constraint,
+.guitar-dept-footer-section-sizing-constraint {
+}
+
+.guitar-dept-main-section-sizing-constraint {
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+}
+.guitar-dept-main-faculty-section-flex-justification-hack,
+.guitar-dept-main-news-section-flex-justification-hack {
+    justify-content: space-between;
+}
+
+.guitar-dept-footer-section-sizing-constraint {
+    /*DEBUG*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: 5%;
+    margin: 0 0 0 0;
+}
+.guitar-dept-footer-section-sizing-constraint--DEMO-1-2 {
+    /*DEMO 1-2*/
+    display: flex;
+    flex-direction: column;
+    flex-basis: 5%;
+    margin: 0 0 0 0;
+}
+/*==================== Text Buttons =============*/
+
+.guitar-dept-text-button,
+.guitar-dept-nav-text-button,
+.guitar-dept-footer-text-button {
+}
+.guitar-dept-footer-button-text-color ,
+.guitar-dept-nav-button-text-color {
+}
+
+.guitar-dept-button-text-color-grey,
+.guitar-dept-nav-button-text-color,
+.guitar-dept-nav-text-button {
+    color: grey;
+}
+
+.guitar-dept-button-text-color-blue,
+.guitar-dept-footer-button-text-color,
+.guitar-dept-footer-text-button {
+    color: darkblue;
+}
+
+.guitar-dept-footer-button-text-font-metrics,
+.guitar-dept-footer-text-button {
+    font-size: 50%;
+}
+.guitar-dept-nav-button-text-font-metrics,
+.guitar-dept-nav-text-button {
+    font-size: 1.666vh;  /* DEMO 1-2 : DEBUG */
+}
+.guitar-dept-force-uppercase-text,
+.guitar-dept-text-button,
+.guitar-dept-nav-text-button,
+.guitar-dept-footer-text-button {
+    text-transform: uppercase;
+}
+
+.guitar-dept-text-button-padding,
+.guitar-dept-text-button,
+.guitar-dept-nav-text-button,
+.guitar-dept-footer-text-button {
+    padding-right: 1rem;
+}
+.guitar-dept-text-button-flex-justification-hack {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7.5vw;
+}
+/*========================*/
+
+.guitar-dept-masthead {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.guitar-dept-submasthead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.guitar-dept-masthead h1 {
+}
+
+.guitar-dept-column-header {
+}
+
+.guitar-dept-column-color {
+}
+.guitar-dept-news-media-included-html {
+/* was: .guitar-dept-news-media-body */
+}
+.guitar-dept-news-media-label {
+}
+
+.guitar-dept-news-media-content-title {
+}
+
+.guitar-dept-column-centerjustified,
+.guitar-dept-column-header {
+    justify-content: center;
+}
+
+.guitar-dept-column-color-wheat,
+.guitar-dept-column-color,
+.guitar-dept-column-header {
+    background-color: wheat;
+}
+
+.guitar-dept-footer-media-image,
+.guitar-dept-news-media-image,
+.guitar-dept-media-image {
+    border: none;
+    outline: none;
+    padding-right: 1rem;
+}
+
+.guitar-dept-media-image-sizing-metrics,
+.guitar-dept-media-image {
+    width: 320px;
+    height: 421px;
+}
+
+.guitar-dept-footer-media-image-sizing-metrics,
+.guitar-dept-footer-media-image {
+    width: 80px;
+    height: auto;
+}
+
+.guitar-dept-news-media-image-sizing-metrics,
+.guitar-dept-news-media-image {
+    width: 25vw;
+    height: auto;
+}
+.guitar-dept-news-media-image-sizing-hack { /* DEMO 1-2 */
+    max-width: 245px; /* because guitar competition logo is so long */
+    max-height: 350px; /* because guitar competition logo is so long */
+}
+.guitar-dept-masthead-sizing-hack { /* DEMO 1-2 *!*/
+}
+
+.guitar-dept-submasthead-sizing-hack,
+.guitar-dept-masthead-logo-sizing-hack,
+.guitar-dept-masthead-sizing-hack {
+    height: 20.0vh; /* DEMO 1-2 */
+}
+
+.guitar-dept-carousel-image-sizing-hack {
+    width: 100%; /* DEMO 1-2 */
+    height: 12.5vh; /* DEMO 1-2 | JPG */
+    /*width: 52.5vw; !* DEBUG *!*/
+    /*height: 12.5%; !* DEBUG*!*/
+}
+
+.guitar-dept-masthead-logo-sizing-hack {
+    width: 7.5vw; /* DEMO 1-2 */
+}
+.guitar-dept-submasthead-title-overflow-hack {
+    /*font-size: 5vh; overflow: hidden !* DEMO 1-2 *!*/
+    /*padding-bottom: .5rem;*/
+    font-size: 3.9vh; overflow: hidden /* DEBUG */
+}

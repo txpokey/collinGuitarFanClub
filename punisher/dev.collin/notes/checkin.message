@@ -1,9 +1,12 @@
 BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
 
-T: post DEMO 1-3 release
+F: broken main-news section
 .................................
 accomplishments:
 
-begin work to fix carousel so that it works within a flexbox on both linux macos. I have mockups on Code Pen showing the desired
-behavior. I do not know yet if flexbox screws up bootstrap, or I was screwing up bootstrap by something amiss I was doing. 
-So I switched to a REPAIRS-UNDERWAY branch to begin the work. I may have to write my own carousel in the process.
+codepen flexbox + carousel changes. 
+have nav bar tucked under carousel but to the right of the department logo. 
+turned on space between and emasculated any padding or margins within the navbar
+but news main section all running into one column.
+
+nb. created copy: ../../assets/stylesheets/sci-codepen--DEMO-1-3.css
