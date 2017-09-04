@@ -102,7 +102,19 @@
     app.directive("guitarFooter", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/directives/headers/guitar-footer.html"
+            templateUrl: "../html/directives/headers/guitar-footer.html",
+            controller: function() {
+                var EMPTY_URL = '#0' ;
+
+                this.hasIcon = function(candidateLink) {
+                    return  EMPTY_URL !== candidateLink.icon ;
+                };
+                this.hasLogo = function(candidateLink) {
+                    return  EMPTY_URL !== candidateLink.logo ;
+                };
+
+            },
+            controllerAs: "foothelper"
         };
     });
     //

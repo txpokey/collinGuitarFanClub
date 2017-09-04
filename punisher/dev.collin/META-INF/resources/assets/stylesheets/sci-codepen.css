@@ -175,7 +175,24 @@ guitar-dept-main-media-section-flex-justification {
 .Grid-column-item ,
 .Grid-row-item {
 }
+.guitar-dept-force-uppercase-text,
+.guitar-dept-text-button,
+.guitar-dept-nav-text-button,
+.guitar-dept-footer-text-button {
+    text-transform: uppercase;
+}
 
+.guitar-dept-text-button-padding,
+.guitar-dept-text-button,
+.guitar-dept-nav-text-button,
+.guitar-dept-footer-text-button {
+    padding-right: 1rem;
+}
+
+.display-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* ============ */
 
 .Grid-column-collection {
