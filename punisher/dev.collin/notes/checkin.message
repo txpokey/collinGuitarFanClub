@@ -2,14 +2,13 @@ BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
 
 accomplishments:
 
-applied flexbox lessons learned, plus some data driven ng-class to revamp the footer. 
-now the footer decides to make an icon column, and logo row. using space-between justification between the two sub-sections
-still need to re-impose sticky footer. 
+re-impose sticky footer. 
+ready to test on MacOS
 
 .................................
 
 T: main-faculty section : closed state is space between
 T: main-faculty section : rest of the bio items converted as with Vannessa
 T: footer : margins and justification.
-F: broken footer : not sticky footer
+T: broken footer : sticky footer
 .................................

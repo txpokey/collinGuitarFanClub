@@ -1,7 +1,7 @@
 [
   {
     "label": "Guitar Studies Social Media Contacts",
-    "runtime" : [ "guitar-dept-display-flex-column", "display-flex-nowrap"],
+    "runtime" : [ "guitar-dept-display-flex-column", "guitar-dept-display-flex-nowrap"],
     "payload": [
       {
         "label": "Department Head",
@@ -37,7 +37,7 @@
   },
   {
     "label": "Sponsors",
-    "runtime" : [ "guitar-dept-display-flex-row", "display-flex-wrap"],
+    "runtime" : [ "guitar-dept-display-flex-row", "guitar-dept-display-flex-wrap"],
     "payload": [
       {
         "label": "Los Angeles Guitar Academy",
