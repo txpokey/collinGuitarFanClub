@@ -1,6 +1,6 @@
 <!--  guitar courses offered by school term Container  -->
 <section id="guitar-program-courses-by-school-term-section">
-    <div ng-controller="GuitarCoursesBySchoolTermController as catalogController" class="">
+    <div ng-controller="GuitarCoursesBySchoolTermController as catalogController">
             <div class="Grid-column-collection" >
                 <div class="Grid-column-collection" ng-repeat="model in catalogController.guitarProgramCatalog">
                     <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header">
@@ -20,21 +20,3 @@
 
 <!--=======================================================-->
 <!--<a href="{{guitarProgramLink.url}}">{{guitarProgramLink.courseNumber}}</a>-->
-
-<!--=======================================================-->
-<!--<section id="guitar-program-courses-by-school-term-section">-->
-    <!--<div ng-controller="CoursesBySchoolTermController as linksController" class="">-->
-        <!--<div class="Grid-column-collection" >-->
-            <!--<div class="Grid-column-collection" ng-repeat="model in linksController.guitarProgramLinks">-->
-                <!--<div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header">-->
-                    <!--{{model.label}}-->
-                <!--</div>-->
-                <!--<div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">-->
-                    <!--<div class="Grid Grid-bordered Grid-row-item Grid-cell">-->
-                        <!--<a href="{{guitarProgramLink.url}}">{{guitarProgramLink.label}}</a>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</section>-->
