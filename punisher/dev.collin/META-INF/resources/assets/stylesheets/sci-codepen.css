@@ -93,6 +93,7 @@ main {
 
 .guitar-dept-masthead-org-banner {
     font-size: 4vh;
+    overflow: hidden /* DEBUG */
 }
 
 .guitar-dept-submasthead img {
@@ -151,7 +152,7 @@ header, header-navbar {
 .guitar-dept-news-media-label {
 }
 
-.guitar-dept-news-media-included-html {
+.guitar-dept-news-media-included-html { /* DEBUG : NOT USED? */
     display: flex;
     flex-direction: row;
 }
@@ -164,11 +165,24 @@ header, header-navbar {
 .guitar-dept-media-bio-highlights,
 .guitar-dept-media-news-highlights {
     flex-basis: 15%;
-    min-width: 7.5vw;
+    /*min-width: 10vw;*/
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
+.guitar-dept-media-bio-highlights p ,
+.guitar-dept-media-news-highlights p {
+    /*font-size: 1vh;*/
+    font-size: small;
+}
+.guitar-dept-media-bio-highlights strong ,
+.guitar-dept-media-news-highlights strong {
+    color: #09478f;
+    /*font-size: 2.5vh;*/
+    font-size: x-large;
+}
+.guitar-dept-media-include p {
+    font-size: medium;
+}
 .guitar-dept-media-image,
 .guitar-dept-media-bio-image,
 .guitar-dept-media-faculty-image,
