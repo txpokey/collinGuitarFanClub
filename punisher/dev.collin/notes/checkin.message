@@ -1,14 +1,9 @@
-BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
+BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 
 accomplishments:
 
-re-impose sticky footer. 
-ready to test on MacOS
+T: demo 2-0 candidate
 
 .................................
 
-T: main-faculty section : closed state is space between
-T: main-faculty section : rest of the bio items converted as with Vannessa
-T: footer : margins and justification.
-T: broken footer : sticky footer
 .................................
