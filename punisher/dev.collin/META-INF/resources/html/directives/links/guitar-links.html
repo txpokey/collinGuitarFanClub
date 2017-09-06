@@ -1,17 +1,20 @@
 <!--  guitarProgramLinks Container  -->
 <section id="guitar-program-links-section">
     <div ng-controller="GuitarLinksController as linksController">
-            <div class="Grid-column-collection" >
-                <div class="Grid-column-collection" ng-repeat="model in linksController.guitarProgramLinks">
-                    <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header">
-                        {{model.label}}
-                    </div>
-                    <div ng-repeat="guitarProgramLink in model.payload" class="Grid Grid-bordered Grid-row-collection">
-                        <div class="Grid Grid-bordered Grid-row-item Grid-cell">
-                            <a href="{{guitarProgramLink.url}}">{{guitarProgramLink.label}}</a>
+        <div class="guitar-dept-display-flex-column">
+            <div class="Grid-column-collection" ng-repeat="model in linksController.guitarProgramLinks">
+                <div class="Grid Grid-bordered Grid-cell guitar-dept-column-header">
+                    {{model.label}}
+                </div>
+                <div ng-repeat="guitarProgramLink in model.payload"
+                     class="Grid Grid-bordered guitar-dept-display-flex-row">
+                    <a href="{{guitarProgramLink.url}}">
+                        <div class="Grid Grid-bordered Grid-cell">
+                            {{guitarProgramLink.label}}
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
+        </div>
     </div>
 </section>

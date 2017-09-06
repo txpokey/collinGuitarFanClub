@@ -131,11 +131,11 @@ header, header-navbar { /*including header-navbar is wacky naming as the navbar 
 .Grid-cell {
     flex: 1;
 }
-.Grid-column-collection {
+.Grid-column-collection--CLOBBER {
     flex-direction: column;
 }
 
-.Grid-row-collection {
+.Grid-row-collection--CLOBBER {
     flex-direction: row; /* DEFAULT */
 }
 

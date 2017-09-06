@@ -3,7 +3,9 @@
     border-bottom: 1px inset #dddddd;
 }
 
-.Grid-column-item { /*CLOBBER : NOT USED*/
+.Grid-column-item--CLOBBER,
+.Grid-row-item--CLOBBER
+{ /*CLOBBER : NOT USED*/
 }
 
 .Grid-column-header {

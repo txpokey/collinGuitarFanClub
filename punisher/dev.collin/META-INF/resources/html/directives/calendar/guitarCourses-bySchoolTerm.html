@@ -1,15 +1,15 @@
 <!--  guitar courses offered by school term Container  -->
 <section id="guitar-program-courses-by-school-term-section">
     <div ng-controller="GuitarCoursesBySchoolTermController as catalogController">
-            <div class="Grid-column-collection" >
-                <div class="Grid-column-collection" ng-repeat="model in catalogController.guitarProgramCatalog">
-                    <div class="Grid Grid-bordered Grid-column-item Grid-cell guitar-dept-column-header">
+            <div class="guitar-dept-display-flex-column" >
+                <div class="guitar-dept-display-flex-column" ng-repeat="model in catalogController.guitarProgramCatalog">
+                    <div class="Grid Grid-bordered Grid-cell guitar-dept-column-header">
                         {{model.schoolTerm}}&nbsp;:&nbsp;{{model.courseType}}
                     </div>
-                    <div ng-repeat="guitarProgramCourse in model.coursePayload" class="Grid Grid-bordered Grid-row-collection">
-                        <div class="Grid Grid-bordered Grid-row-item Grid-cell">
-                            <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramCourse.courseNumber}}</div>
-                            <div class="Grid Grid-bordered Grid-row-item Grid-cell">{{guitarProgramCourse.courseName}}</div>
+                    <div ng-repeat="guitarProgramCourse in model.coursePayload" class="Grid Grid-bordered guitar-dept-display-flex-row">
+                        <div class="Grid Grid-bordered Grid-cell">
+                            <div class="Grid Grid-bordered Grid-cell">{{guitarProgramCourse.courseNumber}}</div>
+                            <div class="Grid Grid-bordered Grid-cell">{{guitarProgramCourse.courseName}}</div>
                         </div>
                     </div>
                 </div>
