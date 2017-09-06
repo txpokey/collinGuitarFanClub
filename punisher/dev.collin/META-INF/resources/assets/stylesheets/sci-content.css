@@ -12,6 +12,19 @@
 }
 
 
+/*DEMO 1-3 */
+
+.guitar-dept-column-centerjustified,
+.guitar-dept-column-header { /*Bad naming as this is only being used on grid pages*/
+    justify-content: center;
+}
+
+.guitar-dept-column-color-wheat,
+.guitar-dept-column-color,
+.guitar-dept-column-header { /*Bad naming as this is only being used on grid pages*/
+    background-color: wheat;
+}
+
 
 .guitar-dept-media-include p {
     font-size: medium;
