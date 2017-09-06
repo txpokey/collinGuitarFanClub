@@ -6,7 +6,6 @@ T: demo 2-0 candidate
 
 .................................
 
-cleaned out unused images from carousel directory
-changed carousel to use *R.jpg images
-changed bios and news to eliminate style attribute from included html
+fixed scaling problem with navbar text and tweeked carousel imagery sizing. 
+begin refactor my css files. way too hard to see what is in play. 
 .................................

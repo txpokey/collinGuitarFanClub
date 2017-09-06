@@ -1,9 +1,9 @@
 <!--navbar button collection for guitar department header-->
 <nav>
     <ul class="navigation-buttons emasculated">
-        <li class="guitar-dept-nav-button" ng-repeat="target in header.targets">
+        <li ng-repeat="target in header.targets">
             <a href="{{target.url}}">
-                {{target.label}}
+                <div class="guitar-dept-nav-button">{{target.label}}</div>
             </a>
         </li>
     </ul>

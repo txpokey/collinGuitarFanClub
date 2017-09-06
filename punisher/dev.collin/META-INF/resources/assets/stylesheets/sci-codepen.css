@@ -98,7 +98,11 @@ main {
 
 .guitar-dept-submasthead img {
     /*   <!-- rotating images are 464px × 95px --> */
-    height: 12.5vh;
+    max-height: 12.5vh;
+    /*min-height: 72px; !* works but undesired bc of aspect ratio *!*/
+    min-height: 6.25vh;
+    min-width: 35vw;  /* causes nav bar to not wrap, image distortion at smaller screen width */
+    /*width: 35vw; !* need aspect-breakpoint for shrink *!*/
 }
 
 .navigation-buttons {
@@ -118,19 +122,22 @@ header, header-navbar {
     justify-content: space-between;
 }
 
-.navigation-buttons li {
-    list-style: none;
-
+.navigation-buttons ul { /* DEBUG */
+    flex-wrap: wrap;
 }
-
+.navigation-buttons li { /* CLOBBER */
+    /*list-style: none;*/
+}
 .guitar-dept-nav-button {
-    font-size: 1vw;
+    font-size: 2vh;
     text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 3px 0 3px;
 }
 
 .guitar-dept-nav-button a {
     text-decoration: none;
-    color: grey;
+    /*color: grey;*/
     padding: 0 3px 0 3px;
 }
 
