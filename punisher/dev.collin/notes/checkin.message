@@ -3,9 +3,12 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 accomplishments:
 
 T: demo 2-0 candidate
+T: refactoring .css into (content|flexbox|verbs)+.css | guitarNews only
 
 .................................
 
 fixed scaling problem with navbar text and tweeked carousel imagery sizing. 
 begin refactor my css files. way too hard to see what is in play. 
+successful refactor css files on news page. 
+moved all images into assets/images
 .................................
