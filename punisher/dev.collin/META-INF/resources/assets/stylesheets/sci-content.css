@@ -61,6 +61,15 @@
     /*width: 35vw; !* need aspect-breakpoint for shrink *!*/
 }
 
+.guitar-dept-media-image,
+.guitar-dept-media-bio-image,
+.guitar-dept-media-faculty-image,
+.guitar-dept-media-news-image,
+.guitar-dept-news-media-image-sizing-hack { /* DEMO 1-2 */
+    max-width: 245px; /* because guitar competition logo is so long */
+    max-height: 350px; /* because guitar competition logo is so long */
+}
+
 .guitar-dept-media-bio-highlights,
 .guitar-dept-media-news-highlights {
     flex-basis: 15%;
