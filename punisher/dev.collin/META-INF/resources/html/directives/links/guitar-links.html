@@ -3,13 +3,13 @@
     <div ng-controller="GuitarLinksController as linksController">
         <div class="guitar-dept-display-flex-column">
             <div class="Grid-column-collection" ng-repeat="model in linksController.guitarProgramLinks">
-                <div class="Grid Grid-bordered Grid-cell guitar-dept-column-header">
+                <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
                     {{model.label}}
                 </div>
                 <div ng-repeat="guitarProgramLink in model.payload"
-                     class="Grid Grid-bordered guitar-dept-display-flex-row">
+                     class="guitar-dept-display-flex-wrap Grid-bordered guitar-dept-display-flex-row">
                     <a href="{{guitarProgramLink.url}}">
-                        <div class="Grid Grid-bordered Grid-cell">
+                        <div class="guitar-dept-display-flex-wrap  Grid-cell">
                             {{guitarProgramLink.label}}
                         </div>
                     </a>

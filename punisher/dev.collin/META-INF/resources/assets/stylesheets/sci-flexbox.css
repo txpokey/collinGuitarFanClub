@@ -88,39 +88,36 @@ header, header-navbar { /*including header-navbar is wacky naming as the navbar 
 }
 /* ====== media objects ====== */
 
-.guitar-dept-media-objects {
+.guitar-dept-media-objects--CLOBBER { /*CLOBBER : REFACTOR*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
-.guitar-dept-media-object { /* DEBUG : NOT USED? */
+.guitar-dept-media-object--CLOBBER { /* DEBUG : NOT USED? */
     display: flex;
     flex-direction: column;
 }
 
-.guitar-dept-news-media-included-html { /* CLOBBER : NOT USED */
+.guitar-dept-news-media-included-html--CLOBBER { /* CLOBBER : NOT USED */
     display: flex;
     flex-direction: row;
 }
-
-/*.guitar-dept-media-object-included { !* CLOBBER : NOT USED *!*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-/*}*/
 
 .guitar-dept-media-bio-include-basis,
 .guitar-dept-media-news-include-basis {
     flex-basis: 40%;
 }
-.guitar-dept-main-faculty-section-flex-justification,
-.guitar-dept-main-news-section-flex-justification,
-.guitar-dept-main-media-section-flex-justification {  /* DEBUG : NOT USED? */
+.guitar-dept-flex-space-between,
+.guitar-dept-main-faculty-section-flex-justification--CLOBBER,
+.guitar-dept-main-news-section-flex-justification--CLOBBER,
+.guitar-dept-main-media-section-flex-justification--CLOBBER {  /* DEBUG : NOT USED? */
     justify-content: space-between;
 }
-
+.guitar-dept-flex-space-around {
+    justify-content: space-around;
+}
 
 
 .Grid {

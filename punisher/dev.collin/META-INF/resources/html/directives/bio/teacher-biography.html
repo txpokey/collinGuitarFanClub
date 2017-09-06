@@ -1,10 +1,10 @@
 <!--  bio animator Container  -->
 <section id="guitar-dept-faculty-section" ng-controller="TeacherBiographyController as bioController">
 
-    <div class="guitar-dept-news-media-content-title guitar-dept-faculty-media-label Grid-bordered-bottom">
+    <div class="guitar-dept-news-media-content-title Grid-bordered-bottom">
         {{bioController.guitarDepartmentFaculty.title}}
     </div>
-    <div id="setup-faculty-content-blocks" class="guitar-dept-media-objects">
+    <div id="setup-faculty-content-blocks" class="guitar-dept-display-flex-row guitar-dept-display-flex-wrap guitar-dept-flex-space-around">
         <div ng-repeat="guitarInstructor in bioController.guitarDepartmentFaculty.payload  | filter: { url: '!#0' }" class="guitar-dept-display-flex-row">
             <div id="setup-faculty-content-single-block" class="guitar-dept-display-flex-column">
                 <div ng-show="tab.showTab($index)"

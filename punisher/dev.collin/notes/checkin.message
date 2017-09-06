@@ -3,8 +3,8 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 accomplishments:
 
 T: demo 2-0 candidate
-T: refactoring : one common set of flex verbs | classes, events, links == DONE
+T: refactoring : one common set of flex verbs | completed
 
 .................................
-
+also eliminated unnecessary grid borders
 .................................

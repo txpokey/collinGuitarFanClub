@@ -4,7 +4,7 @@
     <div class="guitar-dept-news-media-content-title Grid-bordered-bottom">
         {{newsController.guitarProgramNews.title}}
     </div>
-    <div id="setup-news-content-blocks" class="guitar-dept-media-objects">
+    <div id="setup-news-content-blocks" class="guitar-dept-display-flex-row guitar-dept-display-flex-wrap guitar-dept-flex-space-around">
         <div ng-repeat="guitarNewsModel in newsController.guitarProgramNews.payload  | filter: { url: '!#0' }" class="guitar-dept-display-flex-row">
             <div id="setup-news-content-single-block" class="guitar-dept-display-flex-column">
                 <div ng-show="tab.showTab($index)"

@@ -2,14 +2,14 @@
 <section id="guitar-dept-events-section">
     <div ng-controller="GuitarEventsController as eventsController">
             <div class="guitar-dept-display-flex-column" >
-                <div class="Grid Grid-bordered Grid-cell guitar-dept-column-header" >
+                <div class="guitar-dept-display-flex-wrap Grid-cell guitar-dept-column-header" >
                     {{eventsController.guitarProgramEvents[0].name}}
                 </div>
                 <div ng-repeat="guitarProgramEvent in eventsController.guitarProgramEvents" class="Grid Grid-bordered guitar-dept-display-flex-row">
-                    <div class="Grid Grid-bordered Grid-cell">{{guitarProgramEvent.date}}</div>
-                    <div class="Grid Grid-bordered Grid-cell">{{guitarProgramEvent.time}}</div>
-                    <div class="Grid Grid-bordered Grid-cell">{{guitarProgramEvent.where}}</div>
-                    <div class="Grid Grid-bordered Grid-cell">{{guitarProgramEvent.event}}</div>
+                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramEvent.date}}</div>
+                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramEvent.time}}</div>
+                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramEvent.where}}</div>
+                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramEvent.event}}</div>
                 </div>
             </div>
     </div>
