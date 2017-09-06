@@ -42,25 +42,25 @@
       {
         "label": "Los Angeles Guitar Academy",
         "icon" : "#0",
-        "logo" : "/images/sponsors/LAGA-logos/LAGA.email-image.png",
+        "logo" : "/assets/images/sponsors/LAGA-logos/LAGA.email-image.png",
         "url": "https://onlineguitaracademy.net/"
       },
       {
         "label": "Savarez",
         "icon" : "#0",
-        "logo" : "/images/sponsors/Savarez/Savarez-logo.svg",
+        "logo" : "/assets/images/sponsors/Savarez/Savarez-logo.svg",
         "url": "http://www.savarez.com/"
       },
       {
         "label": "Strings by Mail",
         "icon" : "#0",
-        "logo" : "/images/sponsors/StringsbyMail/StringsbyMail-logo.jpg",
+        "logo" : "/assets/images/sponsors/StringsbyMail/StringsbyMail-logo.jpg",
         "url": "http://www.stringsbymail.com/"
       },
       {
         "label": "Category Software",
         "icon" : "#0",
-        "logo" : "/images/sponsors/categorySoftware/categorySoftware_wTitle-logo.svg",
+        "logo" : "/assets/images/sponsors/categorySoftware/categorySoftware_wTitle-logo.svg",
         "url": "#0"
       }
     ]

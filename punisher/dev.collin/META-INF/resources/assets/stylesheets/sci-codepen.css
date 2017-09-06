@@ -56,14 +56,17 @@ main {
 .guitar-dept-display-flex,
 .guitar-dept-display-flex-row,
 .guitar-dept-display-flex-column,
+.guitar-dept-display-flex-nowrap,
 .guitar-dept-display-flex-wrap {
     display: flex;
 }
 
+.guitar-dept-display-flex-nowrap {
+    flex-wrap: nowrap;
+}
 .guitar-dept-display-flex-wrap {
     flex-wrap: wrap;
 }
-
 .guitar-dept-display-flex-row {
     flex-direction: row;
 }
@@ -250,6 +253,15 @@ header, header-navbar {
 }
 /* ============ */
 
+
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Grid-cell {
+    flex: 1;
+}
 .Grid-column-collection {
     flex-direction: column;
 }
@@ -266,11 +278,6 @@ header, header-navbar {
     padding: 0;
 }
 
-.Grid {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .Grid-bordered-bottom,
 .Grid-bordered {
     border-bottom: 1px inset #dddddd;
@@ -279,15 +286,11 @@ header, header-navbar {
 .Grid-column-item {
 }
 
-.flexbox-forGrid {
+.flexbox-forGrid {  /*CLOBBER: NOT USED*/
     display: flex;
 }
 
 .Grid-column-header {
     justify-content: center;
     background-color: wheat;
-}
-
-.Grid-cell {
-    flex: 1;
 }
