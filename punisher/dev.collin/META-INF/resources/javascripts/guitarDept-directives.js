@@ -66,6 +66,9 @@
                 this.setCoursePick = function(candidate) {
                     this.coursePick = candidate;
                 };
+                this.getSectionPayloadByCoursePick = function(jsonImage) {
+                    return jsonImage[this.getCoursePick()];
+                };
             },
             controllerAs: "ctx"
         };

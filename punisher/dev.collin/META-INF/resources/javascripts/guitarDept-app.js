@@ -42,8 +42,14 @@
     app.controller('GuitarCoursesBySchoolTermController', [ '$http' , function($http){
         var catalogController = this;
         catalogController.guitarProgramCatalog = [];
-        $http.get('../json/courseWare/2017/fall/current/guitarCoursesBySchoolTerm.json').then(function (response) {
+        $http.get('../json/courseWare/2017/fall/current/musicCourses.json').then(function (response) {
             catalogController.guitarProgramCatalog = response.data;
+        }, function (badResult) {
+            console.log(badResult)
+        });
+        catalogController.guitarProgramCatalogBySection = [];
+        $http.get('../json/courseWare/2017/fall/current/musicCoursesBySection.json').then(function (response) {
+            catalogController.guitarProgramCatalogBySection = response.data;
         }, function (badResult) {
             console.log(badResult)
         });

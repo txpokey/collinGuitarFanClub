@@ -3,8 +3,9 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 accomplishments:
 
 T: demo 2-0 candidate
-F: feature: modal to find class by section : INWORK
+T: feature: modal to find class by section : WORKING but needs more data.
 
 .................................
-have modal demo working, which received class number selected by end-user click
+have modal now delivering actual data formatted correctly. modal could be wider. 
+the json driving the modal section number lookup is incomplete. only MUSI there now. 
 .................................
