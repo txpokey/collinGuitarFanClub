@@ -56,7 +56,18 @@
     app.directive("guitarCoursesBySchoolTerm", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/directives/calendar/guitarCourses-bySchoolTerm.html"
+            templateUrl: "../html/directives/calendar/guitarCourses-bySchoolTerm.html",
+            controller: function() {
+                var NO_TAB_ACTIVE = -1 ;
+                this.coursePick = NO_TAB_ACTIVE ;
+                this.getCoursePick = function() {
+                    return this.coursePick ;
+                };
+                this.setCoursePick = function(candidate) {
+                    this.coursePick = candidate;
+                };
+            },
+            controllerAs: "ctx"
         };
     });
     app.directive("guitarLinks", function() {

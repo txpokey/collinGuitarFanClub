@@ -1,22 +1,66 @@
 <!--  guitar courses offered by school term Container  -->
 <section id="guitar-program-courses-by-school-term-section">
-    <div ng-controller="GuitarCoursesBySchoolTermController as catalogController">
-            <div class="guitar-dept-display-flex-column" >
-                <div class="guitar-dept-display-flex-column" ng-repeat="model in catalogController.guitarProgramCatalog">
-                    <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
-                        {{model.schoolTerm}}&nbsp;:&nbsp;{{model.courseType}}
-                    </div>
-                    <div ng-repeat="guitarProgramCourse in model.coursePayload" class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
-                        <div class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
-                            <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseNumber}}</div>
-                            <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseName}}</div>
-                        </div>
+    <div ng-controller="GuitarCoursesBySchoolTermController as catalogController" ng-init="coursePick='-1';catalogController.troll=-1">
+        <div class="guitar-dept-display-flex-column" >
+            <div class="guitar-dept-display-flex-column" ng-repeat="model in catalogController.guitarProgramCatalog">
+                <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
+                    {{model.schoolTerm}}&nbsp;:&nbsp;{{model.courseType}}
+                </div>
+                <div ng-repeat="guitarProgramCourse in model.coursePayload" class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
+                    <div ng-click="ctx.setCoursePick(guitarProgramCourse.courseNumber)"
+                         data-toggle="modal" data-target="#myModal"
+                         class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
+                        <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseNumber}}</div>
+                        <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseName}}</div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="container">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"></button>
+                            <h4 class="modal-title">Modal Header</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>clicked on this ctx.course number: {{ctx.getCoursePick()}}</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+<!--===========================================================-->
+<!--&lt;!&ndash;  guitar courses offered by school term Container  &ndash;&gt;-->
+<!--<section id="guitar-program-courses-by-school-term-section">-->
+    <!--<div ng-controller="GuitarCoursesBySchoolTermController as catalogController">-->
+        <!--<div class="guitar-dept-display-flex-column" >-->
+            <!--<div class="guitar-dept-display-flex-column" ng-repeat="model in catalogController.guitarProgramCatalog">-->
+                <!--<div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">-->
+                    <!--{{model.schoolTerm}}&nbsp;:&nbsp;{{model.courseType}}-->
+                <!--</div>-->
+                <!--<div ng-repeat="guitarProgramCourse in model.coursePayload" class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">-->
+                    <!--<div class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">-->
+                        <!--<div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseNumber}}</div>-->
+                        <!--<div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseName}}</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
 
 
 <!--=======================================================-->
 <!--<a href="{{guitarProgramLink.url}}">{{guitarProgramLink.courseNumber}}</a>-->
+<!--===========================-->
+

@@ -3,8 +3,8 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 accomplishments:
 
 T: demo 2-0 candidate
-T: refactoring : one common set of flex verbs | completed
+F: feature: modal to find class by section : INWORK
 
 .................................
-also eliminated unnecessary grid borders
+have modal demo working, which received class number selected by end-user click
 .................................
