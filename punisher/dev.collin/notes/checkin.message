@@ -3,7 +3,7 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 accomplishments:
 
 T: demo 2-0 candidate
-T: feature: favicon : solved on chrome. switch to JPG
+F: feature: textbooks : seeded. untested.
 
 .................................
 .................................

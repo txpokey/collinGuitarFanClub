@@ -112,12 +112,34 @@
                 this.setTab = function(candidateTab) {
                     this.privateSetTab( this.isSet( candidateTab ) ? this.tabReset() : candidateTab );
                 };
-                // this.isOpen = function () {
-                //     return this.activeTab === NO_TAB_ACTIVE ;
-                // };
-                // this.isClosed = function () {
-                //     return ! isOpen();
-                // };
+            },
+            controllerAs: "tab"
+        };
+    });
+    app.directive("guitarTextbooks", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/directives/misc/guitar-textbooks.html",
+            controller: function() {
+                var NO_TAB_ACTIVE = -1 ;
+                this.tab = NO_TAB_ACTIVE ;
+                this.activeTab = this.tab ;
+
+                this.privateSetTab = function(newTabID) {
+                    return this.activeTab = this.tab = newTabID ;
+                };
+                this.tabReset = function() {
+                    return this.privateSetTab( NO_TAB_ACTIVE );
+                };
+                this.showTab = function(checkTab) {
+                    return ( this.isSet(checkTab) || this.tab === NO_TAB_ACTIVE ) ;
+                };
+                this.isSet = function(checkTab) {
+                    return this.tab === checkTab;
+                };
+                this.setTab = function(candidateTab) {
+                    this.privateSetTab( this.isSet( candidateTab ) ? this.tabReset() : candidateTab );
+                };
             },
             controllerAs: "tab"
         };

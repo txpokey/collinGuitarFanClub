@@ -10,6 +10,9 @@
 <p>calculated catalogLabel : {{catalogLabel}}</p>
 <p>used ctx.course number to dig into modal header: {{sectionLookupArray = catalogController.guitarProgramCatalogBySection[ctx.getCoursePick()]}}</p>
 
+====== BUG ============
+ng-init="{{catalogMeta=catalogController.guitarProgramCatalogBySection['0000'][0];sectionLookupArray=catalogController.guitarProgramCatalogBySection[ctx.getCoursePick()]}}">
+
 ===== MODAL ============
 proven works!
 ....................

@@ -73,6 +73,15 @@
             console.log(badResult)
         });
     }]);
+    app.controller('GuitarTextbooksController', [ '$http' , function($http){
+        var textbooksController = this;
+        textbooksController.textbooks = [];
+        $http.get('../json/textbooks-controller.json').then(function (response) {
+            textbooksController.textbooks = response.data;
+        }, function (badResult) {
+            console.log(badResult)
+        });
+    }]);
     app.controller('GuitarFooterController', [ '$http' , function($http){
         var footerController = this;
         footerController.guitarProgramFooter = [];
