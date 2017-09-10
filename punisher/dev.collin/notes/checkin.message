@@ -6,6 +6,7 @@ T: demo 2-0 candidate
 T: feature: modal to find class by section : WORKING but needs more data.
 
 .................................
-have modal now delivering actual data formatted correctly. modal could be wider. 
-the json driving the modal section number lookup is incomplete. only MUSI there now. 
+solved problem of degenerate section lookup. now filters by (e.g.) "MUSI" and <courseNumber>
+still way more classes, esp. outside of guitar, on page than is driven out to section level. 
+at the section level, all the guitar courses got data, but not other wise. 
 .................................

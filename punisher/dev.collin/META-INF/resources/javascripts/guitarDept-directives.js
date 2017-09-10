@@ -58,16 +58,25 @@
             restrict: 'E',
             templateUrl: "../html/directives/calendar/guitarCourses-bySchoolTerm.html",
             controller: function() {
-                var NO_TAB_ACTIVE = -1 ;
-                this.coursePick = NO_TAB_ACTIVE ;
-                this.getCoursePick = function() {
-                    return this.coursePick ;
+                var NO_COURSE_YET = { controller: [] , candidate: [] , model : [] , filterBy : [] } ;
+                var ctx = this ;
+                ctx.coursePick = NO_COURSE_YET ;
+                ctx.getCoursePick = function() {
+                    return ctx.coursePick ;
                 };
-                this.setCoursePick = function(candidate) {
-                    this.coursePick = candidate;
+                ctx.setCoursePick = function(catalogController,model,candidate) {
+                    ctx.coursePick.candidate = candidate;
+                    ctx.coursePick.model = model;
+                    // this.coursePick.filterBy = { Subj : model["Subj"] , Crse : candidate["courseNumber"] };
+                    ctx.coursePick.filterBy = { Subj : model.Subj , Crse : candidate.courseNumber };
+                    ctx.coursePick.controller = catalogController ;
+                    ctx.coursePick.catalogMeta = catalogController.guitarProgramCatalogBySection[0] ;
                 };
-                this.getSectionPayloadByCoursePick = function(jsonImage) {
-                    return jsonImage[this.getCoursePick()];
+                ctx.getCatalogMeta = function() {
+                    return ctx.getCoursePick().catalogMeta;
+                };
+                ctx.getController = function(){
+                    return ctx.getCoursePick().controller;
                 };
             },
             controllerAs: "ctx"

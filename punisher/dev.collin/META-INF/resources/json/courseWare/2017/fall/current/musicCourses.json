@@ -1,7 +1,8 @@
 [
   {
-    "schoolTerm": "Fall 2017 Credit",
-    "courseType": "Music (MUSI)",
+    "schoolTermLabel": "Fall 2017 Credit",
+    "courseTypeLabel": "Music (MUSI)",
+    "Subj": "MUSI",
     "coursePayload": [
       {
         "courseNumber": "1116",
@@ -54,8 +55,9 @@
     ]
   },
   {
-    "schoolTerm": "Fall 2017 Credit",
-    "courseType": "Music Ensemble (MUEN)",
+    "schoolTermLabel": "Fall 2017 Credit",
+    "courseTypeLabel": "Music Ensemble (MUEN)",
+    "Subj": "MUEN",
     "coursePayload": [
       {
         "courseNumber": "1121",
@@ -112,8 +114,9 @@
     ]
   },
   {
-    "schoolTerm": "Fall 2017 Credit",
-    "courseType": "Music, Applied (MUAP)",
+    "schoolTermLabel": "Fall 2017 Credit",
+    "courseTypeLabel": "Music, Applied (MUAP)",
+    "Subj": "MUAP",
     "coursePayload": [
       {
         "courseNumber": "1101",
