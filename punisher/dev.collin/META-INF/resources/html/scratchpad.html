@@ -1,3 +1,12 @@
+====== angularjs ===========
+
+<div class="guitar-dept-display-flex-wrap  Grid-cell" ng-bind="pick.catalogMeta.CRN"></div>
+<div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogMeta.CRN}}</div>
+| filter : { pick.filterBy }
+<p>used '0000' to dig into modal header: {{catalogLabel = catalogController.guitarProgramCatalogBySection['0000'][0]}}</p>
+<p>calculated catalogLabel : {{catalogLabel}}</p>
+<p>used ctx.course number to dig into modal header: {{sectionLookupArray = catalogController.guitarProgramCatalogBySection[ctx.getCoursePick()]}}</p>
+
 ===== MODAL ============
 proven works!
 ....................

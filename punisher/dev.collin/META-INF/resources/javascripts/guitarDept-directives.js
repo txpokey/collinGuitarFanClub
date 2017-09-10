@@ -58,22 +58,22 @@
             restrict: 'E',
             templateUrl: "../html/directives/calendar/guitarCourses-bySchoolTerm.html",
             controller: function() {
-                var NO_COURSE_YET = { controller: [] , candidate: [] , model : [] , filterBy : [] } ;
+                // var NO_COURSE_YET = { controller: [] , candidate: [] , model : [] , filterBy : [] } ;
+                var NO_COURSE_YET = { } ;
                 var ctx = this ;
                 ctx.coursePick = NO_COURSE_YET ;
                 ctx.getCoursePick = function() {
                     return ctx.coursePick ;
                 };
-                ctx.setCoursePick = function(catalogController,model,candidate) {
-                    ctx.coursePick.candidate = candidate;
-                    ctx.coursePick.model = model;
-                    // this.coursePick.filterBy = { Subj : model["Subj"] , Crse : candidate["courseNumber"] };
-                    ctx.coursePick.filterBy = { Subj : model.Subj , Crse : candidate.courseNumber };
+                ctx.setCoursePick = function(catalogController,catalog,coursePicked) {
+                    ctx.coursePick.coursePicked = coursePicked;
+                    ctx.coursePick.catalog = catalog;
+                    ctx.coursePick.filterBy = { Subj : catalog.Subj , Crse : coursePicked.courseNumber };
                     ctx.coursePick.controller = catalogController ;
-                    ctx.coursePick.catalogMeta = catalogController.guitarProgramCatalogBySection[0] ;
+                    ctx.coursePick.catalogLabel = catalogController.guitarProgramCatalogBySection[0] ;
                 };
-                ctx.getCatalogMeta = function() {
-                    return ctx.getCoursePick().catalogMeta;
+                ctx.getCatalogLabel = function() {
+                    return ctx.getCoursePick().catalogLabel;
                 };
                 ctx.getController = function(){
                     return ctx.getCoursePick().controller;

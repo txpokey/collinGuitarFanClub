@@ -3,10 +3,8 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 accomplishments:
 
 T: demo 2-0 candidate
-T: feature: modal to find class by section : WORKING but needs more data.
+T: feature: modal to find class by section : DONE (until answers from Dr. Vera on scope of course data)
 
 .................................
-solved problem of degenerate section lookup. now filters by (e.g.) "MUSI" and <courseNumber>
-still way more classes, esp. outside of guitar, on page than is driven out to section level. 
-at the section level, all the guitar courses got data, but not other wise. 
+class schedule: tweeks to names and some clean up.
 .................................

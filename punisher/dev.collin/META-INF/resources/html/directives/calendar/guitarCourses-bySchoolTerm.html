@@ -1,14 +1,24 @@
 <!--  guitar courses offered by school term Container  -->
+<!--{-->
+<!--"schoolTermLabel": "Fall 2017 Credit",-->
+<!--"courseTypeLabel": "Music (MUSI)",-->
+<!--"Subj": "MUSI",-->
+<!--"coursePayload": [-->
+<!--{-->
+<!--"courseNumber": "1116",-->
+<!--"courseName": "Sight Singing & Ear Training I"-->
+<!--},-->
+
 <section id="guitar-program-courses-by-school-term-section">
     <div ng-controller="GuitarCoursesBySchoolTermController as catalogController">
         <div class="guitar-dept-display-flex-column">
-            <div class="guitar-dept-display-flex-column" ng-repeat="model in catalogController.guitarProgramCatalog">
+            <div class="guitar-dept-display-flex-column" ng-repeat="catalog in catalogController.guitarProgramCatalog">
                 <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
-                    {{model.schoolTermLabel}}&nbsp;:&nbsp;{{model.courseTypeLabel}}
+                    {{catalog.schoolTermLabel}}&nbsp;:&nbsp;{{catalog.courseTypeLabel}}
                 </div>
-                <div ng-repeat="guitarProgramCourse in model.coursePayload"
+                <div ng-repeat="guitarProgramCourse in catalog.coursePayload"
                      class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
-                    <div ng-click="ctx.setCoursePick(catalogController,model,guitarProgramCourse)"
+                    <div ng-click="ctx.setCoursePick(catalogController,catalog,guitarProgramCourse)"
                          data-toggle="modal" data-target="#myModal"
                          class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
                         <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseNumber}}</div>
@@ -46,25 +56,19 @@
                             <h4 class="modal-title">Course By Section</h4>
                         </div>
                         <div class="modal-body" ng-init="pick=ctx.getCoursePick()">
-
-                            <!--<p>used '0000' to dig into modal header: {{catalogMeta = catalogController.guitarProgramCatalogBySection['0000'][0]}}</p>-->
-                            <!--<p>calculated catalogMeta : {{catalogMeta}}</p>-->
-                            <!--<p>used ctx.course number to dig into modal header: {{sectionLookupArray = catalogController.guitarProgramCatalogBySection[ctx.getCoursePick()]}}</p>-->
                             <div class="guitar-dept-display-flex-column">
                                 <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
-                                    {{pick.model['Subj']}}&nbsp;:&nbsp;{{pick.candidate['courseNumber']}}&nbsp;:&nbsp;{{pick.candidate['courseName']}}
+                                    {{pick.catalog['Subj']}}&nbsp;:&nbsp;{{pick.coursePicked['courseNumber']}}&nbsp;:&nbsp;{{pick.coursePicked['courseName']}}
                                 </div>
                                 <div class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
-                                    <!--<p>catalogMeta: {{ctx.getCatalogMeta()}}</p>-->
-                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogMeta.CRN}}</div>
-                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogMeta.Sec}}</div>
-                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">Days</div>
-                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogMeta.Time}}</div>
-                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogMeta.Location}}</div>
-                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogMeta.Instructor}}
+                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogLabel.CRN}}</div>
+                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogLabel.Sec}}</div>
+                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogLabel.Days}}</div>
+                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogLabel.Time}}</div>
+                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogLabel.Location}}</div>
+                                    <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogLabel.Instructor}}
                                     </div>
                                 </div>
-                                <!--| filter : { pick.filterBy }-->
                                 <div class="guitar-dept-display-flex-column">
                                     <div ng-repeat="modalModel in pick.controller.guitarProgramCatalogBySection | filter : pick.filterBy "
                                          class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
@@ -97,8 +101,4 @@
         </div>
     </div>
 </section>
-<!--===========================================================-->
-<!--=======================================================-->
-<!--<a href="{{guitarProgramLink.url}}">{{guitarProgramLink.courseNumber}}</a>-->
-<!--===========================-->
 
