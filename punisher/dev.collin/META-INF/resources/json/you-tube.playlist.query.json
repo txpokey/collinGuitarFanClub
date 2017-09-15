@@ -1,0 +1,733 @@
+{
+  "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+  "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+  "playlistsByChannel":
+  [
+    {
+      "playlistId":"PLvhkK1827NDwgRTwWPEwxJ2ljolGEq5VF",
+      "playlistName":"2011 Spring Semester Guitar Ensemble Concert",
+      "playlistDescription":"",
+      "playlist":
+      {
+        "kind": "youtube#playlistItemListResponse",
+        "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/sMofa6ii95lAccDAbPuKhSg6MB8\"",
+        "pageInfo": {
+          "totalResults": 2,
+          "resultsPerPage": 25
+        },
+        "items": [
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/MfUyWnLxr9InhmIqjbLN3l0rRj0\"",
+            "id": "UEx2aGtLMTgyN05Ed2dSVHdXUEV3eEoybGpvbEdFcTVWRi41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+              "publishedAt": "2017-09-15T14:07:29.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester 6PM Ensemble",
+              "description": "Directed by Fernand Vera",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/405hhppN_b4/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/405hhppN_b4/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/405hhppN_b4/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDwgRTwWPEwxJ2ljolGEq5VF",
+              "position": 0,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "405hhppN_b4"
+              }
+            },
+            "contentDetails": {
+              "videoId": "405hhppN_b4",
+              "videoPublishedAt": "2017-09-15T04:17:20.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/aiXiZBBs-1HkLjdINSLK5tvG1FE\"",
+            "id": "UEx2aGtLMTgyN05Ed2dSVHdXUEV3eEoybGpvbEdFcTVWRi4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+              "publishedAt": "2017-09-15T14:34:55.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 Spring Semester 1PM Ensemble",
+              "description": "Directed by Eddie Healy",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/JZqsnXlnf9E/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/JZqsnXlnf9E/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/JZqsnXlnf9E/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDwgRTwWPEwxJ2ljolGEq5VF",
+              "position": 1,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "JZqsnXlnf9E"
+              }
+            },
+            "contentDetails": {
+              "videoId": "JZqsnXlnf9E",
+              "videoPublishedAt": "2017-09-15T04:13:30.000Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "playlistId":"PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+      "playlistName":"2011 Spring Solo",
+      "playlistDescription":"",
+      "playlist":
+      {
+        "kind": "youtube#playlistItemListResponse",
+        "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/-oIEtrjWsCD_VnHvG7J9NCPbVIU\"",
+        "pageInfo": {
+          "totalResults": 14,
+          "resultsPerPage": 25
+        },
+        "items": [
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/5Q5taOSPeeXW_V2L3VsrN78za80\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester WillVulcan",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/wwsgivJ6n8o/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/wwsgivJ6n8o/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/wwsgivJ6n8o/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/wwsgivJ6n8o/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 0,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "wwsgivJ6n8o"
+              }
+            },
+            "contentDetails": {
+              "videoId": "wwsgivJ6n8o",
+              "videoPublishedAt": "2017-09-15T04:03:47.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/r8hM8bITQU1-adbcx0tDlde6EIY\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester VickiPortch",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/1l3Vyqlzi54/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/1l3Vyqlzi54/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/1l3Vyqlzi54/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/1l3Vyqlzi54/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 1,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "1l3Vyqlzi54"
+              }
+            },
+            "contentDetails": {
+              "videoId": "1l3Vyqlzi54",
+              "videoPublishedAt": "2017-09-15T04:03:45.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/3nLVcjLe3vG6jouCWGN_nlhpUQk\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester UrielArellano",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/x5BzLnN2bdQ/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/x5BzLnN2bdQ/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/x5BzLnN2bdQ/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/x5BzLnN2bdQ/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 2,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "x5BzLnN2bdQ"
+              }
+            },
+            "contentDetails": {
+              "videoId": "x5BzLnN2bdQ",
+              "videoPublishedAt": "2017-09-15T04:03:41.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/_QkKWSKlmUxwcR3UXx7BevyT37c\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester Suvanee",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/gspB7T1SBfg/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/gspB7T1SBfg/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/gspB7T1SBfg/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/gspB7T1SBfg/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 3,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "gspB7T1SBfg"
+              }
+            },
+            "contentDetails": {
+              "videoId": "gspB7T1SBfg",
+              "videoPublishedAt": "2017-09-15T03:57:54.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/c8sJFMXweQ_6V_3z4gcG-foSVKs\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester PeterTran",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/4CHePK5TIKc/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/4CHePK5TIKc/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/4CHePK5TIKc/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/4CHePK5TIKc/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 4,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "4CHePK5TIKc"
+              }
+            },
+            "contentDetails": {
+              "videoId": "4CHePK5TIKc",
+              "videoPublishedAt": "2017-09-15T03:32:59.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/8UX8sGgCnM0XcC1KwihKy2PbYlo\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester NataliaLink",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/_RTg5bkyPg8/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/_RTg5bkyPg8/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/_RTg5bkyPg8/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/_RTg5bkyPg8/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 5,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "_RTg5bkyPg8"
+              }
+            },
+            "contentDetails": {
+              "videoId": "_RTg5bkyPg8",
+              "videoPublishedAt": "2017-09-15T03:32:41.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/EE6IXGKdtcP8QKRSr2kwiAIOkKw\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester LukeSampeck",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/BAcMD6OISdg/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/BAcMD6OISdg/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/BAcMD6OISdg/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/BAcMD6OISdg/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 6,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "BAcMD6OISdg"
+              }
+            },
+            "contentDetails": {
+              "videoId": "BAcMD6OISdg",
+              "videoPublishedAt": "2017-09-15T03:32:24.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/u-8-PfWbIcsZyc4nlwJUxhyCEVw\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester LeoSantibanez",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/pVtVxJwHT-E/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/pVtVxJwHT-E/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/pVtVxJwHT-E/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/pVtVxJwHT-E/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 7,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "pVtVxJwHT-E"
+              }
+            },
+            "contentDetails": {
+              "videoId": "pVtVxJwHT-E",
+              "videoPublishedAt": "2017-09-15T03:32:09.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/wF1zlVltlOIVujClOlFJe6t3KEU\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester JoshSmith",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/9lMVAWdKCc4/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/9lMVAWdKCc4/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/9lMVAWdKCc4/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/9lMVAWdKCc4/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 8,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "9lMVAWdKCc4"
+              }
+            },
+            "contentDetails": {
+              "videoId": "9lMVAWdKCc4",
+              "videoPublishedAt": "2017-09-15T03:31:52.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/gMF-DEtSpy1MmmCvtZvpRcX-tL0\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester JoseTorres",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/tLI6D0jMya4/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/tLI6D0jMya4/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/tLI6D0jMya4/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/tLI6D0jMya4/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 9,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "tLI6D0jMya4"
+              }
+            },
+            "contentDetails": {
+              "videoId": "tLI6D0jMya4",
+              "videoPublishedAt": "2017-09-15T03:30:46.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/o1m2Pthj7lVHRzViYdtYxvLiSMQ\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester JonnoGarver",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/v4DYMH5pwYg/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/v4DYMH5pwYg/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/v4DYMH5pwYg/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/v4DYMH5pwYg/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 10,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "v4DYMH5pwYg"
+              }
+            },
+            "contentDetails": {
+              "videoId": "v4DYMH5pwYg",
+              "videoPublishedAt": "2017-09-15T03:30:26.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/-6H-sX5rA70MPBtYMadjaYxAbD4\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester JayArmstrong",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/4OFfrcg4xzA/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/4OFfrcg4xzA/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/4OFfrcg4xzA/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/4OFfrcg4xzA/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 11,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "4OFfrcg4xzA"
+              }
+            },
+            "contentDetails": {
+              "videoId": "4OFfrcg4xzA",
+              "videoPublishedAt": "2017-09-15T03:29:32.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/FGykFa2jS12ST_EMDcwAI_wopCo\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester CorySams",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/VMmxDGl8-lA/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/VMmxDGl8-lA/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/VMmxDGl8-lA/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/VMmxDGl8-lA/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 12,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "VMmxDGl8-lA"
+              }
+            },
+            "contentDetails": {
+              "videoId": "VMmxDGl8-lA",
+              "videoPublishedAt": "2017-09-15T03:29:15.000Z"
+            }
+          },
+          {
+            "kind": "youtube#playlistItem",
+            "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/Nvz1tC3Kvir6YF8gIpY6vgcAWUM\"",
+            "id": "UEx2aGtLMTgyN05EeUV4SHhlRWZwYUZjdXdNUzRQdzc0MC4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+              "publishedAt": "2017-09-15T04:10:41.000Z",
+              "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+              "title": "2011 SpringSemester AnooshFarvardin",
+              "description": "",
+              "thumbnails": {
+                "default": {
+                  "url": "https://i.ytimg.com/vi/jHPsneiRHkk/default.jpg",
+                  "width": 120,
+                  "height": 90
+                },
+                "medium": {
+                  "url": "https://i.ytimg.com/vi/jHPsneiRHkk/mqdefault.jpg",
+                  "width": 320,
+                  "height": 180
+                },
+                "high": {
+                  "url": "https://i.ytimg.com/vi/jHPsneiRHkk/hqdefault.jpg",
+                  "width": 480,
+                  "height": 360
+                },
+                "standard": {
+                  "url": "https://i.ytimg.com/vi/jHPsneiRHkk/sddefault.jpg",
+                  "width": 640,
+                  "height": 480
+                }
+              },
+              "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+              "playlistId": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+              "position": 13,
+              "resourceId": {
+                "kind": "youtube#video",
+                "videoId": "jHPsneiRHkk"
+              }
+            },
+            "contentDetails": {
+              "videoId": "jHPsneiRHkk",
+              "videoPublishedAt": "2017-09-15T03:28:46.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

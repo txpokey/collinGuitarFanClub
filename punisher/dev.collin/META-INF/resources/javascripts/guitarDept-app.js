@@ -82,6 +82,20 @@
             console.log(badResult)
         });
     }]);
+    app.controller('GuitarPerformanceController', [ '$http' , function($http){
+        var performanceController = this;
+        performanceController.channelQuery = [];
+        $http.get('../json/you-tube.playlistsByChannel.query.json').then(function (response) {
+            performanceController.channelQuery = response.data;
+        }, function (badResult) {
+            console.log(badResult)
+        });
+        $http.get('../json/you-tube.playlist.query.json').then(function (response) {
+            performanceController.playlistQuery = response.data;
+        }, function (badResult) {
+            console.log(badResult)
+        });
+    }]);
     app.controller('GuitarFooterController', [ '$http' , function($http){
         var footerController = this;
         footerController.guitarProgramFooter = [];

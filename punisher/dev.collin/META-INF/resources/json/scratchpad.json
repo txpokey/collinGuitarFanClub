@@ -19,3 +19,179 @@
 "logo" : "/images/sponsors/SheetMusicPlus/SheetMusicPlus-logo.png",
 "url": "http://www.sheetmusicplus.com/"
 }
+=================== you tube channelSearch query =======
+This example retrieves channel data for the GoogleDevelopers YouTube channel. It uses the id request parameter to identify the channel by its YouTube channel ID.
+Use cases
+
+list (by channel ID)
+list (by YouTube username)
+list (my channel)
+list (channels managed by a content owner)
+snippet
+full sample
+JAVA JAVASCRIPT PYTHON PHP RUBY MORE
+// Sample js code for channels.list
+
+// See full sample for buildApiRequest() code, which is not
+// specific to a particular youtube or youtube method.
+
+buildApiRequest('GET',
+'/youtube/v3/channels',
+{'id': 'UCtpbl7zBcRk2tQqiLXQ35dw',
+'part': 'snippet,contentDetails,statistics,brandingSettings'});
+Modify parameters passed to this example to update the code snippets or execute the request to see the API response:
+
+id
+
+UCtpbl7zBcRk2tQqiLXQ35dw
+part
+
+snippet,contentDetails,statistics,brandingSettings
+EXECUTE
+
+Load in APIs Explorer
+200 (OK)
+============ playlists by channel ================
+This example retrieves playlists owned by the YouTube channel that the request's channelId parameter identifies.
+Use cases
+
+list (all playlists for a channel)
+list (my playlists)
+snippet
+full sample
+JAVA JAVASCRIPT PYTHON PHP RUBY MORE
+// Sample js code for playlists.list
+
+// See full sample for buildApiRequest() code, which is not
+// specific to a particular youtube or youtube method.
+
+buildApiRequest('GET',
+'/youtube/v3/playlists',
+{'channelId': 'UC5U_X5U06cwYp0s0xugXnAA',
+'maxResults': '50',
+'part': 'snippet,contentDetails'});
+Modify parameters passed to this example to update the code snippets or execute the request to see the API response:
+
+maxResults
+
+50
+channelId
+
+UC5U_X5U06cwYp0s0xugXnAA
+part
+
+snippet,contentDetails
+EXECUTE
+
+Load in APIs Explorer
+200 (OK)
+=================== you tube playlist query =======
+This example retrieves the list of videos in a specified playlist. The request's playlistId parameter identifies the playlist.
+This example retrieves the list of videos in a specified playlist. The request's playlistId parameter identifies the playlist.
+
+Note that the API response does not include metadata about the playlist itself, such as the playlist's title and description. Additional metadata about the videos in the playlist can also be retrieved using the videos.list method.
+Use cases
+
+list (by playlist ID)
+snippet
+full sample
+JAVA JAVASCRIPT PYTHON PHP RUBY MORE
+// Sample js code for playlistItems.list
+
+// See full sample for buildApiRequest() code, which is not
+// specific to a particular youtube or youtube method.
+
+buildApiRequest('GET',
+'/youtube/v3/playlistItems',
+{'maxResults': '50',
+'part': 'snippet,contentDetails',
+'playlistId': 'PLIl1iJfs3UctsuJI8CtPUlukUcxC22v1s'});
+Modify parameters passed to this example to update the code snippets or execute the request to see the API response:
+
+playlistId
+
+PLIl1iJfs3UctsuJI8CtPUlukUcxC22v1s
+maxResults
+
+50
+part
+
+snippet,contentDetails
+EXECUTE
+
+Load in APIs Explorer
+200 (OK)
+/**
+ * API response
+ */
+
+=================
+{
+"skip": "#0",
+"kind": "youtube#playlist",
+"etag": "\"m2yskBQFythfE4irbTIeOgYYfBU/Q3HDamsDwneSznFSDE0xQXoHfY8\"",
+"id": "PLPJfhKFNvKSnV7DuscRa9S5oiq1pVbzqT",
+"snippet": {
+"publishedAt": "#0",
+"channelId": "UCwVcJ7gSCsXHE_aSQeZkqEg",
+"title": "Class Name",
+"description": "Section",
+"thumbnails": {
+"default": {
+"url": "https://i.ytimg.com/vi/dS6fSHxYbPU/default.jpg",
+"width": 120,
+"height": 90
+},
+"medium": {
+"url": "https://i.ytimg.com/vi/dS6fSHxYbPU/mqdefault.jpg",
+"width": 320,
+"height": 180
+},
+"high": {
+"url": "https://i.ytimg.com/vi/dS6fSHxYbPU/hqdefault.jpg",
+"width": 480,
+"height": 360
+},
+"standard": {
+"url": "https://i.ytimg.com/vi/dS6fSHxYbPU/sddefault.jpg",
+"width": 640,
+"height": 480
+},
+"maxres": {
+"url": "https://i.ytimg.com/vi/dS6fSHxYbPU/maxresdefault.jpg",
+"width": 1280,
+"height": 720
+}
+},
+"channelTitle": "School Term",
+"localized": {
+"title": "",
+"description": ""
+}
+},
+"contentDetails": {
+"itemCount": 1
+}
+},
+================= template =======
+{
+"channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+"channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+"playlistsByChannel":
+[
+{
+"playlistId":"FOOID",
+"playlistName":"FOOID",
+"playlistDescription":"FOOID"
+"playlist":
+{}
+},
+{
+"playlistId":"FOOID",
+"playlistName":"FOOID",
+"playlistDescription":"FOOID"
+"playlist":
+{}
+}
+]
+}

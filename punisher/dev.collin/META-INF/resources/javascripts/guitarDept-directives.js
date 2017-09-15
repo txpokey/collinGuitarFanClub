@@ -58,7 +58,6 @@
             restrict: 'E',
             templateUrl: "../html/directives/calendar/guitarCourses-bySchoolTerm.html",
             controller: function() {
-                // var NO_COURSE_YET = { controller: [] , candidate: [] , model : [] , filterBy : [] } ;
                 var NO_COURSE_YET = { } ;
                 var ctx = this ;
                 ctx.coursePick = NO_COURSE_YET ;
@@ -142,6 +141,34 @@
                 };
             },
             controllerAs: "tab"
+        };
+    });
+    app.directive("guitarPerformances", function() {
+        return {
+            restrict: 'E',
+            templateUrl: "../html/directives/misc/guitar-performances.html",
+            controller: function() {
+                var NO_PLAYLIST_YET = { } ;
+                var ctx = this ;
+                ctx.playlistPick = NO_PLAYLIST_YET ;
+                ctx.getPlaylistPick = function() {
+                    return ctx.playlistPick ;
+                };
+                ctx.setPlaylistPick = function(performanceController,guitarPerformanceLabels,playlistPicked) {
+                    ctx.playlistPick.playlistPicked = playlistPicked;
+                    // ctx.playlistPick.catalog = catalog;
+                    ctx.playlistPick.filterBy = { };
+                    ctx.playlistPick.controller = performanceController ;
+                    ctx.playlistPick.performanceLabels = guitarPerformanceLabels ;
+                };
+                ctx.getPerformanceLabels = function() {
+                    return ctx.getPlaylistPick().performanceLabels;
+                };
+                ctx.getController = function(){
+                    return ctx.getPlaylistPick().controller;
+                };
+            },
+            controllerAs: "ctx"
         };
     });
     app.directive("guitarFooter", function() {

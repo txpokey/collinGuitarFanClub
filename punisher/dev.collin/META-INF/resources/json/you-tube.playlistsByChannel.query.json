@@ -1,0 +1,88 @@
+{
+  "channelTitle": "Student Performances",
+  "kind": "youtube#playlistListResponse",
+  "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/yUvC6FVcUO1sNHrrNze8g-evJkg\"",
+  "pageInfo": {
+    "totalResults": 2,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/DWMcTl1pCr4aSwnElJyuP14Wz8U\"",
+      "id": "PLvhkK1827NDwgRTwWPEwxJ2ljolGEq5VF",
+      "snippet": {
+        "publishedAt": "2017-09-15T04:12:52.000Z",
+        "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+        "title": "2011 Spring Semester Guitar Ensemble Concert",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/405hhppN_b4/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAtc238-0Ly01vJbGeytc3GCp3SmQ",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "http://s.ytimg.com/yts/img/no_thumbnail-vfl4t3-4R.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+        "localized": {
+          "title": "2011 Spring Semester Guitar Ensemble Concert",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 2
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/IdMWmlObUZYwP8cgSgge8GEjwjM\"",
+      "id": "PLvhkK1827NDyExHxeEfpaFcuwMS4Pw740",
+      "snippet": {
+        "publishedAt": "2017-09-15T03:27:05.000Z",
+        "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
+        "title": "2011 Spring Solo",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wwsgivJ6n8o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wwsgivJ6n8o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wwsgivJ6n8o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wwsgivJ6n8o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
+        "localized": {
+          "title": "2011 Spring Solo",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "itemCount": 14
+      }
+    }
+  ]
+}
