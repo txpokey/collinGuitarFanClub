@@ -157,7 +157,7 @@
                 ctx.setPlaylistPick = function(performanceController,guitarPerformanceLabels,playlistPicked) {
                     ctx.playlistPick.playlistPicked = playlistPicked;
                     // ctx.playlistPick.catalog = catalog;
-                    ctx.playlistPick.filterBy = { };
+                    ctx.playlistPick.filterBy = { playlistId : playlistPicked.id };
                     ctx.playlistPick.controller = performanceController ;
                     ctx.playlistPick.performanceLabels = guitarPerformanceLabels ;
                 };
