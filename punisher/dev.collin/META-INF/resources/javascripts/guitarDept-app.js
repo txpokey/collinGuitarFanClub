@@ -1,5 +1,5 @@
 (function() {
-    var app = angular.module('guitarDept', ['guitarDept-directives', 'ngAnimate', 'ngSanitize']);
+    var app = angular.module('guitarDept', ['guitarDept-directives', 'ngAnimate', 'ngSanitize','angular.filter']);
     app.config(function($sceDelegateProvider) { // needs 'ngSanitize' : but does not work because of CORS rules anyway
         $sceDelegateProvider.resourceUrlWhitelist([
             // Allow same origin resource loads.

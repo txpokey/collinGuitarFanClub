@@ -1,271 +1,317 @@
-[
-  {
-    "schoolTermLabel": "Fall 2017 Credit",
-    "courseTypeLabel": "Music (MUSI)",
-    "Subj": "MUSI",
-    "coursePayload": [
-      {
-        "courseNumber": "1116",
-        "courseName": "Sight Singing & Ear Training I"
-      },
-      {
-        "courseNumber": "1181",
-        "courseName": "Piano Class I"
-      },
-      {
-        "courseNumber": "1183",
-        "courseName": "Voice Class"
-      },
-      {
-        "courseNumber": "1192",
-        "courseName": "Guitar Class"
-      },
-      {
-        "courseNumber": "1303",
-        "courseName": "Fundamentals of Music"
-      },
-      {
-        "courseNumber": "1306",
-        "courseName": "Music Appreciation"
-      },
-      {
-        "courseNumber": "1307",
-        "courseName": "Music Literature"
-      },
-      {
-        "courseNumber": "1310",
-        "courseName": "American Music"
-      },
-      {
-        "courseNumber": "1311",
-        "courseName": "Music Theory I"
-      },
-      {
-        "courseNumber": "2116",
-        "courseName": "Sight Sing & Ear Training III"
-      },
-      {
-        "courseNumber": "2181",
-        "courseName": "Piano Class III"
-      },
-      {
-        "courseNumber": "2311",
-        "courseName": "Music Theory III"
-      }
-    ]
-  },
-  {
-    "schoolTermLabel": "Fall 2017 Credit",
-    "courseTypeLabel": "Music Ensemble (MUEN)",
-    "Subj": "MUEN",
-    "coursePayload": [
-      {
-        "courseNumber": "1121",
-        "courseName": "Jazz Lab Band"
-      },
-      {
-        "courseNumber": "1122",
-        "courseName": "Symphonic Wind Ensemble"
-      },
-      {
-        "courseNumber": "1131",
-        "courseName": "New Music Ensemble"
-      },
-      {
-        "courseNumber": "1132",
-        "courseName": "Keyboard Ensemble"
-      },
-      {
-        "courseNumber": "1135",
-        "courseName": "Expressions Combo"
-      },
-      {
-        "courseNumber": "1136",
-        "courseName": "Harp Ensemble"
-      },
-      {
-        "courseNumber": "1137",
-        "courseName": "Guitar Ensemble"
-      },
-      {
-        "courseNumber": "1139",
-        "courseName": "String Ensemble"
-      },
-      {
-        "courseNumber": "1140",
-        "courseName": "Jazz Combo"
-      },
-      {
-        "courseNumber": "1142",
-        "courseName": "Expressions Vocal Jazz Ensbl"
-      },
-      {
-        "courseNumber": "1151",
-        "courseName": "A Capella Pop Group"
-      },
-      {
-        "courseNumber": "1152",
-        "courseName": "Opera Theatre Ens"
-      },
-      {
-        "courseNumber": "1153",
-        "courseName": "Chamber Choir"
-      }
-    ]
-  },
-  {
-    "schoolTermLabel": "Fall 2017 Credit",
-    "courseTypeLabel": "Music, Applied (MUAP)",
-    "Subj": "MUAP",
-    "coursePayload": [
-      {
-        "courseNumber": "1101",
-        "courseName": "Applied Music Violin"
-      },
-      {
-        "courseNumber": "1105",
-        "courseName": "Applied Music Viola"
-      },
-      {
-        "courseNumber": "1115",
-        "courseName": "Applied Music Electric Bass"
-      },
-      {
-        "courseNumber": "1117",
-        "courseName": "Applied Music Flute"
-      },
-      {
-        "courseNumber": "1129",
-        "courseName": "Applied Music Clarinet"
-      },
-      {
-        "courseNumber": "1145",
-        "courseName": "Applied Music Trombone"
-      },
-      {
-        "courseNumber": "1149",
-        "courseName": "Applied Music Baritone"
-      },
-      {
-        "courseNumber": "1153",
-        "courseName": "Applied Music Tuba"
-      },
-      {
-        "courseNumber": "1158",
-        "courseName": "Applied Music Drum Set"
-      },
-      {
-        "courseNumber": "1161",
-        "courseName": "Applied Music Guitar"
-      },
-      {
-        "courseNumber": "1162",
-        "courseName": "Applied Music Jazz Guitar"
-      },
-      {
-        "courseNumber": "1169",
-        "courseName": "Applied Music Piano"
-      },
-      {
-        "courseNumber": "1177",
-        "courseName": "Applied Music Harp"
-      },
-      {
-        "courseNumber": "1181",
-        "courseName": "Applied Music Voice"
-      },
-      {
-        "courseNumber": "1187",
-        "courseName": "Applied Music Composition"
-      },
-      {
-        "courseNumber": "1188",
-        "courseName": "App Music Electroacoustic Comp"
-      },
-      {
-        "courseNumber": "2201",
-        "courseName": "Concentration App Music-Violin"
-      },
-      {
-        "courseNumber": "2205",
-        "courseName": "Concentration App Music-Viola"
-      },
-      {
-        "courseNumber": "2209",
-        "courseName": "Concentration App Music-Cello"
-      },
-      {
-        "courseNumber": "2213",
-        "courseName": "Concentrat App Mus-Double Bass"
-      },
-      {
-        "courseNumber": "2215",
-        "courseName": "Concentr App Mus-Electric Bass"
-      },
-      {
-        "courseNumber": "2217",
-        "courseName": "Concentration App Music-Flute"
-      },
-      {
-        "courseNumber": "2229",
-        "courseName": "Concentrat App Music-Clarinet"
-      },
-      {
-        "courseNumber": "2233",
-        "courseName": "Concentration App Mus-Saxophon"
-      },
-      {
-        "courseNumber": "2237",
-        "courseName": "Concentrat App Music-Trumpet"
-      },
-      {
-        "courseNumber": "2241",
-        "courseName": "Concentrat App Mus-French Horn"
-      },
-      {
-        "courseNumber": "2245",
-        "courseName": "Concentrat App Music-Trombone"
-      },
-      {
-        "courseNumber": "2249",
-        "courseName": "Concentrat App Music-Baritone"
-      },
-      {
-        "courseNumber": "2257",
-        "courseName": "Concentrat App Mus-Percussion"
-      },
-      {
-        "courseNumber": "2258",
-        "courseName": "Concentrat App Music-Drum Set"
-      },
-      {
-        "courseNumber": "2261",
-        "courseName": "Concentration App Music-Guitar"
-      },
-      {
-        "courseNumber": "2262",
-        "courseName": "Concentrat App Mus-Jazz Guitar"
-      },
-      {
-        "courseNumber": "2269",
-        "courseName": "Concentration App Music-Piano"
-      },
-      {
-        "courseNumber": "2277",
-        "courseName": "Concentration App Music-Harp"
-      },
-      {
-        "courseNumber": "2281",
-        "courseName": "Concentration App Music-Voice"
-      },
-      {
-        "courseNumber": "2287",
-        "courseName": "Concentrat App Mus-Composition"
-      },
-      {
-        "courseNumber": "2288",
-        "courseName": "Conc App Mus-Electroacoust Com"
-      }
-    ]
-  }
-]
+{
+  "schoolTermLabel": "Fall 2017 Credit",
+  "guitarProgramCatalog": [
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1116,
+      "name": "Sight Singing & Ear Training I "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1181,
+      "name": "Piano Class I "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1183,
+      "name": "Voice Class "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1192,
+      "name": "Guitar Class "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1303,
+      "name": "Fundamentals of Music "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1306,
+      "name": "Music Appreciation "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1307,
+      "name": "Music Literature "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1310,
+      "name": "American Music "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 1311,
+      "name": "Music Theory I "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 2116,
+      "name": "Sight Sing & Ear Training III "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 2181,
+      "name": "Piano Class III "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUSI",
+      "class": 2311,
+      "name": "Music Theory III "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUEN",
+      "class": 1121,
+      "name": "Jazz Lab Band "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1122,
+      "name": "Symphonic Wind Ensemble "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1131,
+      "name": "New Music Ensemble "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1132,
+      "name": "Keyboard Ensemble "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1135,
+      "name": "Expressions Combo "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUEN",
+      "class": 1137,
+      "name": "Guitar Ensemble "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1139,
+      "name": "String Ensemble "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUEN",
+      "class": 1140,
+      "name": "Jazz Combo "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1142,
+      "name": "Expressions Vocal Jazz Ensbl "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1151,
+      "name": "A Capella Pop Group "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1152,
+      "name": "Opera Theatre Ens "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUEN",
+      "class": 1153,
+      "name": "Chamber Choir "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 1117,
+      "name": "Applied Music Flute "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 1149,
+      "name": "Applied Music Baritone "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 1153,
+      "name": "Applied Music Tuba "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 1158,
+      "name": "Applied Music Drum Set "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUAP",
+      "class": 1161,
+      "name": "Applied Music Guitar "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUAP",
+      "class": 1169,
+      "name": "Applied Music Piano "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUAP",
+      "class": 1181,
+      "name": "Applied Music Voice "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUAP",
+      "class": 1187,
+      "name": "Applied Music Composition "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2201,
+      "name": "Concentration App Music-Violin "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2205,
+      "name": "Concentration App Music-Viola "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2209,
+      "name": "Concentration App Music-Cello "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2213,
+      "name": "Concentrat App Mus-Double Bass "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2215,
+      "name": "Concentr App Mus-Electric Bass "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2217,
+      "name": "Concentration App Music-Flute "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2225,
+      "name": "Concentration App Mus-Bassoon "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2229,
+      "name": "Concentrat App Music-Clarinet "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2233,
+      "name": "Concentration App Mus-Saxophon "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2237,
+      "name": "Concentrat App Music-Trumpet "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2241,
+      "name": "Concentrat App Mus-French Horn "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2245,
+      "name": "Concentrat App Music-Trombone "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2249,
+      "name": "Concentrat App Music-Baritone "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2257,
+      "name": "Concentrat App Mus-Percussion "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2258,
+      "name": "Concentrat App Music-Drum Set "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUAP",
+      "class": 2261,
+      "name": "Concentration App Music-Guitar "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUAP",
+      "class": 2262,
+      "name": "Concentrat App Mus-Jazz Guitar "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2269,
+      "name": "Concentration App Music-Piano "
+    },
+    {
+      "relevent": false,
+      "discipline": "MUAP",
+      "class": 2281,
+      "name": "Concentration App Music-Voice "
+    },
+    {
+      "relevent": true,
+      "discipline": "MUAP",
+      "class": 2287,
+      "name": "Concentrat App Mus-Composition"
+    }
+  ]
+}

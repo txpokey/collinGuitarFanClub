@@ -67,7 +67,7 @@
                 ctx.setCoursePick = function(catalogController,catalog,coursePicked) {
                     ctx.coursePick.coursePicked = coursePicked;
                     ctx.coursePick.catalog = catalog;
-                    ctx.coursePick.filterBy = { Subj : catalog.Subj , Crse : coursePicked.courseNumber };
+                    ctx.coursePick.filterBy = { Subj : catalog.Subj , Crse : coursePicked.class };
                     ctx.coursePick.controller = catalogController ;
                     ctx.coursePick.catalogLabel = catalogController.guitarProgramCatalogBySection[0] ;
                 };

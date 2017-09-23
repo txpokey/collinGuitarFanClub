@@ -41,7 +41,8 @@
                                         <!--https://youtu.be/{{playlists.playlist.items[0]}}-->
                                         <div ng-repeat="actualList in playlists.playlist.items"
                                                 class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell guitar-dept-display-flex-column">
-                                            <a href="https://youtu.be/{{actualList.contentDetails.videoId}}" class="guitar-dept-display-flex-row">
+                                            <a target="_blank"
+                                               href="https://youtu.be/{{actualList.contentDetails.videoId}}" class="guitar-dept-display-flex-row">
                                                 <div class="guitar-dept-display-flex-wrap  Grid-cell">{{actualList.snippet.title}}
                                                 </div>
                                                 <div class="guitar-dept-display-flex-wrap  Grid-cell">{{actualList.snippet.description}}

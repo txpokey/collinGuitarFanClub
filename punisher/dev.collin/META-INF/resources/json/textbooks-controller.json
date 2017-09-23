@@ -14,18 +14,28 @@
       "name": "The Beginning Guitar Method",
       "author": "Fernand T. Vera & Olga Amelkina-Vera",
       "date": "2012",
-      "edition": "Vol 1, 5th Edition",
-      "ISBN": "9780615451169",
+      "edition": "Vol 1., 5th Edition",
+      "ISBN": "#0",
       "image": "/assets/images/textbooks/vera.vol1.ed5.jpg",
-      "url": "#0"
-    },    {
+      "url": "/html/textbooks/veraMethod.vol1.html"
+    },
+    {
       "name": "The Beginning Guitar Method",
       "author": "Fernand T. Vera",
       "date": "2015",
-      "edition": "Vol 2, 2nd Edition",
+      "edition": "Vol. 2, 2nd Edition",
       "ISBN": "#0",
       "image": "/assets/images/textbooks/vera.vol2.ed2.jpg",
-      "url": "#0"
+      "url": "/html/textbooks/veraMethod.vol2.html"
+    },
+    {
+      "name": "MUSI 1303 : Music Fundamentals Course Material",
+      "author": "Collin College Music Department",
+      "date": "2017",
+      "edition": "Spring 2017",
+      "ISBN": "#0",
+      "image": "/assets/images/textbooks/musicFundamentals--2015.fall.jpg",
+      "url": "/html/textbooks/musicFundamentals.html"
     },
     {
       "name": "Julio S. Sagreras Guitar Lessons",
@@ -34,6 +44,15 @@
       "edition": "Books 1-3",
       "ISBN": "9780786627233",
       "image": "/assets/images/textbooks/sagreras.jpg",
+      "url": "#0"
+    },
+    {
+      "name": "On Practicing: A Manual for Students of Guitar Performance",
+      "author": "Ricardo Iznaola",
+      "date": "2001",
+      "edition": "2001",
+      "ISBN": "9780786658732",
+      "image": "/assets/images/textbooks/RI-practice.jpg",
       "url": "#0"
     },
     {

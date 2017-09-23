@@ -2,9 +2,8 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 
 accomplishments:
 
-T: demo 2-0 checkin for meeting 1pm 9/15/17 with Dr. Vera
-T: feature: performances : playlistsByChannel : working modal to drill into playlist selection 
-T: feature: textbooks : images + titles. no includes yet.
+T: pruned classes per FV guidance a week ago. Converted to using groupBy. So that means a new include on every page. 
+F: bug : work around : I have coded textbook include content, but stubbed. deadlocks
 
 .................................
 .................................

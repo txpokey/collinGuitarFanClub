@@ -1,23 +1,49 @@
+<!--  guitar courses offered by school term Container  -->
+<!--{-->
+<!--"schoolTermLabel": "Fall 2017 Credit",-->
+<!--"courseTypeLabel": "Music (MUSI)",-->
+<!--"Subj": "MUSI",-->
+<!--"coursePayload": [-->
+<!--{-->
+<!--"courseNumber": "1116",-->
+<!--"courseName": "Sight Singing & Ear Training I"-->
+<!--},-->
 
 <section id="guitar-program-courses-by-school-term-section">
     <div ng-controller="GuitarCoursesBySchoolTermController as catalogController">
         <div class="guitar-dept-display-flex-column">
-            <div class="guitar-dept-display-flex-column"
-                 ng-repeat="(discipline,catalog) in catalogController.guitarProgramCatalog.guitarProgramCatalog| groupBy: 'discipline'">
+            <div class="guitar-dept-display-flex-column" ng-repeat="catalog in catalogController.guitarProgramCatalog">
                 <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
-                    {{catalogController.guitarProgramCatalog.schoolTermLabel}}&nbsp;:&nbsp;{{discipline}}
+                    {{catalog.schoolTermLabel}}&nbsp;:&nbsp;{{catalog.courseTypeLabel}}
                 </div>
-                <div ng-repeat="guitarProgramCourse in catalog | filter: { relevent:true }"
+                <div ng-repeat="guitarProgramCourse in catalog.coursePayload"
                      class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
                     <div ng-click="ctx.setCoursePick(catalogController,catalog,guitarProgramCourse)"
-                        data-toggle="modal" data-target="#myModal"
-                        class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
-                        <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.class}}</div>
-                        <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.name}}</div>
+                         data-toggle="modal" data-target="#myModal"
+                         class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
+                        <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseNumber}}</div>
+                        <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.courseName}}</div>
                     </div>
                 </div>
             </div>
         </div>
+        <!--guitarProgramCatalogBySection-->
+        <!--"Select": "Select",-->
+        <!--"CRN": "CRN",-->
+        <!--"Subj": "Subject Area",-->
+        <!--"Crse": "Course",-->
+        <!--"Sec": "Section",-->
+        <!--"Cred": "Credits",-->
+        <!--"Title": "Course Name",-->
+        <!--"Days": "DaysOfWeek",-->
+        <!--"Time": "Class Time",-->
+        <!--"Date": "Term Dates",-->
+        <!--"Location": "Location",-->
+        <!--"Cap": 20,-->
+        <!--"Rem": 0,-->
+        <!--"WL Cap": 0,-->
+        <!--"WL Rem": 0,-->
+        <!--"Instructor": "Instructor"-->
 
         <div id="container">
             <!-- Modal -->
@@ -32,7 +58,7 @@
                         <div class="modal-body" ng-init="pick=ctx.getCoursePick()">
                             <div class="guitar-dept-display-flex-column">
                                 <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
-                                    {{pick.coursePicked['discipline']}}&nbsp;:&nbsp;{{pick.coursePicked['class']}}&nbsp;:&nbsp;{{pick.coursePicked['name']}}
+                                    {{pick.catalog['Subj']}}&nbsp;:&nbsp;{{pick.coursePicked['courseNumber']}}&nbsp;:&nbsp;{{pick.coursePicked['courseName']}}
                                 </div>
                                 <div class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
                                     <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogLabel.CRN}}</div>
@@ -73,7 +99,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 
