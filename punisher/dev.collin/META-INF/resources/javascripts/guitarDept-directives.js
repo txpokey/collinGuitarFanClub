@@ -120,27 +120,39 @@
             restrict: 'E',
             templateUrl: "../html/directives/misc/guitar-textbooks.html",
             controller: function() {
-                var NO_TAB_ACTIVE = -1 ;
-                this.tab = NO_TAB_ACTIVE ;
-                this.activeTab = this.tab ;
+                var TABBER = this ;
 
-                this.privateSetTab = function(newTabID) {
-                    return this.activeTab = this.tab = newTabID ;
+                TABBER.privateNoActiveTabConstant = function(){
+                    var NO_TAB_ACTIVE_CONSTANT = -1 ;
+                    return NO_TAB_ACTIVE_CONSTANT ;
                 };
-                this.tabReset = function() {
-                    return this.privateSetTab( NO_TAB_ACTIVE );
+                var activeTab = TABBER.privateNoActiveTabConstant() ;
+                TABBER.getTab = function () {
+                    return activeTab;
                 };
-                this.showTab = function(checkTab) {
-                    return ( this.isSet(checkTab) || this.tab === NO_TAB_ACTIVE ) ;
+                TABBER.privateSetTab = function(newTabID) {
+                    activeTab = newTabID ;
+                    return TABBER.getTab() ;
                 };
-                this.isSet = function(checkTab) {
-                    return this.tab === checkTab;
+
+                TABBER.tabReset = function() {
+                    TABBER.privateSetTab( TABBER.privateNoActiveTabConstant() );
+                    return TABBER.getTab() ;
                 };
-                this.setTab = function(candidateTab) {
-                    this.privateSetTab( this.isSet( candidateTab ) ? this.tabReset() : candidateTab );
+                TABBER.showTab = function(candidateTab) {
+                    // var currentTab = TABBER.getTab() ;
+                    return (TABBER.privateNoActiveTabConstant() === TABBER.getTab()) || TABBER.isTabSet(candidateTab) ;
                 };
+                TABBER.isTabSet = function(checkTab) {
+                    // var currentTab = TABBER.getTab() ;
+                    return TABBER.getTab() === checkTab;
+                };
+                TABBER.setTab = function(candidateTab) {
+                    TABBER.privateSetTab( TABBER.isTabSet( candidateTab ) ? TABBER.tabReset() : candidateTab );
+                };
+
             },
-            controllerAs: "tab"
+            controllerAs: "textbookTab"
         };
     });
     app.directive("guitarPerformances", function() {

@@ -6,19 +6,25 @@
     </div>
     <div id="setup-news-content-blocks" class="guitar-dept-display-flex-row guitar-dept-display-flex-wrap guitar-dept-flex-space-around">
         <div ng-repeat="guitarTextbookModel in textbooksController.textbooks.payload  | filter: { image: '!#0' }" class="guitar-dept-display-flex-row">
-            <div id="setup-news-content-single-block" class="guitar-dept-display-flex-column">
-                <div ng-show="tab.showTab($index)"
-                     ng-class="{ active:tab.isSet($index) }">
+            <div ng-click="textbookTab.setTab($index);" id="setup-news-content-single-block" class="guitar-dept-display-flex-column">
+                <div ng-show="textbookTab.showTab($index)">
                     <img class="guitar-dept-media-news-image padded-above"
-                         ng-click="tab.setTab($index)" ng-src="{{guitarTextbookModel.image}}">
+                          ng-src="{{guitarTextbookModel.image}}">
                     <div class="guitar-dept-news-media-label padded-right">{{guitarTextbookModel.name}}</div>
                     <div class="guitar-dept-news-media-label padded-right">{{guitarTextbookModel.author}}</div>
                     <div class="guitar-dept-news-media-label padded-right">{{guitarTextbookModel.edition}}</div>
                 </div>
             </div>
-<!--            <div ng-show="tab.isSet($index)" class="guitar-dept-display-flex-row"
+            <div ng-show="textbookTab.isTabSet($index)" class="guitar-dept-display-flex-row"
                  ng-include="guitarTextbookModel.url">
-            </div>-->
+            </div>
         </div>
     </div>
 </section>
+
+<!--<div ng-show="tab.showTab($index)"-->
+     <!--ng-class="{ active:tab.isSet($index) }">-->
+
+<!--<div ng-show="tab.showTab($index)" class="guitar-dept-display-flex-row"-->
+<!--ng-include="guitarTextbookModel.url">-->
+<!--</div>-->

@@ -2,8 +2,8 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 
 accomplishments:
 
-T: pruned classes per FV guidance a week ago. Converted to using groupBy. So that means a new include on every page. 
-F: bug : work around : I have coded textbook include content, but stubbed. deadlocks
+T: bug fix : textbooks had an infinite loop because I was ng-include URIs set to '#0', which it interpretted as reload the page. so since my ng-repeat
+was doing $index calculations, each loop fulfillment was running the tab animation twice for each item in the loop. 
 
 .................................
 .................................
