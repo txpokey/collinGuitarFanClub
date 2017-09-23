@@ -2,8 +2,8 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 
 accomplishments:
 
-T: bug fix : textbooks had an infinite loop because I was ng-include URIs set to '#0', which it interpretted as reload the page. so since my ng-repeat
-was doing $index calculations, each loop fulfillment was running the tab animation twice for each item in the loop. 
+T: feature complete : textbooks
+T: completed actions from 9/1/17 website review. 
 
 .................................
 .................................
