@@ -80,25 +80,25 @@
       "name": "Jazz Lab Band "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1122,
       "name": "Symphonic Wind Ensemble "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1131,
       "name": "New Music Ensemble "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1132,
       "name": "Keyboard Ensemble "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1135,
       "name": "Expressions Combo "
@@ -110,7 +110,7 @@
       "name": "Guitar Ensemble "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1139,
       "name": "String Ensemble "
@@ -122,25 +122,25 @@
       "name": "Jazz Combo "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1142,
       "name": "Expressions Vocal Jazz Ensbl "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1151,
       "name": "A Capella Pop Group "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1152,
       "name": "Opera Theatre Ens "
     },
     {
-      "relevent": false,
+      "relevent": true,
       "discipline": "MUEN",
       "class": 1153,
       "name": "Chamber Choir "
@@ -176,13 +176,13 @@
       "name": "Applied Music Guitar "
     },
     {
-      "relevent": true,
+      "relevent": false,
       "discipline": "MUAP",
       "class": 1169,
       "name": "Applied Music Piano "
     },
     {
-      "relevent": true,
+      "relevent": false,
       "discipline": "MUAP",
       "class": 1181,
       "name": "Applied Music Voice "
