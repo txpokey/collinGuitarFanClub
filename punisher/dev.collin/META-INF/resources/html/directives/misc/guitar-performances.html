@@ -5,7 +5,7 @@
             <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
                 {{performanceController.channelQuery.channelTitle}}
             </div>
-            <div ng-repeat="guitarPlaylist in performanceController.channelQuery.items | filter : { skip:'!#0'}"
+            <div ng-repeat="guitarPlaylist in performanceController.channelQuery.items | filter : { skip:'!#0'} | orderBy: 'snippet.title':true"
                  class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
                 <div ng-click="ctx.setPlaylistPick(performanceController,performanceController.channelQuery,guitarPlaylist)"
                      data-toggle="modal" data-target="#myModal"
