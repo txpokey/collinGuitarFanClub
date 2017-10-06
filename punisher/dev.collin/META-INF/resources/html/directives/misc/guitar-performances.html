@@ -34,18 +34,14 @@
                                     <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.playlistPicked.snippet.title}}</div>
                                     </div>
                                 </div>
-                            <!--{{pick.controller.playlistQuery.playlistsByChannel}}-->
                                 <div class="guitar-dept-display-flex-column">
-                                    <div ng-repeat="playlists in pick.controller.playlistQuery.playlistsByChannel | filter : pick.filterBy "
+                                    <div ng-repeat="playlist in pick.controller.playlistQuery | filter: pick.filterBy"
                                          class="guitar-dept-display-flex-wrap guitar-dept-display-flex-column">
-                                        <!--https://youtu.be/{{playlists.playlist.items[0]}}-->
-                                        <div ng-repeat="actualList in playlists.playlist.items"
+                                        <div ng-repeat="actualList in playlist.items"
                                                 class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell guitar-dept-display-flex-column">
                                             <a target="_blank"
                                                href="https://youtu.be/{{actualList.contentDetails.videoId}}" class="guitar-dept-display-flex-row">
                                                 <div class="guitar-dept-display-flex-wrap  Grid-cell">{{actualList.snippet.title}}
-                                                </div>
-                                                <div class="guitar-dept-display-flex-wrap  Grid-cell">{{actualList.snippet.description}}
                                                 </div>
                                                 <div class="guitar-dept-display-flex-wrap  Grid-cell">
                                                     <img ng-src="{{actualList.snippet.thumbnails.default.url}}">
@@ -63,7 +59,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 

@@ -92,6 +92,9 @@
         });
         $http.get('../json/you-tube.playlist.query.json').then(function (response) {
             performanceController.playlistQuery = response.data;
+            for (i =0 , q = performanceController.playlistQuery; i < q.length; i++) {
+                q[i].playlistId = q[i].items[0].snippet.playlistId;
+            }
         }, function (badResult) {
             console.log(badResult)
         });
