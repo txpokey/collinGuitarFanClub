@@ -37,6 +37,16 @@
       "event": "Collin College Guitar Competition",
       "image": "/html/news/2017/fall/current/guitarCompetition-logo.jpg",
       "url": "/html/news/2017/fall/current/guitarCompetition-news.html"
+    },
+    {
+      "test": true,
+      "name": "Collin College Guitar Studies Website - NEW",
+      "date": "10/6/2017",
+      "time": "12am",
+      "where": "internet",
+      "event": "Using Collin College Guitar Studies Website",
+      "image": "/assets/images/header/guitarStudies.light-logo.jpg",
+      "url": "/html/news/2017/fall/current/guitarWebsite-news.html"
     }
   ]
 }
