@@ -2,7 +2,66 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 
 accomplishments:
 
-T: added annoucement for new site and deployed to Amazon
+T: clean out all deprecated code and directories
 
 .................................
+git rm META-INF/resources/assets/images/.deprecated/angular.example.images/0-thumb.gif
+git rm META-INF/resources/assets/images/.deprecated/angular.example.images/1-thumb.gif
+git rm META-INF/resources/assets/images/.deprecated/angular.example.images/README.md
+git rm META-INF/resources/assets/images/.deprecated/angular.example.images/azurite-big.gif
+git rm META-INF/resources/assets/images/.deprecated/angular.example.images/azurite-thumb.gif
+git rm META-INF/resources/assets/images/.deprecated/angular.example.images/bloodstone-big.gif
+git rm META-INF/resources/assets/images/.deprecated/angular.example.images/zircon-big.gif
+git rm META-INF/resources/assets/images/.deprecated/apple-touch-icon-retina.png
+git rm META-INF/resources/assets/images/.deprecated/apple-touch-icon.png
+git rm META-INF/resources/assets/images/.deprecated/favicon.ico
+git rm META-INF/resources/assets/images/.deprecated/grails_logo.png
+git rm META-INF/resources/assets/images/.deprecated/number/1.jpg
+git rm META-INF/resources/assets/images/.deprecated/number/2.jpg
+git rm META-INF/resources/assets/images/.deprecated/number/3.jpg
+git rm META-INF/resources/assets/images/.deprecated/number/4.jpg
+git rm META-INF/resources/assets/images/.deprecated/number/5.jpg
+git rm META-INF/resources/assets/images/.deprecated/number/6.jpg
+git rm META-INF/resources/assets/images/.deprecated/number/7.jpg
+git rm META-INF/resources/assets/images/.deprecated/number/8.jpg
+git rm META-INF/resources/assets/images/.deprecated/number/9.jpg
+git rm META-INF/resources/assets/images/.deprecated/skin/database_add.png
+git rm META-INF/resources/assets/images/.deprecated/skin/database_delete.png
+git rm META-INF/resources/assets/images/.deprecated/skin/database_edit.png
+git rm META-INF/resources/assets/images/.deprecated/skin/database_save.png
+git rm META-INF/resources/assets/images/.deprecated/skin/database_table.png
+git rm META-INF/resources/assets/images/.deprecated/skin/exclamation.png
+git rm META-INF/resources/assets/images/.deprecated/skin/house.png
+git rm META-INF/resources/assets/images/.deprecated/skin/information.png
+git rm META-INF/resources/assets/images/.deprecated/skin/shadow.jpg
+git rm META-INF/resources/assets/images/.deprecated/skin/sorted_asc.gif
+git rm META-INF/resources/assets/images/.deprecated/skin/sorted_desc.gif
+git rm META-INF/resources/assets/images/.deprecated/spinner.gif
+git rm META-INF/resources/assets/images/.deprecated/springsource.png
+git rm META-INF/resources/assets/javascripts/.deprecated/angular/stock/angular.js
+git rm META-INF/resources/assets/stylesheets/.deprecated/animations.css
+git rm META-INF/resources/assets/stylesheets/.deprecated/application.css
+git rm META-INF/resources/assets/stylesheets/.deprecated/bootstrap/stock/bootstrap-theme.css
+git rm META-INF/resources/assets/stylesheets/.deprecated/bootstrap/stock/bootstrap.css
+git rm META-INF/resources/assets/stylesheets/.deprecated/errors.css
+git rm META-INF/resources/assets/stylesheets/.deprecated/main.css
+git rm META-INF/resources/assets/stylesheets/.deprecated/mobile.css
+git rm META-INF/resources/assets/stylesheets/.deprecated/sci-flex-margins.css
+git rm META-INF/resources/assets/stylesheets/sci-codepen--DEMO-1-3.css
+git rm META-INF/resources/assets/stylesheets/sci-codepen.css
+git rm META-INF/resources/html/news/2017/fall/current/.retired/guitarCompetition--2017-Fall.zip
+git rm META-INF/resources/html/news/2017/fall/current/.save/GFA-news.html
+git rm META-INF/resources/html/news/2017/fall/current/.save/guitarCompetition-news.html
+git rm META-INF/resources/html/news/2017/fall/current/.save/weverka-news.html
+git rm META-INF/resources/html/sci-guitarFaculty.html
+git rm META-INF/resources/javascripts/.deprecated/products.js
+git rm META-INF/resources/javascripts/.deprecated/store-app.js
+git rm META-INF/resources/json/.deprecated/store-products.json
+git rm META-INF/resources/json/courseWare/2017/fall/current/musicCoursesBySection.csv
+git rm META-INF/resources/json/courseWare/2017/fall/current/musicCoursesBySectionV0.json
+git rm META-INF/resources/json/courseWare/2017/fall/current/musicCoursesBySectionV1.json
+git rm META-INF/resources/json/courseWare/2017/fall/current/musicCoursesV0.json
+git rm META-INF/resources/json/you-tube.channelSearch.query.json
+git rm META-INF/resources/notes/code.exercise--5.4.txt
+
 .................................
