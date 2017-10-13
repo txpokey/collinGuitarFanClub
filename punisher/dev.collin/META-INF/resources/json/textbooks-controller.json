@@ -16,8 +16,8 @@
       "date": "2012",
       "edition": "Vol 1., 5th Edition",
       "ISBN": "#0",
-      "image": "/assets/images/textbooks/vera.vol1.ed5.jpg",
-      "url": "/html/textbooks/veraMethod.vol1.html"
+      "image": "../assets/images/textbooks/vera.vol1.ed5.jpg",
+      "url": "../html/textbooks/veraMethod.vol1.html"
     },
     {
       "name": "The Beginning Guitar Method",
@@ -25,8 +25,8 @@
       "date": "2015",
       "edition": "Vol. 2, 2nd Edition",
       "ISBN": "#0",
-      "image": "/assets/images/textbooks/vera.vol2.ed2.jpg",
-      "url": "/html/textbooks/veraMethod.vol2.html"
+      "image": "../assets/images/textbooks/vera.vol2.ed2.jpg",
+      "url": "../html/textbooks/veraMethod.vol2.html"
     },
     {
       "name": "MUSI 1303 : Music Fundamentals",
@@ -34,8 +34,8 @@
       "date": "2017",
       "edition": "Spring 2017",
       "ISBN": "#0",
-      "image": "/assets/images/textbooks/musicFundamentals--2015.fall.jpg",
-      "url": "/html/textbooks/musicFundamentals.html"
+      "image": "../assets/images/textbooks/musicFundamentals--2015.fall.jpg",
+      "url": "../html/textbooks/musicFundamentals.html"
     },
     {
       "name": "Music in Theory and Practice",
@@ -43,8 +43,8 @@
       "date": "2014",
       "edition": "Vol. 1, 9th Edition",
       "ISBN": "9780078025150",
-      "image": "/assets/images/textbooks/benward-saker.theory.textbook.jpg",
-      "url": "/html/textbooks/benward-saker.html"
+      "image": "../assets/images/textbooks/benward-saker.theory.textbook.jpg",
+      "url": "../html/textbooks/benward-saker.html"
     },
     {
       "name": "Music in Theory and Practice",
@@ -52,8 +52,8 @@
       "date": "2014",
       "edition": "Vol. 1 Workbook, 9th Edition",
       "ISBN": "9780077493318",
-      "image": "/assets/images/textbooks/benward-saker.theory.workbook.jpg",
-      "url": "/html/textbooks/benward-saker-workbook.html"
+      "image": "../assets/images/textbooks/benward-saker.theory.workbook.jpg",
+      "url": "../html/textbooks/benward-saker-workbook.html"
     },
     {
       "name": "Julio S. Sagreras Guitar Lessons",
@@ -61,8 +61,8 @@
       "date": "1996",
       "edition": "Books 1-3",
       "ISBN": "9780786627233",
-      "image": "/assets/images/textbooks/sagreras.jpg",
-      "url": "/html/textbooks/sagreras.html"
+      "image": "../assets/images/textbooks/sagreras.jpg",
+      "url": "../html/textbooks/sagreras.html"
     },
     {
       "name": "On Practicing",
@@ -70,8 +70,8 @@
       "date": "2001",
       "edition": "1st Edition",
       "ISBN": "9780786658732",
-      "image": "/assets/images/textbooks/RI-practice.jpg",
-      "url": "/html/textbooks/iznaola-practice.html"
+      "image": "../assets/images/textbooks/RI-practice.jpg",
+      "url": "../html/textbooks/iznaola-practice.html"
     },
     {
       "name": "Pumping Nylon",
@@ -79,8 +79,8 @@
       "date": "2016",
       "edition": "2nd Edition",
       "ISBN": "9781470631383",
-      "image": "/assets/images/textbooks/pumpingNylon.jpg",
-      "url": "/html/textbooks/pumpingNylon.html"
+      "image": "../assets/images/textbooks/pumpingNylon.jpg",
+      "url": "../html/textbooks/pumpingNylon.html"
     }
   ]
 }

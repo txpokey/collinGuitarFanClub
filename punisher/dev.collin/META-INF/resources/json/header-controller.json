@@ -3,31 +3,31 @@
   "targets": [
     {
       "label": "News",
-      "url": "/html/guitarNews.html"
+      "url": "../html/guitarNews.html"
     },
     {
       "label": "Classes",
-      "url": "/html/guitarCoursesBySchoolTerm.html"
+      "url": "../html/guitarCoursesBySchoolTerm.html"
     },
     {
       "label": "TEXTBOOKS",
-      "url": "/html/guitarTextbooks.html"
+      "url": "../html/guitarTextbooks.html"
     },
     {
       "label": "Events",
-      "url": "/html/guitarEvents.html"
+      "url": "../html/guitarEvents.html"
     },
     {
       "label": "Performances",
-      "url": "/html/guitarPerformances.html"
+      "url": "../html/guitarPerformances.html"
     },
     {
       "label": "LINKS",
-      "url": "/html/guitarLinks.html"
+      "url": "../html/guitarLinks.html"
     },
     {
       "label": "faculty",
-      "url": "/html/guitarFaculty.html"
+      "url": "../html/guitarFaculty.html"
     }
   ]
 }
