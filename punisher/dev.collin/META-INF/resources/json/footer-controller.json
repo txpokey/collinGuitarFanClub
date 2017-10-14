@@ -28,6 +28,12 @@
         "url": "https://www.instagram.com/collincollegemusic/"
       },
       {
+        "label": "help",
+        "icon" : "fa fa-info-circle",
+        "logo" : "#0",
+        "url": "../html/news/2017/fall/current/guitarWebsite-news.html"
+      },
+      {
         "label": "webmaster",
         "icon" : "fa fa-envelope-o",
         "logo" : "#0",

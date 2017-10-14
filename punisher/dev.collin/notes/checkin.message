@@ -2,7 +2,7 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 
 accomplishments:
 
-T: went through .json revising so uri are directory *relative* and not contect absolute. e.g., "/html" -> "../html" 
+T: added help and target=_blank to footer 
 
 .................................
 .................................
