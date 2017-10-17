@@ -1,11 +1,12 @@
-BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
+BRANCH == dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0
 
 accomplishments:
 
-T: added target _blank to <a/> on links page
+T: tested on collin firewall: 
+had to stop using .json and .svg suffix. moved the JSON content to /assets/json and changed suffix to .html to work
 
 new feature : meta data : 
-F: data : added a couple open graph meta tags in effort for facebook thumbnailing. not working yet
+F: facebook thumbnailing. not working yet
 
 .................................
 .................................
