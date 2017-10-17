@@ -2,7 +2,8 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 
 accomplishments:
 
-T: added help and target=_blank to footer 
+new feature : meta data : 
+F: data : added a couple open graph meta tags in effort for facebook thumbnailing. not working yet
 
 .................................
 .................................
