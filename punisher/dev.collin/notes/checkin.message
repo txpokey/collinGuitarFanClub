@@ -2,6 +2,7 @@ BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
 
 accomplishments:
 
+T: moved json to assets/json and updated the referencing JS files. 
 new feature : meta data : 
 F: data : added a couple open graph meta tags in effort for facebook thumbnailing. not working yet
 
