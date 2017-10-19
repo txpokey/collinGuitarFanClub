@@ -2,11 +2,12 @@ BRANCH == dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0
 
 accomplishments:
 
-T: tested on collin firewall: 
-had to stop using .json and .svg suffix. moved the JSON content to /assets/json and changed suffix to .html to work
+T: added mitch residency schedule to his news article.
 
 new feature : meta data : 
-F: facebook thumbnailing. not working yet
+T: facebook thumbnailing. WORKING! had to tell facebook to rescrape our pages after I applied the Open Graph tags.
+T: added keyworks for each page, including adding our sponsors into a keyword string
+T: added custom titles for each of our pages. 
 
 .................................
 .................................
