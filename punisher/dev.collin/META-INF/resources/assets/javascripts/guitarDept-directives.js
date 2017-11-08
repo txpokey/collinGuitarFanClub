@@ -64,10 +64,10 @@
                 ctx.getCoursePick = function() {
                     return ctx.coursePick ;
                 };
-                ctx.setCoursePick = function(catalogController,catalog,coursePicked) {
+                ctx.setCoursePick = function(catalogController,coursePicked) {
                     ctx.coursePick.coursePicked = coursePicked;
-                    ctx.coursePick.catalog = catalog;
-                    ctx.coursePick.filterBy = { active: true, Subj : catalog.Subj , Crse : coursePicked.class };
+                    // MAK - make sure you change "active": "SR" to "active": true in the JSON data
+                    ctx.coursePick.filterBy = { active: true , Subj : coursePicked.discipline , Crse : coursePicked.class };
                     ctx.coursePick.controller = catalogController ;
                     ctx.coursePick.catalogLabel = catalogController.guitarProgramCatalogBySection[0] ;
                 };

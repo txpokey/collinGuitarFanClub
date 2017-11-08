@@ -1,9 +1,6 @@
-BRANCH == dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0
-
-accomplishments:
-
-T: removed a deprecated directory
-T: added target black to help page
+T: begin rollback to use .json suffix instead of collin context workaround .html
+F: begin draft on work to have collapsing menu on class schedule
 
 .................................
+BRANCH == dev.collin/checkpoint/1.0.RC1/171106-0
 .................................

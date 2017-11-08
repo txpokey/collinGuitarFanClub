@@ -1,5 +1,6 @@
 
 <section id="guitar-program-courses-by-school-term-section">
+
     <div ng-controller="GuitarCoursesBySchoolTermController as catalogController">
         <div class="guitar-dept-display-flex-column">
             <div class="guitar-dept-display-flex-column"
@@ -9,7 +10,7 @@
                 </div>
                 <div ng-repeat="guitarProgramCourse in catalog | filter: { relevent:true }"
                      class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
-                    <div ng-click="ctx.setCoursePick(catalogController,catalog,guitarProgramCourse)"
+                    <div ng-click="ctx.setCoursePick(catalogController,guitarProgramCourse)"
                         data-toggle="modal" data-target="#myModal"
                         class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
                         <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.class}}</div>
@@ -43,9 +44,11 @@
                                     <div class="guitar-dept-display-flex-wrap  Grid-cell">{{pick.catalogLabel.Instructor}}
                                     </div>
                                 </div>
+
                                 <div class="guitar-dept-display-flex-column">
-                                    <div ng-repeat="modalModel in pick.controller.guitarProgramCatalogBySection | filter : pick.filterBy "
+                                    <div ng-repeat="modalModel in pick.controller.guitarProgramCatalogBySection | filter: pick.filterBy "
                                          class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
+
                                         <div class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
                                             <div class="guitar-dept-display-flex-wrap  Grid-cell">{{modalModel.CRN}}
                                             </div>
