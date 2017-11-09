@@ -1,14 +1,14 @@
 
 <section id="guitar-program-courses-by-school-term-section">
-
+    <!--| filter: { schoolSemester: 'fall' , schoolYear: 2017 }-->
     <div ng-controller="GuitarCoursesBySchoolTermController as catalogController">
-        <div class="guitar-dept-display-flex-column">
+        <div class="guitar-dept-display-flex-column" ng-repeat="catalog in catalogController.guitarProgramCatalog | filter: { schoolYear: schoolYear , schoolSemester: schoolSemester }">
             <div class="guitar-dept-display-flex-column"
-                 ng-repeat="(discipline,catalog) in catalogController.guitarProgramCatalog.guitarProgramCatalog | groupBy: 'discipline'">
+                 ng-repeat="(discipline,courses) in catalog.payload | groupBy: 'discipline' ">
                 <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header " style="text-transform: capitalize;">
                     {{schoolSemester}}&nbsp;{{schoolYear}}&nbsp;:&nbsp;{{discipline}}
                 </div>
-                <div ng-repeat="guitarProgramCourse in catalog | filter: { relevent:true }"
+                <div ng-repeat="guitarProgramCourse in courses | filter: { relevent:true }"
                      class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
                     <div ng-click="ctx.setCoursePick(catalogController,guitarProgramCourse)"
                         data-toggle="modal" data-target="#myModal"

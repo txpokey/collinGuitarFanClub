@@ -1,4 +1,5 @@
-F: collapsing menu on class schedule : UI side is ready, but the data-controller side is still one dimensional. only knows current year and
+T: collapsing menu on class schedule : controller now does pick out semester-year and UI lists out those courses from inside collapse tabs. next is to
+integrate the modal into this new approach.
 semester.
 
 .................................

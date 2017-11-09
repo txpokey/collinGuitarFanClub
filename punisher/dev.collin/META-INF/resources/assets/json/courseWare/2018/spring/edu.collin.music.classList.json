@@ -1,8 +1,8 @@
 ﻿{
   "schoolTermLabel": "Spring 2018 Credit",
-  "year": 2018,
-  "schoolterm": "spring",
-  "guitarProgramCatalog": [
+  "schoolYear": 2018,
+  "schoolSemester": "spring",
+  "payload": [
     {
       "relevent": true,
       "discipline": "MUSI",
