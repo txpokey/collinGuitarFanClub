@@ -1,5 +1,5 @@
-T: begin rollback to use .json suffix instead of collin context workaround .html
-F: begin draft on work to have collapsing menu on class schedule
+F: collapsing menu on class schedule : UI side is ready, but the data-controller side is still one dimensional. only knows current year and
+semester.
 
 .................................
 BRANCH == dev.collin/checkpoint/1.0.RC1/171106-0

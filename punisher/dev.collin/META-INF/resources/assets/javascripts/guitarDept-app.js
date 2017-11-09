@@ -39,7 +39,7 @@
             console.log(badResult)
         });
     }]);
-    app.controller('GuitarCoursesBySchoolTermController', [ '$http' , function($http){
+    app.controller('GuitarCoursesBySchoolTermController', function($scope,$http){
         var catalogController = this;
         catalogController.guitarProgramCatalog = [];
         $http.get('../assets/json/courseWare/2018/spring/edu.collin.music.classList.json').then(function (response) {
@@ -53,7 +53,7 @@
         }, function (badResult) {
             console.log(badResult)
         });
-    }]);
+    });
 
     app.controller('GuitarLinksController', [ '$http' , function($http){
         var linksController = this;

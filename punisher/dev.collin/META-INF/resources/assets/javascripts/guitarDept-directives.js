@@ -56,7 +56,11 @@
     app.directive("guitarCoursesBySchoolTerm", function() {
         return {
             restrict: 'E',
+            scope: {
+                schoolSemester: '@semester', schoolYear: '@year'
+            },
             templateUrl: "../html/directives/calendar/guitarCourses-bySchoolTerm.html",
+
             controller: function() {
                 var NO_COURSE_YET = { } ;
                 var ctx = this ;
