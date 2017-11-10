@@ -53,8 +53,13 @@
             console.log(badResult)
         });
         catalogController.guitarProgramCatalogBySection = [];
+        $http.get('../assets/json/courseWare/2017/fall/edu.collin.music.musicCoursesBySection.json').then(function (response) {
+            catalogController.guitarProgramCatalogBySection.push( response.data ) ;
+        }, function (badResult) {
+            console.log(badResult)
+        });
         $http.get('../assets/json/courseWare/2018/spring/edu.collin.music.musicCoursesBySection.json').then(function (response) {
-            catalogController.guitarProgramCatalogBySection = response.data[0].guitarProgramCatalog;
+            catalogController.guitarProgramCatalogBySection.push( response.data ) ;
         }, function (badResult) {
             console.log(badResult)
         });

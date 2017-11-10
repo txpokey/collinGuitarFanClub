@@ -73,7 +73,7 @@
                     // MAK - make sure you change "active": "SR" to "active": true in the JSON data
                     ctx.coursePick.filterBy = { active: true , Subj : coursePicked.discipline , Crse : coursePicked.class };
                     ctx.coursePick.controller = catalogController ;
-                    ctx.coursePick.catalogLabel = catalogController.guitarProgramCatalogBySection[0] ;
+                    ctx.coursePick.catalogLabel = catalogController.guitarProgramCatalogBySection[0].payload[0] ;
                 };
                 ctx.getCatalogLabel = function() {
                     return ctx.getCoursePick().catalogLabel;

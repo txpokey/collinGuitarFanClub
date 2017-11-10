@@ -1,6 +1,4 @@
-T: collapsing menu on class schedule : controller now does pick out semester-year and UI lists out those courses from inside collapse tabs. next is to
-integrate the modal into this new approach.
-semester.
+T: collapsing menu on class schedule : modals now work with new multi-semester json 
 
 .................................
 BRANCH == dev.collin/checkpoint/1.0.RC1/171106-0
