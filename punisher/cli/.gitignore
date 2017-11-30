@@ -7,7 +7,6 @@
 *Db.script
 .DS_Store
 /.git/
-/.gradle/
 /.idea/
 *.iml
 /.insync-trash/
