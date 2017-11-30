@@ -1,18 +1,18 @@
 
-<section>
+<section id="guitar-program-courses-by-school-term-section">
+
     <div ng-controller="GuitarCoursesBySchoolTermController as catalogController">
-        <div class="guitar-dept-display-flex-column"
-             ng-repeat="catalog in catalogController.guitarProgramCatalog | filter: { schoolYear: requestedSchoolYear, schoolSemester: requestedSchoolSemester } ">
+        <div class="guitar-dept-display-flex-column">
             <div class="guitar-dept-display-flex-column"
-                 ng-repeat="(discipline,courses) in catalog.payload | groupBy: 'discipline' ">
+                 ng-repeat="(discipline,catalog) in catalogController.guitarProgramCatalog.guitarProgramCatalog | groupBy: 'discipline'">
                 <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header " style="text-transform: capitalize;">
-                    {{requestedSchoolSemester}}&nbsp;{{requestedSchoolYear}}&nbsp;:&nbsp;{{discipline}}
+                    {{schoolSemester}}&nbsp;{{schoolYear}}&nbsp;:&nbsp;{{discipline}}
+                    {{catalog}}
                 </div>
-                <div ng-repeat="guitarProgramCourse in courses | filter: { relevent:true }"
+                <div ng-repeat="guitarProgramCourse in catalog.payload | filter: { relevent:true }"
                      class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
-                    <div
-                        ng-click="ctx.setCoursePick(catalogController,guitarProgramCourse)"
-                        data-toggle="modal" data-target="#myModal-{{requestedSchoolYear}}-{{requestedSchoolSemester}}"
+                    <div ng-click="ctx.setCoursePick(catalogController,guitarProgramCourse)"
+                        data-toggle="modal" data-target="#myModal"
                         class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
                         <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.class}}</div>
                         <div class="guitar-dept-display-flex-wrap  Grid-cell">{{guitarProgramCourse.name}}</div>
@@ -23,16 +23,14 @@
 
         <div id="container">
             <!-- Modal -->
-            <div class="modal fade" id="myModal-{{requestedSchoolYear}}-{{requestedSchoolSemester}}" role="dialog">
+            <div class="modal fade" id="myModal" role="dialog">
                 <div class="modal-dialog">
                     <!-- Modal content-->
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal"></button>
                             <h4 class="modal-title">Course By Section</h4>
-                            {{requestedSchoolYear}}
                         </div>
-
                         <div class="modal-body" ng-init="pick=ctx.getCoursePick()">
                             <div class="guitar-dept-display-flex-column">
                                 <div class="guitar-dept-display-flex-wrap  Grid-cell guitar-dept-column-header">
@@ -48,10 +46,9 @@
                                     </div>
                                 </div>
 
-                                <div class="guitar-dept-display-flex-column"
-                                     ng-repeat="catalogBySection in catalogController.guitarProgramCatalogBySection | filter: { schoolYear: requestedSchoolYear , schoolSemester: requestedSchoolSemester }">
-                                    <div class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row"
-                                         ng-repeat="modalModel in catalogBySection.payload | filter: pick.filterBy ">
+                                <div class="guitar-dept-display-flex-column">
+                                    <div ng-repeat="modalModel in pick.controller.guitarProgramCatalogBySection | filter: pick.filterBy "
+                                         class="guitar-dept-display-flex-wrap  guitar-dept-display-flex-row">
 
                                         <div class="guitar-dept-display-flex-wrap Grid-bordered Grid-cell">
                                             <div class="guitar-dept-display-flex-wrap  Grid-cell">{{modalModel.CRN}}

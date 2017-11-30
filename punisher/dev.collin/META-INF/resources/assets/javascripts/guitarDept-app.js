@@ -9,7 +9,22 @@
             'https://www.collin.edu/department/music/**'
         ]);
     });
-
+    app.controller('ParametersController', [ '$http' , function($http){
+        var parmsController = this;
+        // MAK : I could move this object into school courses controller,
+        // but could use this to springboard into data driven locations for my canned JSON
+        var historicalScope = [
+            {
+                schoolYear: 2018 ,
+                schoolSemester: 'spring'
+            },
+            {
+                schoolYear: 2017 ,
+                schoolSemester: 'fall'
+            }
+        ] ;
+        parmsController.historicalScope = historicalScope ;
+    }]);
         app.controller('HeaderController', [ '$http' , function($http){
         var header = this;
         header.carouselSlideDeck = [0,1,2];
@@ -120,11 +135,3 @@
     }]);
 })();
 
-// bioController.guitarDepartmentFaculty = [
-//     {
-//         name : 'Dr. Fernand Vera' ,
-//         url : "/html/bio/fernand/FVera_Bio.html"
-//     } , {
-//         name : 'Dr. Olga Amelkina-Vera'    ,
-//         url : "/html/bio/olga/index.html"
-//     }

@@ -42,7 +42,7 @@
     ]
   },
   {
-    "label": "Sponsors",
+    "label": "Guitar Competition Sponsors",
     "runtime" : [ "guitar-dept-display-flex-row", "guitar-dept-display-flex-wrap"],
     "payload": [
       {

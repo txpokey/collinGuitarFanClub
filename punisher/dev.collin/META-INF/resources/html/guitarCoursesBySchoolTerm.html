@@ -32,39 +32,54 @@
     <header>
         <header-guitar></header-guitar>
     </header>
-    <main >
+    <main ng-controller="ParametersController as parametersController">
         <div id="accordion" role="tablist" aria-multiselectable="true">
-
-            <div class="card">
-                <div class="card-header guitar-dept-column-header" role="tab" id="headingThree">
-                    <h5 class="mb-0">
-                        <a  style="text-transform: capitalize;" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            spring 2018
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                    <div class="card-block">
-                        <guitar-courses-by-school-term semester="spring" year="2018"></guitar-courses-by-school-term>
+            <div ng-repeat="schoolTerm in parametersController.historicalScope">
+                <div class="card">
+                    <div class="card-header guitar-dept-column-header" role="tab" id="heading-{{$index}}">
+                        <h5 class="mb-0">
+                            <a  style="text-transform: capitalize;" data-toggle="collapse"
+                                data-parent="#accordion" href="#collapse-{{$index}}" aria-expanded="false" aria-controls="collapse-{{$index}}">
+                                {{schoolTerm.schoolSemester}} {{schoolTerm.schoolYear}}
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapse-{{$index}}" class="collapse" role="tabpanel" aria-labelledby="heading-{{$index}}">
+                        <div class="card-block">
+                            <guitar-courses-by-school-term semester="{{schoolTerm.schoolSemester}}" year="{{schoolTerm.schoolYear}}"></guitar-courses-by-school-term>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-header guitar-dept-column-header" role="tab" id="headingTwo">
-                    <h5 class="mb-0">
-                        <a style="text-transform: capitalize;" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            fall 2017
-                        </a>
-                    </h5>
-                </div>
-                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                    <div class="card-block">
-                        <guitar-courses-by-school-term semester="fall" year="2017" ></guitar-courses-by-school-term>
-                    </div>
-                </div>
-            </div>
-
         </div>
+            <!--<div class="card">-->
+                <!--<div class="card-header guitar-dept-column-header" role="tab" id="headingThree">-->
+                    <!--<h5 class="mb-0">-->
+                        <!--<a  style="text-transform: capitalize;" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">-->
+                            <!--spring 2018-->
+                        <!--</a>-->
+                    <!--</h5>-->
+                <!--</div>-->
+                <!--<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">-->
+                    <!--<div class="card-block">-->
+                        <!--<guitar-courses-by-school-term semester="spring" year="2018"></guitar-courses-by-school-term>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="card">-->
+                <!--<div class="card-header guitar-dept-column-header" role="tab" id="headingTwo">-->
+                    <!--<h5 class="mb-0">-->
+                        <!--<a style="text-transform: capitalize;" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">-->
+                            <!--fall 2017-->
+                        <!--</a>-->
+                    <!--</h5>-->
+                <!--</div>-->
+                <!--<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">-->
+                    <!--<div class="card-block">-->
+                        <!--<guitar-courses-by-school-term semester="fall" year="2017" ></guitar-courses-by-school-term>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
     </main>
     <footer>
         <guitar-footer></guitar-footer>

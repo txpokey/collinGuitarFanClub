@@ -57,7 +57,7 @@
         return {
             restrict: 'E',
             scope: {
-                schoolSemester: '@semester', schoolYear: '@year'
+                requestedSchoolSemester: '@semester', requestedSchoolYear: '@year'
             },
             templateUrl: "../html/directives/calendar/guitarCourses-bySchoolTerm.html",
 
