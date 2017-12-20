@@ -34,9 +34,10 @@
   dev.collin/work/180828-0                                                          e62db48 BRANCH == dev.collin/work/180828-0
   dev.collin/work/180830-0                                                          e62db48 BRANCH == dev.collin/work/180828-0
   exporting-rebootGrailsDiscovery-0                                                 00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
-* master                                                                            00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
+* master                                                                            c471480 T:T: added BRANCH-SHA checkpoint before exporting-rebootGrailsDiscovery-0
   sci.collin/try-170701-0                                                           85fabe3 T: sci.collin | proof of life only. images, .js .css are under assets. html under src/main/resources/public
   sci.collin/v0--170704                                                             85fabe3 T: sci.collin | proof of life only. images, .js .css are under assets. html under src/main/resources/public
   sci.collin/work-170704-0                                                          48ddea4 T: clone sci.gemstone as seed for dev.collin
   remotes/origin/dev.collin/checkpoint/1.0.RC1/171106-0                             00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
-  remotes/origin/master                                                             00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
+  remotes/origin/exporting-rebootGrailsDiscovery-0                                  00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
+  remotes/origin/master                                                             c471480 T:T: added BRANCH-SHA checkpoint before exporting-rebootGrailsDiscovery-0
