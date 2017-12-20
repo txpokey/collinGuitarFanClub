@@ -1,9 +1,0 @@
-#!/bin/ksh 
-
-at -q m now + 1 minute << HERE
-cd /home/mak/var/work/project/punisher/edu.collin/dev.collin
-wall I am starting the collin demo : process $$
-spring run app.groovy  # DEMO 2-0-1
-wall the collin demo just completed : process $$
-HERE
-
