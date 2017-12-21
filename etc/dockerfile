@@ -1,0 +1,14 @@
+FROM txusul/springboot-deploy-env:0.0
+
+ENV SDKMAN_DIR /usr/local/sdkman
+ENV JAVA_HOME /usr/local/sdkman/candidates/java/current
+VOLUME /mnt
+VOLUME /var/local/springboot/webcontent
+WORKDIR /var/local/springboot/webcontent
+#
+# NB: expects the web application image in the volume pre-image shown below at '/tmp/docker/springboot/try0'. 
+# those files include the app.grooy stub that springboot will use to drive the web application
+#
+# docker run -it --rm --name bob0 -p 8080:8080 -v /tmp/docker/springboot/try0:/var/local/springboot/webcontent collin-try:0.0
+#
+CMD ["/usr/local/sdkman/candidates/springboot/current/bin/spring","run","app.groovy"]
