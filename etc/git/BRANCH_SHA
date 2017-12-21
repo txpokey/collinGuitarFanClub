@@ -1,43 +1,80 @@
-  ad-initio                                                                         451a6e7 T: sci.collin | adinitio
-  dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0                 892d147 BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
-  dev.collin/BROKEN/no-sticky-footer/180825-0                                       5d8972e new BRANCH == dev.collin/BROKEN/no-sticky-footer/180825-0
-  dev.collin/BROKEN/no-sticky-footer/REPAIRS-COMPLETED/180826-0                     7e6dd75 new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
-  dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0                      7e6dd75 new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
-  dev.collin/checkpoint/1.0.RC1/171106-0                                            00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
-  dev.collin/checkpoint/baseline-4/demo-0/170823-0                                  c4a0e6c T: fixed color scheme on text buttons, added footer + news content to landing page
-  dev.collin/checkpoint/baseline-5/demo-1/170826-0                                  58deb1a BRANCH == dev.collin/checkpoint/baseline-5/demo-1/170826-0
-  dev.collin/checkpoint/baseline-6/demo-1-2/170827-1                                64c9b99 BRANCH == dev.collin/work/180826-1
-  dev.collin/checkpoint/baseline-7/demo-1-3/170827-2                                0fa4527 BRANCH == dev.collin/checkpoint/baseline-7/demo-1-3/170827-2
-  dev.collin/checkpoint/baseline-8/demo-2-0/170904-0                                9d8bbb1 BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
-  dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0                                 056215b BRANCH == dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0
-  dev.collin/checkpoint/codepen+tabs/baseline-3/170820-0                            7504c65 T: news page: working draft #2 tabs working
-  dev.collin/checkpoint/codepen+tabs/baseline-4/170820-1                            5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
-  dev.collin/checkpoint/codepen/collin-private-000/baseline-0/170816-0              220f751 T: Code Pen: collin-private-pen-000 fully integrated with bootstrap (student) carousel!
-  dev.collin/checkpoint/codepen/collin-private-000/baseline-1/170816-1              c19a79c T: Code Pen integration: done on the faculty page. still using optionbox ... for now. but moving onto other features
-  dev.collin/checkpoint/codepen/collin-private-pen-table-mockup/baseline-2/170819-0 fb43aed T: removed work around {{slide}}.jpg as ngSrc fixed the problem correctly
-  dev.collin/work--170716-0                                                         5191452 broken carousel: does not auto start on chrome
-  dev.collin/work--170813-0                                                         220f751 T: Code Pen: collin-private-pen-000 fully integrated with bootstrap (student) carousel!
-  dev.collin/work--170816-1                                                         c19a79c T: Code Pen integration: done on the faculty page. still using optionbox ... for now. but moving onto other features
-  dev.collin/work--170816-2                                                         fb43aed T: removed work around {{slide}}.jpg as ngSrc fixed the problem correctly
-  dev.collin/work--170819-0                                                         02c4511 T: deploying underconstruction page + cleanup
-  dev.collin/work--170820-0                                                         7504c65 T: news page: working draft #2 tabs working
-  dev.collin/work--170820-1                                                         5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
-  dev.collin/work--170821-0                                                         5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
-  dev.collin/work--170822-0                                                         0116a55 T: checkpoint: footer with sponsors logos/icons: cleanup 8th draft == release 1 of footer
-  dev.collin/work--170822-1                                                         38b2ebb T: added feature : toggle news and faculty display upon click image-button
-  dev.collin/work--170823-0                                                         c4a0e6c T: fixed color scheme on text buttons, added footer + news content to landing page
-  dev.collin/work--170823-1                                                         b5e6574 T: using LAGA logo found in email is working best so far
-  dev.collin/work/170902-0                                                          3f80296 BRANCH == dev.collin/work/180828-0
-  dev.collin/work/180826-0                                                          d78ed75 BRANCH == dev.collin/work/180826-0
-  dev.collin/work/180826-1                                                          49224b0 BRANCH == dev.collin/work/180826-1
-  dev.collin/work/180827-2                                                          7e0d586 BRANCH == dev.collin/work/180827-2
-  dev.collin/work/180828-0                                                          e62db48 BRANCH == dev.collin/work/180828-0
-  dev.collin/work/180830-0                                                          e62db48 BRANCH == dev.collin/work/180828-0
-  exporting-rebootGrailsDiscovery-0                                                 00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
-* master                                                                            c471480 T:T: added BRANCH-SHA checkpoint before exporting-rebootGrailsDiscovery-0
-  sci.collin/try-170701-0                                                           85fabe3 T: sci.collin | proof of life only. images, .js .css are under assets. html under src/main/resources/public
-  sci.collin/v0--170704                                                             85fabe3 T: sci.collin | proof of life only. images, .js .css are under assets. html under src/main/resources/public
-  sci.collin/work-170704-0                                                          48ddea4 T: clone sci.gemstone as seed for dev.collin
-  remotes/origin/dev.collin/checkpoint/1.0.RC1/171106-0                             00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
-  remotes/origin/exporting-rebootGrailsDiscovery-0                                  00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
-  remotes/origin/master                                                             c471480 T:T: added BRANCH-SHA checkpoint before exporting-rebootGrailsDiscovery-0
+  ad-initio                                                                                        451a6e7 T: sci.collin | adinitio
+  dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0                                892d147 BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
+  dev.collin/BROKEN/no-sticky-footer/180825-0                                                      5d8972e new BRANCH == dev.collin/BROKEN/no-sticky-footer/180825-0
+  dev.collin/BROKEN/no-sticky-footer/REPAIRS-COMPLETED/180826-0                                    7e6dd75 new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
+  dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0                                     7e6dd75 new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
+  dev.collin/checkpoint/1.0.RC1/171106-0                                                           00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
+  dev.collin/checkpoint/baseline-4/demo-0/170823-0                                                 c4a0e6c T: fixed color scheme on text buttons, added footer + news content to landing page
+  dev.collin/checkpoint/baseline-5/demo-1/170826-0                                                 58deb1a BRANCH == dev.collin/checkpoint/baseline-5/demo-1/170826-0
+  dev.collin/checkpoint/baseline-6/demo-1-2/170827-1                                               64c9b99 BRANCH == dev.collin/work/180826-1
+  dev.collin/checkpoint/baseline-7/demo-1-3/170827-2                                               0fa4527 BRANCH == dev.collin/checkpoint/baseline-7/demo-1-3/170827-2
+  dev.collin/checkpoint/baseline-8/demo-2-0/170904-0                                               9d8bbb1 BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
+  dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0                                                056215b BRANCH == dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0
+  dev.collin/checkpoint/codepen+tabs/baseline-3/170820-0                                           7504c65 T: news page: working draft #2 tabs working
+  dev.collin/checkpoint/codepen+tabs/baseline-4/170820-1                                           5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
+  dev.collin/checkpoint/codepen/collin-private-000/baseline-0/170816-0                             220f751 T: Code Pen: collin-private-pen-000 fully integrated with bootstrap (student) carousel!
+  dev.collin/checkpoint/codepen/collin-private-000/baseline-1/170816-1                             c19a79c T: Code Pen integration: done on the faculty page. still using optionbox ... for now. but moving onto other features
+  dev.collin/checkpoint/codepen/collin-private-pen-table-mockup/baseline-2/170819-0                fb43aed T: removed work around {{slide}}.jpg as ngSrc fixed the problem correctly
+  dev.collin/work--170716-0                                                                        5191452 broken carousel: does not auto start on chrome
+  dev.collin/work--170813-0                                                                        220f751 T: Code Pen: collin-private-pen-000 fully integrated with bootstrap (student) carousel!
+  dev.collin/work--170816-1                                                                        c19a79c T: Code Pen integration: done on the faculty page. still using optionbox ... for now. but moving onto other features
+  dev.collin/work--170816-2                                                                        fb43aed T: removed work around {{slide}}.jpg as ngSrc fixed the problem correctly
+  dev.collin/work--170819-0                                                                        02c4511 T: deploying underconstruction page + cleanup
+  dev.collin/work--170820-0                                                                        7504c65 T: news page: working draft #2 tabs working
+  dev.collin/work--170820-1                                                                        5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
+  dev.collin/work--170821-0                                                                        5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
+  dev.collin/work--170822-0                                                                        0116a55 T: checkpoint: footer with sponsors logos/icons: cleanup 8th draft == release 1 of footer
+  dev.collin/work--170822-1                                                                        38b2ebb T: added feature : toggle news and faculty display upon click image-button
+  dev.collin/work--170823-0                                                                        c4a0e6c T: fixed color scheme on text buttons, added footer + news content to landing page
+  dev.collin/work--170823-1                                                                        b5e6574 T: using LAGA logo found in email is working best so far
+  dev.collin/work/170902-0                                                                         3f80296 BRANCH == dev.collin/work/180828-0
+  dev.collin/work/180826-0                                                                         d78ed75 BRANCH == dev.collin/work/180826-0
+  dev.collin/work/180826-1                                                                         49224b0 BRANCH == dev.collin/work/180826-1
+  dev.collin/work/180827-2                                                                         7e0d586 BRANCH == dev.collin/work/180827-2
+  dev.collin/work/180828-0                                                                         e62db48 BRANCH == dev.collin/work/180828-0
+  dev.collin/work/180830-0                                                                         e62db48 BRANCH == dev.collin/work/180828-0
+  exporting-rebootGrailsDiscovery-0                                                                dd9a54d F:U: deleted edu.collin exporting-rebootGrailsDiscovery-0
+* master                                                                                           e8bc4b9 T:T: removed RebootGrailsDiscovery from Collin Fan Club corpus, after porting RebootGrailsDiscovery history to grails-discovery legacy repo on gituhub
+  sci.collin/try-170701-0                                                                          85fabe3 T: sci.collin | proof of life only. images, .js .css are under assets. html under src/main/resources/public
+  sci.collin/v0--170704                                                                            85fabe3 T: sci.collin | proof of life only. images, .js .css are under assets. html under src/main/resources/public
+  sci.collin/work-170704-0                                                                         48ddea4 T: clone sci.gemstone as seed for dev.collin
+  remotes/origin/ad-initio                                                                         451a6e7 T: sci.collin | adinitio
+  remotes/origin/dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0                 892d147 BRANCH == dev.collin/BROKEN/brokenCarouselFlexbox/REPAIRS-UNDERWAY/180902-0
+  remotes/origin/dev.collin/BROKEN/no-sticky-footer/180825-0                                       5d8972e new BRANCH == dev.collin/BROKEN/no-sticky-footer/180825-0
+  remotes/origin/dev.collin/BROKEN/no-sticky-footer/REPAIRS-COMPLETED/180826-0                     7e6dd75 new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
+  remotes/origin/dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0                      7e6dd75 new BRANCH == dev.collin/BROKEN/no-sticky-footer/REPAIRS-UNDERWAY/180825-0
+  remotes/origin/dev.collin/checkpoint/1.0.RC1/171106-0                                            00c6493 T: Facebook guitarStudies.light-logo.jpg via new fanclubdomain
+  remotes/origin/dev.collin/checkpoint/baseline-4/demo-0/170823-0                                  c4a0e6c T: fixed color scheme on text buttons, added footer + news content to landing page
+  remotes/origin/dev.collin/checkpoint/baseline-5/demo-1/170826-0                                  58deb1a BRANCH == dev.collin/checkpoint/baseline-5/demo-1/170826-0
+  remotes/origin/dev.collin/checkpoint/baseline-6/demo-1-2/170827-1                                64c9b99 BRANCH == dev.collin/work/180826-1
+  remotes/origin/dev.collin/checkpoint/baseline-7/demo-1-3/170827-2                                0fa4527 BRANCH == dev.collin/checkpoint/baseline-7/demo-1-3/170827-2
+  remotes/origin/dev.collin/checkpoint/baseline-8/demo-2-0/170904-0                                9d8bbb1 BRANCH == dev.collin/checkpoint/baseline-8/demo-2-0/170904-0
+  remotes/origin/dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0                                 056215b BRANCH == dev.collin/checkpoint/baseline-9/1.0.RC0/171017-0
+  remotes/origin/dev.collin/checkpoint/codepen+tabs/baseline-3/170820-0                            7504c65 T: news page: working draft #2 tabs working
+  remotes/origin/dev.collin/checkpoint/codepen+tabs/baseline-4/170820-1                            5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
+  remotes/origin/dev.collin/checkpoint/codepen/collin-private-000/baseline-0/170816-0              220f751 T: Code Pen: collin-private-pen-000 fully integrated with bootstrap (student) carousel!
+  remotes/origin/dev.collin/checkpoint/codepen/collin-private-000/baseline-1/170816-1              c19a79c T: Code Pen integration: done on the faculty page. still using optionbox ... for now. but moving onto other features
+  remotes/origin/dev.collin/checkpoint/codepen/collin-private-pen-table-mockup/baseline-2/170819-0 fb43aed T: removed work around {{slide}}.jpg as ngSrc fixed the problem correctly
+  remotes/origin/dev.collin/work--170716-0                                                         5191452 broken carousel: does not auto start on chrome
+  remotes/origin/dev.collin/work--170813-0                                                         220f751 T: Code Pen: collin-private-pen-000 fully integrated with bootstrap (student) carousel!
+  remotes/origin/dev.collin/work--170816-1                                                         c19a79c T: Code Pen integration: done on the faculty page. still using optionbox ... for now. but moving onto other features
+  remotes/origin/dev.collin/work--170816-2                                                         fb43aed T: removed work around {{slide}}.jpg as ngSrc fixed the problem correctly
+  remotes/origin/dev.collin/work--170819-0                                                         02c4511 T: deploying underconstruction page + cleanup
+  remotes/origin/dev.collin/work--170820-0                                                         7504c65 T: news page: working draft #2 tabs working
+  remotes/origin/dev.collin/work--170820-1                                                         5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
+  remotes/origin/dev.collin/work--170821-0                                                         5aba8fe T: faculty page: tabs working, including toggle. retrofitted news page
+  remotes/origin/dev.collin/work--170822-0                                                         0116a55 T: checkpoint: footer with sponsors logos/icons: cleanup 8th draft == release 1 of footer
+  remotes/origin/dev.collin/work--170822-1                                                         38b2ebb T: added feature : toggle news and faculty display upon click image-button
+  remotes/origin/dev.collin/work--170823-0                                                         c4a0e6c T: fixed color scheme on text buttons, added footer + news content to landing page
+  remotes/origin/dev.collin/work--170823-1                                                         b5e6574 T: using LAGA logo found in email is working best so far
+  remotes/origin/dev.collin/work/170902-0                                                          3f80296 BRANCH == dev.collin/work/180828-0
+  remotes/origin/dev.collin/work/180826-0                                                          d78ed75 BRANCH == dev.collin/work/180826-0
+  remotes/origin/dev.collin/work/180826-1                                                          49224b0 BRANCH == dev.collin/work/180826-1
+  remotes/origin/dev.collin/work/180827-2                                                          7e0d586 BRANCH == dev.collin/work/180827-2
+  remotes/origin/dev.collin/work/180828-0                                                          e62db48 BRANCH == dev.collin/work/180828-0
+  remotes/origin/dev.collin/work/180830-0                                                          e62db48 BRANCH == dev.collin/work/180828-0
+  remotes/origin/exporting-rebootGrailsDiscovery-0                                                 dd9a54d F:U: deleted edu.collin exporting-rebootGrailsDiscovery-0
+  remotes/origin/master                                                                            e8bc4b9 T:T: removed RebootGrailsDiscovery from Collin Fan Club corpus, after porting RebootGrailsDiscovery history to grails-discovery legacy repo on gituhub
+  remotes/origin/sci.collin/try-170701-0                                                           85fabe3 T: sci.collin | proof of life only. images, .js .css are under assets. html under src/main/resources/public
+  remotes/origin/sci.collin/v0--170704                                                             85fabe3 T: sci.collin | proof of life only. images, .js .css are under assets. html under src/main/resources/public
+  remotes/origin/sci.collin/work-170704-0                                                          48ddea4 T: clone sci.gemstone as seed for dev.collin
