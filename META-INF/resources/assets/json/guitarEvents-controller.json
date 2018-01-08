@@ -1,79 +1,115 @@
 [
-{
-"name": "2017 Fall Guitar Events at Collin College",
-"date": "Date",
-"time" : "Time",
-"where" : "Location/Room",
-"event" : "Events"
-},
-{
-"name": "Guitar Get Together",
-"date": "9/1/2017",
-"time" : "1-3pm",
-"where" : "C104 Spring Creek",
-"event" : "Guitar Get Together"
-},
-{
-"name": "Guitar Get Together",
-"date": "9/22/2017",
-"time" : "1-3pm",
-"where" : "C104 Spring Creek",
-"event" : "Guitar Get Together"
-},
-{
-"name": "Guitar Get Together",
-"date": "10/6/2017",
-"time" : "1-3pm",
-"where" : "C104 Spring Creek",
-"event" : "Guitar Get Together"
-},
-{
-"name": "Mitch Weverka Artist Residency",
-"date": "10/18/2017-10/20/2017",
-"time" : "--",
-"where" : "Spring Creek",
-"event" : "Mitch Weverka Artist Residency"
-},
-{
-"name": "Guitar Get Together",
-"date": "10/20/2017",
-"time" : "1-3pm",
-"where" : "C104 Spring Creek",
-"event" : "Guitar Get Together"
-},
-{
-"name": "Technical Juries",
-"date": "10/23/2017",
-"time" : "1-3pm",
-"where" : "--",
-"event" : "Technical Juries"
-},
-{
-"name": "GFA Regional Symposium",
-"date": "10/29/2017",
-"time" : "TDB",
-"where" : "--",
-"event" : "GFA Regional Symposium"
-},
-{
-"name": "Guitar Get Together",
-"date": "11/3/2017",
-"time" : "1-3pm",
-"where" : "C104 Spring Creek",
-"event" : "Guitar Get Together"
-},
-{
-"name": "Collin College Guitar Competition",
-"date": "11/4/2017",
-"time" : "12pm",
-"where" : "C104 Spring Creek",
-"event" : "Collin College Guitar Competition"
-},
-{
-"name": "Guitar Get Together",
-"date": "11/17/2017",
-"time" : "1-3pm",
-"where" : "C104 Spring Creek",
-"event" : "Guitar Get Together"
-}
+  {
+    "name": "2018 Spring Guitar Events at Collin College",
+    "date": "Date",
+    "time": "Time",
+    "where": "Location/Room",
+    "event": "Events"
+  },
+  {
+    "name": "Guitar Get Together",
+    "date": "1/19/2018",
+    "time": "1-3pm",
+    "where": "C104 Spring Creek",
+    "event": "Guitar Get Together"
+  },
+  {
+    "name": "Guitar Get Together",
+    "date": "2/2/2018",
+    "time": "1-3pm",
+    "where": "C104 Spring Creek",
+    "event": "Guitar Get Together"
+  },
+  {
+    "name": "6th Annual Collin College Guitar Festival",
+    "date": "2/9/2018-2/11/2018 (Fri-Sun)",
+    "time": "4:30pm (Fri) -- 3pm (Sun)",
+    "where": "Conference Center Spring Creek",
+    "event": "Collin College Guitar Festival"
+  },
+  {
+    "name": "6th Annual Collin College Guitar Festival",
+    "date": "2/9/2018",
+    "time": "7pm",
+    "where": "Conference Center Spring Creek",
+    "event": "Faculty Concert: Kithara Duo (Collin College Guitar Festival)"
+  },
+  {
+    "name": "6th Annual Collin College Guitar Festival",
+    "date": "2/10/2018",
+    "time": "3pm",
+    "where": "C104 Spring Creek",
+    "event": "Alumni Guitar Recital (Collin College Guitar Festival)"
+  },
+  {
+    "name": "6th Annual Collin College Guitar Festival",
+    "date": "2/10/2018",
+    "time": "7pm",
+    "where": "Conference Center Spring Creek",
+    "event": "Faculty Concert: Quattro Palos (Collin College Guitar Festival)"
+  },
+  {
+    "name": "6th Annual Collin College Guitar Festival",
+    "date": "2/11/2018",
+    "time": "3pm",
+    "where": "Conference Center Spring Creek",
+    "event": "Student Concert (Collin College Guitar Festival)"
+  },
+  {
+    "name": "Guitar Get Together",
+    "date": "2/23/2018",
+    "time": "1-3pm",
+    "where": "C104 Spring Creek",
+    "event": "Guitar Get Together"
+  },
+  {
+    "name": "Guitar Get Together",
+    "date": "3/9/2018",
+    "time": "1-3pm",
+    "where": "C104 Spring Creek",
+    "event": "Guitar Get Together"
+  },
+  {
+    "name": "Guitar Get Together",
+    "date": "3/23/2018",
+    "time": "1-3pm",
+    "where": "C104 Spring Creek",
+    "event": "Guitar Get Together"
+  },
+  {
+    "name": "Guitar Get Together",
+    "date": "4/6/2018",
+    "time": "1-3pm",
+    "where": "C104 Spring Creek",
+    "event": "Guitar Get Together"
+  },
+  {
+    "name": "Guitar Artist Showcase",
+    "date": "4/10/2018",
+    "time": "7pm",
+    "where": "The ARTS Gallery Spring Creek",
+    "event": "Guitar Artist Showcase"
+  },
+  {
+    "name": "Guitar Ensembles Concert",
+    "date": "4/17/2018",
+    "time": "7pm",
+    "where": "JAT Spring Creek",
+    "event": "Guitar Ensembles Concert"
+  },
+  {
+    "name": "Guitar Get Together",
+    "date": "4/27/2018",
+    "time": "1-3pm",
+    "where": "C104 Spring Creek",
+    "event": "Guitar Get Together"
+  },
+  {
+    "name": "Solo Guitar Concert",
+    "date": "5/1/2018",
+    "time": "7pm",
+    "where": "The ARTS Gallery Spring Creek",
+    "event": "Solo Guitar Concert"
+  }
+
 ]

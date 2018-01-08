@@ -92,7 +92,7 @@
     app.controller('GuitarNewsController', [ '$http' , function($http){
         var newsController = this;
         newsController.guitarProgramNews = [];
-        $http.get('../assets/json/news-controller.json').then(function (response) {
+        $http.get('../assets/json/news-controller--2018.spring.json').then(function (response) {
             newsController.guitarProgramNews = response.data;
         }, function (badResult) {
             console.log(badResult)
