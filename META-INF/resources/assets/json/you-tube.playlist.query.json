@@ -3257,7 +3257,7 @@
     "kind": "youtube#playlistItemListResponse",
     "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/DN9jvPfDPwVJOBicdFrOCtp2jYg\"",
     "pageInfo": {
-      "totalResults": 34,
+      "totalResults": 33,
       "resultsPerPage": 50
     },
     "items": [
@@ -4394,45 +4394,6 @@
       },
       {
         "kind": "youtube#playlistItem",
-        "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/crvT7ec6ByyjAEpYU63cQzByIos\"",
-        "id": "UEx2aGtLMTgyN05EeGZRQ2MyUGNRWUxJYV9yaWp3QkdHZS45NkVENTkxRDdCQUFBMDY4",
-        "snippet": {
-          "publishedAt": "2017-09-27T03:26:45.000Z",
-          "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
-          "title": "Etude Op.60 No.5: Fernando Sor,  performer: Scott Rasnic",
-          "description": "",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/M5dx3mNZWYE/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/M5dx3mNZWYE/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/M5dx3mNZWYE/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            }
-          },
-          "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
-          "playlistId": "PLvhkK1827NDxfQCc2PcQYLIa_rijwBGGe",
-          "position": 29,
-          "resourceId": {
-            "kind": "youtube#video",
-            "videoId": "M5dx3mNZWYE"
-          }
-        },
-        "contentDetails": {
-          "videoId": "M5dx3mNZWYE",
-          "videoPublishedAt": "2017-09-26T21:21:20.000Z"
-        }
-      },
-      {
-        "kind": "youtube#playlistItem",
         "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/M4uIb6_jVOCR3cWLZ-fN4ldzne4\"",
         "id": "UEx2aGtLMTgyN05EeGZRQ2MyUGNRWUxJYV9yaWp3QkdHZS5DNkMwRUI2MkI4QkI4NDFG",
         "snippet": {
@@ -4593,7 +4554,7 @@
     "kind": "youtube#playlistItemListResponse",
     "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/C6U9_1fizgYJ_rczY22Df28Slew\"",
     "pageInfo": {
-      "totalResults": 31,
+      "totalResults": 29,
       "resultsPerPage": 50
     },
     "items": [
@@ -4638,50 +4599,6 @@
         },
         "contentDetails": {
           "videoId": "4gULVCW88N4",
-          "videoPublishedAt": "2017-09-26T20:56:47.000Z"
-        }
-      },
-      {
-        "kind": "youtube#playlistItem",
-        "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/r73yuhuCwE4OzHN-hUfXbtWOcng\"",
-        "id": "UEx2aGtLMTgyN05EdzczczlEVHNLRFQ1bEpGcUlLZFJWNS4yODlGNEE0NkRGMEEzMEQy",
-        "snippet": {
-          "publishedAt": "2017-09-26T20:56:48.000Z",
-          "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
-          "title": "Etudes Op. 60 No. 5: Fernando Sor , performer: Scott Rasnic",
-          "description": "",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/Hc7JQbMmPhA/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/Hc7JQbMmPhA/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/Hc7JQbMmPhA/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/Hc7JQbMmPhA/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            }
-          },
-          "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
-          "playlistId": "PLvhkK1827NDw73s9DTsKDT5lJFqIKdRV5",
-          "position": 1,
-          "resourceId": {
-            "kind": "youtube#video",
-            "videoId": "Hc7JQbMmPhA"
-          }
-        },
-        "contentDetails": {
-          "videoId": "Hc7JQbMmPhA",
           "videoPublishedAt": "2017-09-26T20:56:47.000Z"
         }
       },
@@ -4858,50 +4775,6 @@
         },
         "contentDetails": {
           "videoId": "hFU8_inTSXw",
-          "videoPublishedAt": "2017-09-26T20:56:47.000Z"
-        }
-      },
-      {
-        "kind": "youtube#playlistItem",
-        "etag": "\"VPWTmrH7dFmi4s1RqrK4tLejnRI/wV8Uq_K7zoFizGlRGlVgjVBqk4c\"",
-        "id": "UEx2aGtLMTgyN05EdzczczlEVHNLRFQ1bEpGcUlLZFJWNS41MzJCQjBCNDIyRkJDN0VD",
-        "snippet": {
-          "publishedAt": "2017-09-26T20:56:48.000Z",
-          "channelId": "UCYkk_DU_k1sWyOw_fy6Raug",
-          "title": "Etudes Op. 60 No. 14: Fernando Sor , performer: Scott Rasnic",
-          "description": "",
-          "thumbnails": {
-            "default": {
-              "url": "https://i.ytimg.com/vi/IDVfKxesMtw/default.jpg",
-              "width": 120,
-              "height": 90
-            },
-            "medium": {
-              "url": "https://i.ytimg.com/vi/IDVfKxesMtw/mqdefault.jpg",
-              "width": 320,
-              "height": 180
-            },
-            "high": {
-              "url": "https://i.ytimg.com/vi/IDVfKxesMtw/hqdefault.jpg",
-              "width": 480,
-              "height": 360
-            },
-            "standard": {
-              "url": "https://i.ytimg.com/vi/IDVfKxesMtw/sddefault.jpg",
-              "width": 640,
-              "height": 480
-            }
-          },
-          "channelTitle": "CollinCountyGuitarStudiesStudentRecitalArchives",
-          "playlistId": "PLvhkK1827NDw73s9DTsKDT5lJFqIKdRV5",
-          "position": 6,
-          "resourceId": {
-            "kind": "youtube#video",
-            "videoId": "IDVfKxesMtw"
-          }
-        },
-        "contentDetails": {
-          "videoId": "IDVfKxesMtw",
           "videoPublishedAt": "2017-09-26T20:56:47.000Z"
         }
       },
