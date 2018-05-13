@@ -23,20 +23,17 @@ mainClassName = 'javial.Application'
 sourceSets {
     main {
         groovy {
-        // where as this += approach adds additional non-default members
+        // this += approach adds additional non-default members
 //            sourceSets.main.resources.srcDirs += ["META-INF/resources"]
 
         }
         resources {
 //            srcDirs(["META-INF/resources"]) // STUBBED
-            // ...
-//            buildDir( new File("tmp/META-INF/resources") )
         }
     }
 }
-
 bootJar {
-//  baseName = 'gs-spring-boot'
+    baseName = rootProject.name
     version =  '0.1.0'
     into('META-INF/resources') {
         from "./META-INF/resources"
