@@ -11,8 +11,6 @@ plugins {
 //    id "org.springframework.boot" version "2.0.2.RELEASE"
 }
 
-
-
 apply plugin: 'groovy'
 apply plugin: 'application'
 apply plugin: 'idea'
@@ -26,15 +24,24 @@ sourceSets {
     main {
         groovy {
         // where as this += approach adds additional non-default members
-            sourceSets.main.resources.srcDirs += ["META-INF/resources"]
+//            sourceSets.main.resources.srcDirs += ["META-INF/resources"]
+
+        }
+        resources {
+//            srcDirs(["META-INF/resources"]) // STUBBED
+            // ...
+//            buildDir( new File("tmp/META-INF/resources") )
         }
     }
 }
+
 bootJar {
 //  baseName = 'gs-spring-boot'
     version =  '0.1.0'
+    into('META-INF/resources') {
+        from "./META-INF/resources"
+    }
 }
-
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
 //  compile("org.springframework.boot:spring-boot-starter-thymeleaf")
