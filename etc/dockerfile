@@ -1,4 +1,4 @@
-FROM txusul/springboot-deploy-env:0.0
+FROM txusul/springboot-deploy-env:0.1
 
 ENV SDKMAN_DIR /usr/local/sdkman
 ENV JAVA_HOME /usr/local/sdkman/candidates/java/current
@@ -11,4 +11,4 @@ WORKDIR /var/local/springboot/webcontent
 #
 # docker run -it --rm --name bob0 -p 8080:8080 -v /tmp/docker/springboot/try0:/var/local/springboot/webcontent collin-try:0.0
 #
-CMD ["/usr/local/sdkman/candidates/springboot/current/bin/spring","run","app.groovy"]
+CMD ["/usr/local/sdkman/candidates/springboot/current/bin/spring","run","src/main/groovy/javial/App.groovy"]
