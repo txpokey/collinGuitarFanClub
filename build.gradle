@@ -19,6 +19,7 @@ apply plugin: 'io.spring.dependency-management'
 
 // Define the main class for the application
 mainClassName = 'hello.Application'
+//mainClassName = 'javial.App'
 
 sourceSets {
     main {
