@@ -25,7 +25,7 @@
         ] ;
         parmsController.historicalScope = historicalScope ;
     }]);
-        app.controller('HeaderController', [ '$http' , function($http){
+    app.controller('HeaderController', [ '$http' , function($http){
         var header = this;
         header.carouselSlideDeck = [0,1,2];
         header.targets = [];

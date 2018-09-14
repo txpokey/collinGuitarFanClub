@@ -88,7 +88,9 @@
     app.directive("guitarLinks", function() {
         return {
             restrict: 'E',
-            templateUrl: "../html/directives/links/guitar-links.html"
+            templateUrl: "../html/directives/links/guitar-links.html",
+            controllerAs: "$ctrl",
+            bindToController: true
         };
     });
     app.directive("guitarNews", function() {
